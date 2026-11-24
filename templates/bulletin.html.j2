@@ -11,25 +11,69 @@
 {% endif %}
 {% endblock %}
 
-{% block board %}
-{% if e %}
-<div class="mast__board">
-  <div class="dateboard">
-    <h1 class="dateboard__title"><span class="vh">{{ t('site_name') }}, </span>{{ e.date_long }}</h1>
-    <div class="dateboard__tiles" aria-hidden="true">
-      <span class="tile tile--xl">{% for ch in e.day_tiles %}<span class="tile__flap">{{ ch }}</span>{% endfor %}</span>
-      <span class="tile tile--xl">{% for ch in e.month_tiles %}<span class="tile__flap">{{ ch }}</span>{% endfor %}</span>
-      <span class="dateboard__weekday">{{ e.weekday }}</span>
+{% block hero %}
+<section class="hero" aria-labelledby="hero-title" data-enter>
+  <div class="hero__sky" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <div class="hero__copy">
+      <h1 class="hero__title" id="hero-title">
+        {% if e and e.count %}
+          <span class="hero__num" data-countup="{{ e.count }}" data-int>{{ e.count }}</span>
+          <span class="hero__words">{% for w in (t('hero_finds_one') if e.count == 1 else t('hero_finds')).split(' ') %}<span class="w" style="--w:{{ loop.index }}">{{ w }}</span> {% endfor %}</span>
+        {% else %}
+          <span class="hero__words">{% for w in t('hero_none').split(' ') %}<span class="w" style="--w:{{ loop.index }}">{{ w }}</span> {% endfor %}</span>
+        {% endif %}
+      </h1>
+      {% if e %}
+      <p class="hero__date"><time datetime="{{ e.date }}">{{ e.date_long }}</time></p>
+      <p class="hero__lede">
+        {% if e.scanned and e.sources %}{{ t('hero_picked').format(scanned='{:,}'.format(e.scanned), sources=e.sources, time=e.updated or '06:00') }}
+        {% elif e.sources %}{{ t('hero_picked_short').format(sources=e.sources, time=e.updated or '06:00') }}{% endif %}
+      </p>
+      <ul class="legend" aria-label="{{ t('col_region') }}">
+        {% for r in regions %}
+        <li class="legend__item legend__item--{{ r|lower }}">
+          <span class="legend__dot" aria-hidden="true"></span>
+          <span class="legend__num" data-countup="{{ e.region_counts[r] }}" data-int>{{ e.region_counts[r] }}</span>
+          <span class="legend__label">{{ t('legend_' ~ r) }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="hero__actions">
+        {% if e.top %}<a class="btn btn--light" href="#top-picks">{{ t('hero_cta') }}<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3.5 8.5 8 13l4.5-4.5"/></svg></a>{% endif %}
+        <a class="btn btn--ghost" href="{{ base }}archive/index.html">{{ t('hero_archive') }}</a>
+      </div>
+      {% endif %}
+    </div>
+    {% if e %}
+    <div class="globe" data-globe>
+      <canvas class="globe__canvas" role="img" aria-label="{{ t('globe_label') }}. {{ t('globe_plotted').format(n=e.plotted, m=e.count) }}."></canvas>
+      <div class="globe__tip" data-globe-tip hidden>
+        <p class="globe__tip-head"><span class="globe__tip-dot" aria-hidden="true"></span><span data-tip-where></span><span class="globe__tip-score" data-tip-score></span></p>
+        <p class="globe__tip-idea" data-tip-idea></p>
+      </div>
+      <p class="globe__note">{{ t('globe_plotted').format(n=e.plotted, m=e.count) }}</p>
+      <button type="button" class="globe__pause" data-motion-toggle aria-pressed="false" data-pause="{{ t('pause_motion') }}" data-play="{{ t('play_motion') }}">
+        <svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 3.5v9M10.5 3.5v9"/></svg>
+        <svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3.2v9.6L12.5 8z"/></svg>
+        <span class="vh" data-motion-label>{{ t('pause_motion') }}</span>
+      </button>
+    </div>
+    {% endif %}
+  </div>
+  {% if e and e.ticker %}
+  <div class="ticker" aria-label="{{ t('ticker_label') }}">
+    <div class="ticker__track">
+      {% for copy in [0, 1] %}
+      <ul class="ticker__list"{% if copy %} aria-hidden="true"{% endif %}>
+        {% for it in e.ticker %}<li><a href="#{{ it.anchor }}"{% if copy %} tabindex="-1"{% endif %}><span class="ticker__dot ticker__dot--{{ it.region|lower }}" aria-hidden="true"></span>{{ it.title }}</a></li>{% endfor %}
+      </ul>
+      {% endfor %}
     </div>
   </div>
-  <dl class="stats">
-    <div><dt>{{ t('stat_items') }}</dt><dd>{{ e.count }}</dd></div>
-    <div class="stats__local"><dt>{{ t('stat_local') }}</dt><dd>{{ e.local_total }}</dd></div>
-    {% if e.sources %}<div><dt>{{ t('stat_sources') }}</dt><dd>{{ e.sources }}</dd></div>{% endif %}
-    {% if e.updated %}<div><dt>{{ t('updated') }}</dt><dd>{{ e.updated }}<span class="stats__unit">{{ t('baku_time') }}</span></dd></div>{% endif %}
-  </dl>
-</div>
-{% endif %}
+  {% endif %}
+</section>
+{% if e %}<script type="application/json" id="radar-points">{{ e.points|tojson }}</script>{% endif %}
 {% endblock %}
 
 {% block main %}
@@ -47,10 +91,10 @@
 {% elif e.scoring_note == 'mixed' %}<p class="notice" role="note">{{ t('scored_mixed') }}</p>{% endif %}
 
 <section class="board board--picks" aria-labelledby="top-picks">
-  {{ m.board_head(t('top_picks'), 'top-picks') }}
+  {{ m.section_head(t('top_picks'), 'top-picks', t('top_picks_intro') if e.top else None) }}
   {% if e.top %}
-  <div class="board__rows">
-    {% for item in e.top %}{{ m.item_row(item, 'pick', loop.index0, true) }}{% endfor %}
+  <div class="picks">
+    {% for item in e.top %}{{ m.item_row(item, 'pick', loop.index0, loop.first) }}{% endfor %}
   </div>
   {% else %}
   <div class="empty">
@@ -61,10 +105,10 @@
 </section>
 
 <section class="board board--local" aria-labelledby="local-radar">
-  {{ m.board_head(t('local_radar'), 'local-radar', e.local_total, e.local|length > 0) }}
+  {{ m.section_head(t('local_radar'), 'local-radar', t('local_intro'), e.local_total) }}
   {% if e.local %}
   <div class="board__rows">
-    {% for item in e.local %}{{ m.item_row(item, 'row') }}{% endfor %}
+    {% for item in e.local %}{{ m.item_row(item, 'local', loop.index0) }}{% endfor %}
   </div>
   {% endif %}
   {% if e.local_in_top %}
@@ -79,17 +123,20 @@
 
 {% if e.all_items %}
 <section class="board board--all" aria-labelledby="all-items">
-  {{ m.board_head(t('all_items'), 'all-items', e.count, false) }}
+  {{ m.section_head(t('all_items'), 'all-items', t('all_intro'), e.count) }}
   <form class="filters" role="search" aria-label="{{ t('all_items') }}" data-filters>
     <label class="filters__field filters__field--search">
       <span class="filters__label">{{ t('filter_search') }}</span>
-      <input type="search" name="q" placeholder="{{ t('filter_search_placeholder') }}" autocomplete="off">
+      <span class="filters__search">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3 3"/></svg>
+        <input type="search" name="q" placeholder="{{ t('filter_search_placeholder') }}" autocomplete="off">
+      </span>
     </label>
     <fieldset class="filters__field filters__seg">
       <legend class="filters__label">{{ t('filter_region') }}</legend>
       <div class="seg">
         <label><input type="radio" name="region" value="" checked><span>{{ t('filter_all') }}</span></label>
-        {% for r in regions %}<label><input type="radio" name="region" value="{{ r }}"><span>{{ t('region_' ~ r) }}</span></label>{% endfor %}
+        {% for r in regions %}<label class="seg--{{ r|lower }}"><input type="radio" name="region" value="{{ r }}"><span><i aria-hidden="true"></i>{{ t('region_' ~ r) }}</span></label>{% endfor %}
       </div>
     </fieldset>
     <label class="filters__field">
@@ -127,4 +174,7 @@
 {% endif %}
 {% endblock %}
 
-{% block scripts %}<script src="{{ base }}assets/radar.js" defer></script>{% endblock %}
+{% block scripts %}
+<script src="{{ base }}assets/radar.js" defer></script>
+{% if e %}<script type="module" src="{{ base }}assets/radar-globe.js"></script>{% endif %}
+{% endblock %}

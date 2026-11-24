@@ -17,7 +17,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import config
+from . import config, geo
 from .i18n import t
 
 STATIC_DIR = config.TEMPLATES_DIR / "static"
@@ -93,7 +93,7 @@ def _env() -> Environment:
         trim_blocks=True,
         lstrip_blocks=True,
     )
-    env.globals.update(t=t, score_tiles=score_tiles, fmt_published=fmt_published, slug=slug,
+    env.globals.update(t=t, score_tiles=score_tiles, tojson=lambda v: json.dumps(v, ensure_ascii=False).replace("</", "<\\/"), fmt_published=fmt_published, slug=slug,
                        fmt_date_short=fmt_date_short, categories=config.CATEGORIES, regions=config.REGIONS,
                        repo_url=REPO_URL, min_score=config.MIN_SCORE)
     return env
@@ -115,6 +115,18 @@ def edition_view(doc: dict, prev_day: str | None, next_day: str | None, latest_d
         scoring_note = None
     present_categories = [c for c in config.CATEGORIES if any(i.get("category") == c for i in items)]
     stats = doc.get("stats", {})
+
+    # Where each item links to on the page, and where it sits on the globe.
+    points = []
+    for item in items:
+        item["anchor"] = f"pick-{item['id']}" if item["id"] in top_ids else f"row-{item['id']}"
+        coords = geo.coords_for(item)
+        item["place"] = geo.place_name(item) or ""
+        if coords:
+            points.append({"id": item["id"], "lon": coords[0], "lat": coords[1], "region": item.get("region", "Global"),
+                           "score": item.get("score", 0), "idea": item.get("idea", ""),
+                           "place": item["place"], "anchor": item["anchor"]})
+    region_counts = Counter(i.get("region", "Global") for i in items)
     return {
         "date": doc["date"],
         "date_long": fmt_date_long(doc["date"]),
@@ -137,6 +149,11 @@ def edition_view(doc: dict, prev_day: str | None, next_day: str | None, latest_d
         "prev_day": prev_day,
         "next_day": next_day,
         "is_latest": doc["date"] == latest_day,
+        "points": points,
+        "plotted": len(points),
+        "region_counts": {r: region_counts.get(r, 0) for r in config.REGIONS},
+        "scanned": stats.get("fetched"),
+        "ticker": items[:14],
     }
 
 

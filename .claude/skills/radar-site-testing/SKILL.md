@@ -42,7 +42,8 @@ At 1280 only:
 | Sections | `.board--picks`, `.board--local`, `.board--all` |
 | Filter form | `[data-filters]`; fields `q`, `region`, `category`, `min` |
 | Visible count / empty state | `[data-count]`, `[data-empty]` |
-| Score tile | `.tile`, flaps `.tile__flap` (aria-label "Score 8.6") |
+| Score | `.ring` (top picks, aria-label "Score 8.6 out of 10"), `.score-pill.tile` (lists, archive) |
+| Globe | `[data-globe]` canvas, tooltip `[data-globe-tip]`, points JSON `#radar-points`, pause `[data-motion-toggle]` |
 | Day navigation | `.mast__nav a[rel=prev]`, `a[rel=next]` |
 
 If you change these in the templates, update `tests/smoke_site.py` in the same commit.

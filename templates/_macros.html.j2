@@ -1,11 +1,14 @@
-{# Split-flap score tile: one flap per character. #}
-{% macro tile(score, size='md', flip=false, idx=0) -%}
-<span class="tile tile--{{ size }}{% if flip %} tile--flip{% endif %}" style="--i:{{ idx }}" role="img" aria-label="{{ t('col_score') }} {{ '%.1f'|format(score) }}">
-  {%- for ch in score_tiles(score) -%}
-    {%- if ch == '.' -%}<span class="tile__dot" aria-hidden="true"></span>
-    {%- else -%}<span class="tile__flap" aria-hidden="true">{{ ch }}</span>{%- endif -%}
-  {%- endfor -%}
+{# Score ring: SVG arc filled to score/10, number in the middle. #}
+{% macro ring(score, size='md') -%}
+<span class="ring ring--{{ size }}" style="--p:{{ '%.3f'|format(score / 10) }}" role="img" aria-label="{{ t('col_score') }} {{ '%.1f'|format(score) }} {{ t('out_of_ten') }}">
+  <svg viewBox="0 0 48 48" aria-hidden="true"><circle class="ring__track" cx="24" cy="24" r="20"/><circle class="ring__arc" cx="24" cy="24" r="20" pathLength="100"/></svg>
+  <span class="ring__num" data-countup="{{ '%.1f'|format(score) }}" aria-hidden="true">{{ '%.1f'|format(score) }}</span>
 </span>
+{%- endmacro %}
+
+{# Small score pill for compact rows and the archive. Kept as .tile for older tests. #}
+{% macro tile(score, size='sm', flip=false, idx=0) -%}
+<span class="tile score-pill" role="img" aria-label="{{ t('col_score') }} {{ '%.1f'|format(score) }}">{{ '%.1f'|format(score) }}</span>
 {%- endmacro %}
 
 {% macro status(s) -%}
@@ -13,8 +16,9 @@
 {%- endmacro %}
 
 {% macro region_chip(item) -%}
-<span class="chip chip--{{ item.region|lower }}">
+<span class="chip chip--{{ item.region|lower }}"><span class="chip__dot" aria-hidden="true"></span>
   {%- if item.region == 'Azerbaijan' %}{{ t('region_Azerbaijan') }}
+  {%- elif item.place and item.place not in ('Not stated', 'Multiple') %}{{ item.place }}
   {%- elif item.country and item.country not in ('Not stated', 'Multiple') %}{{ item.country }}
   {%- else %}{{ t('region_' ~ item.region) }}{% endif -%}
 </span>
@@ -36,17 +40,18 @@
 </details>
 {%- endmacro %}
 
-{# One board row. variant: 'pick' (top picks), 'row' (local + all items) #}
-{% macro item_row(item, variant='row', idx=0, flip=false) -%}
-<article class="item item--{{ variant }}{% if item.region == 'Azerbaijan' %} is-local{% endif %}" id="{{ variant }}-{{ item.id }}"
-  data-item data-category="{{ item.category }}" data-region="{{ item.region }}" data-score="{{ '%.1f'|format(item.score) }}"
-  data-search="{{ (item.title ~ ' ' ~ item.idea ~ ' ' ~ item.summary ~ ' ' ~ item.country ~ ' ' ~ item.publisher ~ ' ' ~ item.category)|lower }}">
+{# variant: 'pick' (top picks cards), 'local' and 'row' (lists) #}
+{% macro item_row(item, variant='row', idx=0, lead=false) -%}
+<article class="item item--{{ variant }}{% if lead %} item--lead{% endif %}{% if item.region == 'Azerbaijan' %} is-local{% endif %}" id="{{ variant }}-{{ item.id }}"
+  data-item data-blip="{{ item.id }}" data-category="{{ item.category }}" data-region="{{ item.region }}" data-score="{{ '%.1f'|format(item.score) }}"
+  data-search="{{ (item.title ~ ' ' ~ item.idea ~ ' ' ~ item.summary ~ ' ' ~ item.country ~ ' ' ~ item.publisher ~ ' ' ~ item.category)|lower }}"
+  style="--i:{{ idx }}">
   <div class="item__score">
-    {{ tile(item.score, 'lg' if variant == 'pick' else 'md', flip, idx) }}
+    {% if variant == 'pick' %}{{ ring(item.score, 'lg' if lead else 'md') }}{% else %}{{ tile(item.score) }}{% endif %}
   </div>
   <div class="item__body">
     <p class="item__idea"><span class="vh">{{ t('idea_label') }}: </span>{{ item.idea }}</p>
-    <h3 class="item__title"><a href="{{ item.url }}" rel="noopener" target="_blank">{{ item.title }}</a></h3>
+    <h3 class="item__title"><a href="{{ item.url }}" rel="noopener" target="_blank">{{ item.title }}<svg class="item__ext" viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2h6v6M10 2 3 9"/></svg></a></h3>
     <p class="item__meta">
       <span class="item__pub">{{ item.publisher }}</span>
       {%- if item.published %}<time datetime="{{ item.published }}">{{ fmt_published(item.published) }}</time>{% endif %}
@@ -65,13 +70,9 @@
 </article>
 {%- endmacro %}
 
-{% macro board_head(title, id, count=None, columns=true) -%}
+{% macro section_head(title, id, intro=None, count=None) -%}
 <div class="board__head">
   <h2 class="board__title" id="{{ id }}">{{ title }}{% if count is not none %} <span class="board__count">{{ count }}</span>{% endif %}</h2>
-  {% if columns %}
-  <div class="board__cols" aria-hidden="true">
-    <span>{{ t('col_score') }}</span><span>{{ t('col_idea') }}</span><span>{{ t('col_region') }}</span><span>{{ t('col_status') }}</span>
-  </div>
-  {% endif %}
+  {% if intro %}<p class="board__intro">{{ intro }}</p>{% endif %}
 </div>
 {%- endmacro %}
