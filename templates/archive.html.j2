@@ -1,0 +1,43 @@
+{% extends "_base.html.j2" %}
+{% import "_macros.html.j2" as m with context %}
+
+{% block title %}{{ t('archive_title') }}, {{ t('site_name') }}{% endblock %}
+
+{% block nav %}{% if latest_day %}<a class="navlink" href="{{ base }}index.html">{{ t('nav_today') }}</a>{% endif %}{% endblock %}
+
+{% block board %}
+<div class="mast__board mast__board--slim">
+  <div class="dateboard">
+    <h1 class="dateboard__title dateboard__title--shown">{{ t('archive_title') }}</h1>
+    <p class="dateboard__sub">{{ t('archive_intro') }}</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block main %}
+<section class="board" aria-labelledby="days">
+  <h2 class="vh" id="days">{{ t('archive_title') }}</h2>
+  {% if rows %}
+  <table class="days">
+    <thead>
+      <tr><th scope="col">{{ t('archive_col_date') }}</th><th scope="col" class="num">{{ t('archive_col_items') }}</th><th scope="col" class="num">{{ t('archive_col_local') }}</th><th scope="col">{{ t('archive_col_top') }}</th></tr>
+    </thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <th scope="row"><a href="{{ r.date }}.html">{{ r.date_long }}</a></th>
+        <td class="num" data-label="{{ t('archive_col_items') }} ">{{ r.count }}</td>
+        <td class="num" data-label="{{ t('archive_col_local') }} ">{{ r.local }}</td>
+        <td class="days__idea">{% if r.top_score is not none %}{{ m.tile(r.top_score, 'sm') }} {{ r.top_idea }}{% else %}<span class="muted">{{ t('empty_day') }}</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <div class="empty empty--page">
+    <p class="empty__title">{{ t('no_editions') }}</p>
+    <p>{{ t('no_editions_hint') }}</p>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

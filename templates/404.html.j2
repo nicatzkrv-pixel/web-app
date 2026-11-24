@@ -1,0 +1,16 @@
+{% extends "_base.html.j2" %}
+{% block title %}{{ t('not_found') }}, {{ t('site_name') }}{% endblock %}
+{% block board %}
+<div class="mast__board mast__board--slim">
+  <div class="dateboard">
+    <h1 class="dateboard__title dateboard__title--shown">{{ t('not_found') }}</h1>
+  </div>
+</div>
+{% endblock %}
+{% block main %}
+<section class="board">
+  <div class="empty empty--page">
+    <p><a class="btn" href="{{ base }}index.html">{{ t('go_latest') }}</a></p>
+  </div>
+</section>
+{% endblock %}

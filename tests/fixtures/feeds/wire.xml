@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SAMPLE DATA for tests. Invented headlines, not real news. -->
+<rss version="2.0">
+<channel>
+  <title>Sample Payments Wire</title>
+  <link>https://wire.example.com</link>
+  <description>Fixture feed</description>
+  <item>
+    <title>Northwind Bank launches bill split for card payments</title>
+    <link>https://www.trade.example.com/news/northwind-bill-split/?utm_source=rss&amp;utm_medium=feed</link>
+    <pubDate>Mon, 09 Mar 2026 16:00:00 GMT</pubDate>
+    <description><![CDATA[<p>Same story, same URL with tracking parameters.</p>]]></description>
+  </item>
+  <item>
+    <title>Coral Pay pilots request-to-pay for utility bills in Portugal</title>
+    <link>https://wire.example.com/coral-request-to-pay</link>
+    <pubDate>Mon, 09 Mar 2026 14:00:00 GMT</pubDate>
+    <description><![CDATA[<p>Coral Pay is piloting request-to-pay with two utilities in Portugal. Customers approve a bill in their banking app and pay by account transfer.</p>]]></description>
+  </item>
+  <item>
+    <title>Opinion: what open finance means for the future of retail banking</title>
+    <link>https://wire.example.com/opinion-open-finance</link>
+    <pubDate>Mon, 09 Mar 2026 13:00:00 GMT</pubDate>
+    <description><![CDATA[<p>An opinion piece.</p>]]></description>
+  </item>
+  <item>
+    <title>Undated item: Ember Bank introduces savings round-ups</title>
+    <link>https://wire.example.com/ember-roundups</link>
+    <description><![CDATA[<p>Ember Bank has introduced round-ups that move spare change into a savings goal.</p>]]></description>
+  </item>
+</channel>
+</rss>

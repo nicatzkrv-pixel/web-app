@@ -1,0 +1,107 @@
+name: Daily bulletin
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # 06:00 Asia/Baku
+  workflow_dispatch:
+    inputs:
+      keywords_only:
+        description: "Skip Claude and use the keyword scorer"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write    # push daily JSON to the site-data branch
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-bulletin
+  cancel-in-progress: false
+
+env:
+  RADAR_DATA_DIR: ${{ github.workspace }}/data-store
+  RADAR_SITE_BASE: /${{ github.event.repository.name }}/
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Restore data from the site-data branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads "$remote" site-data >/dev/null; then
+            git clone --depth 1 --branch site-data --single-branch "$remote" data-store
+          else
+            mkdir data-store
+            git -C data-store init -b site-data
+            git -C data-store remote add origin "$remote"
+            echo "# Fintech Radar daily data" > data-store/README.md
+          fi
+
+      - name: Check sources
+        run: python -m radar.main check-sources
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ inputs.keywords_only }}" = "true" ]; then
+            python -m radar.main run --keywords-only --site-dir site
+          else
+            python -m radar.main run --site-dir site
+          fi
+
+      - name: Unit tests
+        run: pytest -q --ignore=tests/test_smoke.py
+
+      - name: Smoke test (blocks the deploy if it fails)
+        run: python tests/smoke_site.py site --out test-output
+
+      - name: Upload smoke screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-screenshots
+          path: test-output/
+          if-no-files-found: ignore
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Save daily JSON to the site-data branch
+        working-directory: data-store
+        run: |
+          git config user.name "fintech-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Bulletin $(date -u +%Y-%m-%d)"
+            git push origin site-data
+          fi

@@ -1,0 +1,278 @@
+# Fintech Radar sources.
+#
+# Each source has: name, type (rss | gnews | page), url (rss/page) or query (gnews),
+# lang, region_hint (azerbaijan | nearby | global) and optionally:
+#   country:          ISO-2 code for Google News (gl / ceid), default US
+#   window:           Google News recency window (when:), default from gnews_defaults
+#   require_keywords: true for general news feeds; keeps only items that mention fintech terms
+#   enabled:          false to keep a source listed but skip it
+#   note:             why the source is set up the way it is
+#
+# Google News URL pattern:
+#   https://news.google.com/rss/search?q={query}+when:{window}&hl={lang}&gl={country}&ceid={country}:{lang}
+#
+# Several trade-press sites block automated RSS readers (Cloudflare challenge) or
+# no longer publish RSS. They are covered through Google News `site:` searches instead.
+
+gnews_defaults:
+  window: 2d
+
+sources:
+  # ---------------------------------------------------------------- Trade press (RSS)
+  - name: Finovate
+    type: rss
+    url: https://finovate.com/feed/
+    lang: en
+    region_hint: global
+  - name: PYMNTS
+    type: rss
+    url: https://www.pymnts.com/feed/
+    lang: en
+    region_hint: global
+  - name: The Fintech Times
+    type: rss
+    url: https://thefintechtimes.com/feed/
+    lang: en
+    region_hint: global
+  - name: Payments Dive
+    type: rss
+    url: https://www.paymentsdive.com/feeds/news/
+    lang: en
+    region_hint: global
+  - name: Banking Dive
+    type: rss
+    url: https://www.bankingdive.com/feeds/news/
+    lang: en
+    region_hint: global
+  - name: Fintech News Middle East
+    type: rss
+    url: https://fintechnews.ae/feed/
+    lang: en
+    region_hint: nearby
+  - name: Electronic Payments International
+    type: rss
+    enabled: false
+    note: GlobalData sites return 403 to automated readers and are not in Google News. Re-test occasionally.
+    url: https://www.electronicpaymentsinternational.com/feed/
+    lang: en
+    region_hint: global
+  - name: Retail Banker International
+    type: rss
+    enabled: false
+    note: GlobalData sites return 403 to automated readers and are not in Google News. Re-test occasionally.
+    url: https://www.retailbankerinternational.com/feed/
+    lang: en
+    region_hint: global
+  - name: Tearsheet
+    type: rss
+    url: https://tearsheet.co/feed/
+    lang: en
+    region_hint: global
+  - name: PaymentsJournal
+    type: rss
+    url: https://www.paymentsjournal.com/feed/
+    lang: en
+    region_hint: global
+  - name: Kursiv (Kazakhstan)
+    type: rss
+    url: https://kz.kursiv.media/en/feed/
+    lang: en
+    region_hint: nearby
+    require_keywords: true
+    note: General business news, filtered to fintech terms.
+
+  # ------------------------------------------- Trade press without usable RSS (via Google News)
+  - name: Finextra
+    type: gnews
+    query: site:finextra.com
+    lang: en
+    region_hint: global
+    note: RSS is behind a Cloudflare challenge.
+  - name: The Paypers
+    type: gnews
+    query: site:thepaypers.com
+    lang: en
+    region_hint: global
+    note: No public RSS.
+  - name: FF News
+    type: gnews
+    query: site:ffnews.com
+    lang: en
+    region_hint: global
+    note: Site rebuilt without RSS.
+  - name: Fintech Futures
+    type: gnews
+    query: site:fintechfutures.com
+    lang: en
+    region_hint: global
+    note: RSS is behind a Cloudflare challenge.
+
+  # ------------------------------------------------------------------- Azerbaijan
+  - name: GN Azerbaijan fintech (EN)
+    type: gnews
+    query: Azerbaijan (fintech OR "digital banking" OR payments OR "mobile banking" OR card OR transfers)
+    lang: en
+    country: AZ
+    region_hint: azerbaijan
+  - name: GN Azerbaijan local press (AZ)
+    type: gnews
+    query: (site:report.az OR site:trend.az OR site:apa.az OR site:banker.az OR site:marja.az) (bank OR ödəniş OR kart OR fintex)
+    lang: az
+    country: AZ
+    region_hint: azerbaijan
+  - name: GN Azerbaijan local press (RU)
+    type: gnews
+    query: (site:minval.az OR site:banker.az OR site:interfax.az OR site:media.az OR site:report.az OR site:trend.az) (банк OR платеж OR карта OR перевод OR приложение)
+    lang: ru
+    country: AZ
+    region_hint: azerbaijan
+    note: Google News indexes very little Azerbaijani-language bank news (hl=az); local outlets in Russian cover it.
+  - name: GN Azerbaijan banks (RU)
+    type: gnews
+    query: Азербайджан (банк OR платежи OR финтех OR переводы OR карта)
+    lang: ru
+    country: AZ
+    region_hint: azerbaijan
+  - name: GN Azerbaijan players
+    type: gnews
+    query: Birbank OR "Kapital Bank" OR Leobank OR "Yelo Bank" OR "PASHA Bank" OR "ABB Bank" OR "m10 Azerbaijan" OR Unibank OR "Xalq Bank" OR AccessBank
+    lang: en
+    country: AZ
+    region_hint: azerbaijan
+  - name: GN Central Bank of Azerbaijan
+    type: gnews
+    query: ("Central Bank of Azerbaijan" OR "Mərkəzi Bank" OR "Центробанк Азербайджана" OR ЦБА) (ödəniş OR payments OR платеж OR "open banking" OR instant)
+    lang: en
+    country: AZ
+    region_hint: azerbaijan
+
+  # ----------------------------------------------------------------- Nearby markets
+  - name: GN Kazakhstan (EN)
+    type: gnews
+    query: Kazakhstan (Kaspi OR Halyk OR "Freedom Bank" OR fintech OR payments) (launch OR launches OR new)
+    lang: en
+    country: KZ
+    region_hint: nearby
+  - name: GN Kazakhstan (RU)
+    type: gnews
+    query: (Kaspi OR Halyk OR "Freedom Bank" OR банк) запустил (функцию OR сервис OR переводы OR платежи)
+    lang: ru
+    country: KZ
+    region_hint: nearby
+  - name: GN Uzbekistan
+    type: gnews
+    query: Uzbekistan (fintech OR payments OR Payme OR Click OR Uzum OR "TBC Uzbekistan")
+    lang: en
+    country: UZ
+    region_hint: nearby
+  - name: GN Uzbekistan (RU)
+    type: gnews
+    query: Узбекистан (Payme OR Click OR Uzum OR банк) (запустил OR новая функция OR сервис)
+    lang: ru
+    country: UZ
+    region_hint: nearby
+  - name: GN Georgia and Armenia
+    type: gnews
+    query: (Georgia OR Armenia) ("TBC Bank" OR "Bank of Georgia" OR Ameriabank OR Idram OR fintech) (app OR payments OR launches)
+    lang: en
+    region_hint: nearby
+  - name: GN Türkiye mobile banking (TR)
+    type: gnews
+    query: (mobil bankacılık OR dijital banka OR fintek) yeni özellik
+    lang: tr
+    country: TR
+    region_hint: nearby
+  - name: GN Türkiye payments (TR)
+    type: gnews
+    query: (FAST OR karekod OR "para transferi" OR ödeme) yeni hizmet banka
+    lang: tr
+    country: TR
+    region_hint: nearby
+  - name: GN Gulf banking
+    type: gnews
+    query: (UAE OR Saudi OR Qatar OR Bahrain OR Kuwait OR Oman) bank launches (app OR payments OR wallet OR card OR feature)
+    lang: en
+    country: AE
+    region_hint: nearby
+  - name: GN CIS banking (RU)
+    type: gnews
+    query: банк запустил (новую функцию OR сервис переводов OR оплату по QR OR СБП)
+    lang: ru
+    country: RU
+    region_hint: nearby
+
+  # --------------------------------------------------------- Global themes (EN)
+  - name: GN P2P and transfers
+    type: gnews
+    query: ("P2P payments" OR "peer-to-peer" OR "money transfer" OR remittance OR "cross-border payments") launches
+    lang: en
+    region_hint: global
+  - name: GN QR and tap to pay
+    type: gnews
+    query: ("QR payments" OR "QR code payments" OR "tap to pay" OR SoftPOS OR "Tap to Pay") launch
+    lang: en
+    region_hint: global
+  - name: GN Pay by bank and open banking
+    type: gnews
+    query: ("pay by bank" OR "open banking" OR "request to pay" OR "account-to-account") launches
+    lang: en
+    region_hint: global
+  - name: GN Instant payments
+    type: gnews
+    query: ("instant payments" OR "real-time payments" OR FedNow OR Pix OR UPI) new feature
+    lang: en
+    region_hint: global
+  - name: GN Wallets and super-apps
+    type: gnews
+    query: ("digital wallet" OR "super app" OR "mobile wallet") launches feature
+    lang: en
+    region_hint: global
+  - name: GN Cards
+    type: gnews
+    query: ("virtual card" OR "card controls" OR "credit card" OR "debit card") bank launches new feature
+    lang: en
+    region_hint: global
+  - name: GN BNPL and lending
+    type: gnews
+    query: ("buy now pay later" OR BNPL OR "instant loan") bank launches
+    lang: en
+    region_hint: global
+  - name: GN Savings and wealth
+    type: gnews
+    query: ("savings goals" OR "round-up" OR "micro-investing" OR "savings account") app launches
+    lang: en
+    region_hint: global
+  - name: GN AI in banking
+    type: gnews
+    query: bank ("AI assistant" OR "AI agent" OR "agentic payments" OR chatbot) launches customers
+    lang: en
+    region_hint: global
+  - name: GN Fraud and security
+    type: gnews
+    query: bank (scam OR fraud) (protection OR "new feature" OR alerts) launches customers
+    lang: en
+    region_hint: global
+  - name: GN Identity and onboarding
+    type: gnews
+    query: ("digital ID" OR eKYC OR "remote onboarding" OR "digital onboarding" OR passkeys) bank launches
+    lang: en
+    region_hint: global
+  - name: GN SME banking
+    type: gnews
+    query: ("small business" OR SME OR merchant) banking app launches (payments OR invoicing OR "cash flow")
+    lang: en
+    region_hint: global
+  - name: GN Bill pay and recurring
+    type: gnews
+    query: ("bill split" OR "split the bill" OR "recurring payments" OR "bill pay" OR "scheduled transfers") launches
+    lang: en
+    region_hint: global
+
+  # ------------------------------------------- Pages without RSS (later: Firecrawl)
+  - name: Central Bank of Azerbaijan press releases
+    type: page
+    url: https://www.cbar.az/press-releases
+    lang: az
+    region_hint: azerbaijan
+    enabled: false
+    note: Needs FIRECRAWL_API_KEY and the Firecrawl page fetcher (planned, section 9 of the brief).

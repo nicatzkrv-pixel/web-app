@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SAMPLE DATA for tests, shaped like a Google News RSS search. Invented headlines, not real news. -->
+<rss version="2.0">
+<channel>
+  <title>"sample" - Google News</title>
+  <link>https://news.google.com/search?q=sample</link>
+  <description>Google News</description>
+  <item>
+    <title>Sample Kazakh super-app adds recurring payments for utilities and phone top-ups - Sample Kursiv</title>
+    <link>https://news.google.com/rss/articles/SAMPLE_KZ_RECURRING?oc=5</link>
+    <guid isPermaLink="false">SAMPLE_KZ_RECURRING</guid>
+    <pubDate>Mon, 09 Mar 2026 10:00:00 GMT</pubDate>
+    <description>recurring</description>
+    <source url="https://kursiv.example.kz">Sample Kursiv</source>
+  </item>
+  <item>
+    <title>Образец: банк в Узбекистане запустил переводы по номеру телефона в Казахстан - Sample Daryo</title>
+    <link>https://news.google.com/rss/articles/SAMPLE_UZ_P2P?oc=5</link>
+    <guid isPermaLink="false">SAMPLE_UZ_P2P</guid>
+    <pubDate>Mon, 09 Mar 2026 12:30:00 GMT</pubDate>
+    <description>p2p</description>
+    <source url="https://daryo.example.uz">Sample Daryo</source>
+  </item>
+</channel>
+</rss>
