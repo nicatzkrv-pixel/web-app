@@ -1,125 +1,140 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-11-24T14:06:47+00:00",
+ "generatedAt": "2026-11-24T15:14:40+00:00",
  "title": "Design System: Fintech Radar",
  "extensions": {
   "colorMeta": {
-   "board": {
+   "night-900": {
     "role": "primary",
-    "displayName": "Board Teal",
+    "displayName": "Night",
     "tonalRamp": [
-     "oklch(15% 0.04 195)",
-     "oklch(25% 0.04 195)",
-     "oklch(35% 0.04 195)",
-     "oklch(45% 0.04 195)",
-     "oklch(60% 0.04 195)",
-     "oklch(75% 0.04 195)",
-     "oklch(87% 0.04 195)",
-     "oklch(95% 0.04 195)"
+     "#050c1d",
+     "#081633",
+     "#0e2149",
+     "#173062",
+     "#2a4a8a",
+     "#5b78b5",
+     "#a9b9d6",
+     "#eaf1ff"
     ]
    },
-   "amber": {
+   "sweep": {
     "role": "secondary",
-    "displayName": "Signal Amber (local only)",
+    "displayName": "Radar sweep"
+   },
+   "az": {
+    "role": "signal",
+    "displayName": "Saffron (Azerbaijan)",
     "tonalRamp": [
-     "oklch(25% 0.12 80)",
-     "oklch(35% 0.12 80)",
-     "oklch(45% 0.12 80)",
-     "oklch(60% 0.12 80)",
-     "oklch(75% 0.12 80)",
-     "oklch(82% 0.12 80)",
-     "oklch(90% 0.12 80)",
-     "oklch(96% 0.12 80)"
+     "#4a2a00",
+     "#8a4f00",
+     "#c27400",
+     "#ffb23f",
+     "#ffc86e",
+     "#ffd998",
+     "#ffeac4",
+     "#fff4de"
     ]
    },
-   "ground": {
-    "role": "neutral",
-    "displayName": "Cool Paper",
+   "near": {
+    "role": "signal",
+    "displayName": "Coral (nearby)",
     "tonalRamp": [
-     "oklch(15% 0.01 170)",
-     "oklch(25% 0.01 170)",
-     "oklch(35% 0.01 170)",
-     "oklch(45% 0.01 170)",
-     "oklch(60% 0.01 170)",
-     "oklch(75% 0.01 170)",
-     "oklch(87% 0.01 170)",
-     "oklch(95% 0.01 170)"
+     "#5a1606",
+     "#b2381c",
+     "#e0563a",
+     "#ff7a5c",
+     "#ff9c85",
+     "#ffc6b8",
+     "#ffdcd2",
+     "#ffece6"
     ]
    },
-   "tile": {
+   "glob": {
+    "role": "signal",
+    "displayName": "Ice (global)",
+    "tonalRamp": [
+     "#0b2c47",
+     "#195a8c",
+     "#3d8cc7",
+     "#86cdff",
+     "#a6dbff",
+     "#c3e3fb",
+     "#d8efff",
+     "#e6f3ff"
+    ]
+   },
+   "paper": {
     "role": "neutral",
-    "displayName": "Split-flap Tile"
-   },
-   "status-launched": {
-    "role": "state",
-    "displayName": "Launched"
-   },
-   "status-piloting": {
-    "role": "state",
-    "displayName": "Piloting"
-   },
-   "status-announced": {
-    "role": "state",
-    "displayName": "Announced"
+    "displayName": "Paper"
    }
   },
   "typographyMeta": {
-   "wordmark": {
-    "displayName": "Wordmark",
-    "purpose": "Masthead name only."
+   "hero": {
+    "displayName": "Hero",
+    "purpose": "The hero h1 only."
    },
    "section-title": {
-    "displayName": "Board header",
-    "purpose": "Section titles on teal header rows."
+    "displayName": "Section title",
+    "purpose": "Top picks, Local radar, All items."
+   },
+   "idea-lead": {
+    "displayName": "Lead idea",
+    "purpose": "The lead pick's idea line."
    },
    "idea-pick": {
-    "displayName": "Idea (top pick)",
-    "purpose": "The hero text of each top pick."
+    "displayName": "Pick idea",
+    "purpose": "Idea lines in pick cards."
    },
    "idea-row": {
-    "displayName": "Idea (row)",
-    "purpose": "Idea line in Local radar and All items."
+    "displayName": "Row idea",
+    "purpose": "Idea lines in lists."
    },
    "body": {
     "displayName": "Reading",
     "purpose": "Headlines, summaries, notices."
    },
    "label": {
-    "displayName": "Board label",
-    "purpose": "Chips, metadata, filter labels."
+    "displayName": "Label",
+    "purpose": "Chips, buttons, metadata, filter labels."
    },
-   "numeral": {
-    "displayName": "Board numeral",
-    "purpose": "Scores, counts, dates; tabular."
+   "data": {
+    "displayName": "Data",
+    "purpose": "Scores, counts, dates, the formula."
    }
   },
   "shadows": [
    {
-    "name": "tile",
-    "value": "0 1px 2px rgb(0 0 0 / .28)",
-    "purpose": "Score flaps mounted on the board."
+    "name": "shadow-1",
+    "value": "0 1px 2px rgb(11 23 48 / .05), 0 6px 18px -6px rgb(11 23 48 / .10)",
+    "purpose": "Resting cards and the filter bar."
    },
    {
-    "name": "tile-mast",
-    "value": "0 2px 4px rgb(0 0 0 / .35)",
-    "purpose": "Date flaps on the teal masthead."
+    "name": "shadow-2",
+    "value": "0 2px 6px rgb(11 23 48 / .07), 0 22px 44px -16px rgb(11 23 48 / .28)",
+    "purpose": "Hovered cards."
    }
   ],
   "motion": [
    {
     "name": "ease-out-expo",
     "value": "cubic-bezier(.16, 1, .3, 1)",
-    "purpose": "All transitions and the flip."
+    "purpose": "Every transition and entrance."
    },
    {
-    "name": "flap",
-    "value": "0.7s rotateX(-75deg -> 0), stagger 110ms per row",
-    "purpose": "Top-pick score tiles, once on load."
+    "name": "hero-entrance",
+    "value": "words rise 0.9s staggered 70ms; globe settles 1.4s; blips pop from 0.9s; counters roll 1.2s",
+    "purpose": "Once on load."
    },
    {
-    "name": "counter-flap",
-    "value": "0.4s",
-    "purpose": "Result counter when filters change."
+    "name": "ambient",
+    "value": "globe 4.5°/s, sweep 1.15 rad/s, ticker 80s loop",
+    "purpose": "Pausable; still under reduced motion."
+   },
+   {
+    "name": "card-hover",
+    "value": "translateY(-3px) + shadow-2, 0.35s",
+    "purpose": "Pick cards."
    }
   ],
   "breakpoints": [
@@ -132,111 +147,112 @@
     "value": "720px"
    },
    {
-    "name": "rows",
+    "name": "grid",
     "value": "880px"
+   },
+   {
+    "name": "hero",
+    "value": "900px"
+   },
+   {
+    "name": "filters",
+    "value": "980px"
    }
   ]
  },
  "components": [
   {
+   "name": "Light Button",
+   "kind": "button",
+   "refersTo": "button-light",
+   "description": "Main action on the night hero.",
+   "html": "<button class=\"ds-btn-light\">Read the top picks</button>",
+   "css": ".ds-btn-light{min-height:2.9rem;padding:0 1.2rem;border-radius:12px;border:1px solid #fff;background:#fff;color:#050c1d;font:650 1rem/1 'Bricolage Grotesque',sans-serif;cursor:pointer;transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .25s}.ds-btn-light:hover{transform:translateY(-2px);box-shadow:0 14px 30px -12px rgb(255 178 63/.55)}.ds-btn-light:active{transform:scale(.98)}.ds-btn-light:focus-visible{outline:3px solid #ffb23f;outline-offset:3px}"
+  },
+  {
    "name": "Primary Button",
    "kind": "button",
    "refersTo": "button-primary",
-   "description": "Filled board-teal action, e.g. Clear filters in an empty state.",
+   "description": "Main action on the light ground.",
    "html": "<button class=\"ds-btn\">Clear filters</button>",
-   "css": ".ds-btn{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 1rem;border:1px solid #0f3b3d;border-radius:6px;background:#0f3b3d;color:#eef5f2;font:600 1rem/1 'Barlow Semi Condensed',sans-serif;cursor:pointer;transition:background-color .2s cubic-bezier(.16,1,.3,1)}.ds-btn:hover{background:#215d5e}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid #f0b21c;outline-offset:2px}"
+   "css": ".ds-btn{min-height:2.9rem;padding:0 1.2rem;border-radius:12px;border:1px solid #081633;background:#081633;color:#fff;font:650 1rem/1 'Bricolage Grotesque',sans-serif;cursor:pointer;transition:transform .2s cubic-bezier(.16,1,.3,1),box-shadow .25s}.ds-btn:hover{transform:translateY(-2px);box-shadow:0 12px 24px -12px rgb(11 23 48/.55)}.ds-btn:focus-visible{outline:3px solid #ffb23f;outline-offset:3px}"
   },
   {
-   "name": "Quiet Button",
-   "kind": "button",
-   "refersTo": "button-quiet",
-   "description": "Secondary action beside filters.",
-   "html": "<button class=\"ds-btn-quiet\">Clear filters</button>",
-   "css": ".ds-btn-quiet{min-height:2.75rem;padding:0 1rem;border:1px solid #b9c7c3;border-radius:6px;background:transparent;color:#0f3b3d;font:600 1rem/1 'Barlow Semi Condensed',sans-serif}.ds-btn-quiet:hover{background:#edf1ef}.ds-btn-quiet:focus-visible{outline:3px solid #f0b21c;outline-offset:2px}"
+   "name": "Region Chip",
+   "kind": "chip",
+   "refersTo": "chip-azerbaijan",
+   "description": "Region pill with a coloured dot.",
+   "html": "<span class=\"ds-chip ds-az\"><i></i>Azerbaijan</span> <span class=\"ds-chip ds-near\"><i></i>Kazakhstan</span> <span class=\"ds-chip ds-glob\"><i></i>United Kingdom</span>",
+   "css": ".ds-chip{display:inline-flex;align-items:center;gap:.4rem;min-height:1.75rem;padding:.15rem .65rem;border-radius:999px;border:1px solid;font:600 .84rem/1.2 'Bricolage Grotesque',sans-serif}.ds-chip i{width:7px;height:7px;border-radius:50%}.ds-az{background:#fff4de;border-color:#ffd998;color:#8a4f00}.ds-az i{background:#ffb23f}.ds-near{background:#ffece6;border-color:#ffc6b8;color:#b2381c}.ds-near i{background:#ff7a5c}.ds-glob{background:#e6f3ff;border-color:#c3e3fb;color:#195a8c}.ds-glob i{background:#86cdff}"
+  },
+  {
+   "name": "Score Ring",
+   "kind": "custom",
+   "description": "Navy arc filled to score/10 with the score in Geist Mono.",
+   "html": "<span class=\"ds-ring\" style=\"--p:.82\"><svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"20\" class=\"t\"/><circle cx=\"24\" cy=\"24\" r=\"20\" class=\"a\" pathLength=\"100\"/></svg><b>8.2</b></span>",
+   "css": ".ds-ring{position:relative;display:inline-grid;place-items:center;width:64px;height:64px}.ds-ring svg{position:absolute;inset:0;transform:rotate(-90deg)}.ds-ring .t{fill:none;stroke:#e1e6f0;stroke-width:4}.ds-ring .a{fill:none;stroke:#173062;stroke-width:4.5;stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:calc(100 - var(--p)*100)}.ds-ring b{font:650 1.05rem/1 'Geist Mono',monospace;color:#0b1730}"
+  },
+  {
+   "name": "Score Pill",
+   "kind": "custom",
+   "refersTo": "score-pill",
+   "description": "Compact score in lists.",
+   "html": "<span class=\"ds-pill\">7.7</span>",
+   "css": ".ds-pill{display:inline-grid;place-items:center;min-width:3.1rem;height:2rem;padding:0 .5rem;border-radius:9px;background:#081633;color:#fff;font:600 .95rem/1 'Geist Mono',monospace;box-shadow:inset 0 -2px 0 #ffb23f}"
   },
   {
    "name": "Search Field",
    "kind": "input",
    "description": "Search over headlines, ideas and countries.",
    "html": "<input class=\"ds-input\" type=\"search\" placeholder=\"Search headlines, ideas, countries\">",
-   "css": ".ds-input{min-height:2.75rem;padding:.5rem .75rem;border:1px solid #b9c7c3;border-radius:6px;background:#fff;color:#132120;font:400 1rem 'Atkinson Hyperlegible',sans-serif}.ds-input:hover{border-color:#566665}.ds-input:focus-visible{outline:3px solid #f0b21c;outline-offset:2px}"
-  },
-  {
-   "name": "Region Chip",
-   "kind": "chip",
-   "refersTo": "chip-azerbaijan",
-   "description": "Amber for Azerbaijan, teal tint for nearby, outline for global.",
-   "html": "<span class=\"ds-chip ds-chip--az\">Azerbaijan</span> <span class=\"ds-chip ds-chip--near\">Kazakhstan</span> <span class=\"ds-chip\">Global</span>",
-   "css": ".ds-chip{display:inline-flex;align-items:center;min-height:1.6rem;padding:.1rem .55rem;border:1px solid #b9c7c3;border-radius:4px;font:600 .875rem/1.2 'Barlow Semi Condensed',sans-serif;color:#3f4f4e;background:#fff}.ds-chip--az{background:#f0b21c;border-color:#f0b21c;color:#1c2426}.ds-chip--near{background:#e0eeeb;border-color:#b6d4ce;color:#0d4d4d}"
-  },
-  {
-   "name": "Status Lamp",
-   "kind": "chip",
-   "description": "Launch status as lamp plus word.",
-   "html": "<span class=\"ds-status\"><span class=\"ds-lamp\"></span>Launched</span>",
-   "css": ".ds-status{display:inline-flex;align-items:center;gap:.45rem;font:600 1rem/1.2 'Barlow Semi Condensed',sans-serif;color:#18744a}.ds-lamp{width:.6rem;height:.6rem;border-radius:2px;background:currentColor;box-shadow:0 0 0 2px #fff,0 1px 3px rgb(0 0 0/.25)}"
-  },
-  {
-   "name": "Split-flap Score Tile",
-   "kind": "custom",
-   "refersTo": "score-tile",
-   "description": "Signature: one flap per character with a hinge line.",
-   "html": "<span class=\"ds-tile\"><span class=\"ds-flap\">9</span><span class=\"ds-dot\"></span><span class=\"ds-flap\">1</span></span>",
-   "css": ".ds-tile{display:inline-flex;gap:.08em;font:600 2.5rem/1 'Barlow Semi Condensed',sans-serif;font-variant-numeric:tabular-nums}.ds-flap{position:relative;display:inline-grid;place-items:center;min-width:.74em;padding:.14em .1em .12em;background:linear-gradient(#2a3335 0 50%,#1c2426 50% 100%);color:#f5f3ed;border-radius:.12em;box-shadow:0 1px 2px rgb(0 0 0/.28)}.ds-flap::after{content:'';position:absolute;left:0;right:0;top:50%;height:1px;background:rgb(0 0 0/.55)}.ds-dot{align-self:flex-end;width:.16em;height:.16em;margin:0 .03em .08em;background:#1c2426;border-radius:1px}"
-  },
-  {
-   "name": "Board Header",
-   "kind": "nav",
-   "refersTo": "board-head",
-   "description": "Section opener row with column labels.",
-   "html": "<div class=\"ds-head\"><h2>Top picks</h2></div>",
-   "css": ".ds-head{background:#0f3b3d;color:#eef5f2;padding:.8rem 1.25rem;border-radius:8px 8px 0 0}.ds-head h2{margin:0;font:600 1.375rem/1.2 'Barlow Semi Condensed',sans-serif}"
+   "css": ".ds-input{min-height:2.75rem;padding:.5rem .8rem;border-radius:10px;border:1px solid #e1e6f0;background:#f3f5fa;color:#0b1730;font:400 1rem 'Atkinson Hyperlegible',sans-serif}.ds-input:hover{background:#fff;border-color:#c6cfdf}.ds-input:focus{outline:none;background:#fff;border-color:#173062;box-shadow:0 0 0 4px rgb(23 48 98/.12)}"
   }
  ],
  "narrative": {
-  "northStar": "This morning's departures",
-  "overview": "Fintech Radar is read in about two minutes, at 8 a.m., on a phone or a laptop. The page borrows the one public document everyone already scans that fast: a departures board. Every finding is a row with a score, a destination (region) and a status (launched, piloting, announced). The board owns the frame (masthead, section header rows, score tiles, footer). The rows inside stay quiet and readable, because the content is the product: the \"Idea for Birbank\" line is the largest text in every row.\n\nThe world never takes over the reading column. There are no flip animations on body text, no LED dot fonts and no dark page. The page sits on a cool paper ground in daylight, with the teal board around it.",
+  "northStar": "A live radar at dawn",
+  "overview": "The bulletin is published at 06:00 Baku time, so the frame is the sky at that hour: deep ink-blue over the Caspian with a warm amber glow at the horizon. In it turns a dotted globe with real coastlines, centred on Baku, with a radar sweep circling it and a blip for every item at the country where it happened. Readers see where today's news is before they read what it is. Hover a blip and its idea appears; hover an item and the globe turns to it.\n\nBelow the hero, the page switches to a bright, calm reading ground: white cards, generous spacing, the \"Idea for Birbank\" line as the biggest text in each card. The frame is expressive; the reading area is quiet and fast to scan.",
   "keyCharacteristics": [
-   "Deep teal board frame around a cool paper-white reading ground.",
-   "Split-flap tiles for scores and the date only: one flap per character, a hinge line across the middle.",
-   "Rows, not cards: hairline separators inside a board panel.",
-   "Status lamps in board colours: launched green, piloting blue, announced amber-brown.",
-   "Signal amber marks only one thing: Azerbaijan (local)."
+   "A full-screen pre-dawn hero with the live radar globe and a headline ticker along its bottom edge.",
+   "Colour carries meaning everywhere: saffron = Azerbaijan, coral = nearby markets, ice blue = global (blips, legend, chips, ticker dots, filter pills).",
+   "One orchestrated entrance (words rise, globe settles, blips pop in, numbers roll up), then only slow ambient motion, all pausable.",
+   "White cards with 16px radii and soft two-layer shadows; the lead pick spans the full width.",
+   "Scores as navy rings (picks) or dark pills (lists) in Geist Mono."
   ],
   "rules": [
    {
-    "name": "The One Signal Rule",
-    "body": "Amber means local. Never use it for decoration, emphasis or \"new\".",
+    "name": "The Region Colour Rule",
+    "body": "Saffron, coral and ice always mean Azerbaijan, nearby and global. They never decorate anything else, and score rings stay navy so a coral item never reads as a \"bad\" score.",
     "section": "colors"
    },
    {
     "name": "The Status Lamp Rule",
-    "body": "Launch status is always the lamp-plus-word pair in its status colour, never colour alone.",
+    "body": "Launch status is a lamp plus a word in its status colour; launched lamps pulse gently.",
     "section": "colors"
    },
    {
     "name": "The Idea Leads Rule",
-    "body": "In every row, the idea for Birbank outranks the headline in size and weight.",
+    "body": "In every card and row, the idea for Birbank outranks the headline in size and weight.",
     "section": "typography"
    },
    {
-    "name": "The No Caps Rule",
-    "body": "Labels and statuses are sentence case. The board voice comes from the condensed face, not capitals.",
+    "name": "The Mono Is Measurement Rule",
+    "body": "Geist Mono only for numbers, dates and the formula; never running text.",
     "section": "typography"
    }
   ],
   "dos": [
-   "**Do** keep the board world in the frame: masthead, section header rows, tiles, footer.",
-   "**Do** show the score maths for every item (fit, new, bonus, penalty, total).",
-   "**Do** use tabular Barlow numerals for every number.",
-   "**Do** keep all UI strings in `radar/i18n.py` so the Azerbaijani UI can be added."
+   "**Do** keep the expressive world in the hero, top bar and footer; keep the reading area calm.",
+   "**Do** use region colours only for region meaning.",
+   "**Do** show the score maths for every item.",
+   "**Do** give every looping motion a pause control and a still state under reduced motion.",
+   "**Do** keep all UI strings in `radar/i18n.py`."
   ],
   "donts": [
-   "**Don't** add flip animations anywhere but score tiles and the result counter.",
-   "**Don't** use amber for anything other than local (Azerbaijan).",
-   "**Don't** set ideas, headlines or summaries in the condensed board face.",
-   "**Don't** add thumbnails, card grids, eyebrow labels above headings, or side stripes on rows.",
-   "**Don't** use Birbank or Kapital Bank logos or brand colours; the product has its own identity."
+   "**Don't** add scroll-triggered fade-ins or parallax; the only entrance is the hero's, once.",
+   "**Don't** put glows, gradients or animation inside cards beyond the lead card's corner tint.",
+   "**Don't** plot a blip for an item whose country is unknown; the hero says how many are on the globe.",
+   "**Don't** use eyebrow labels above headings, side stripes on cards, or emoji icons.",
+   "**Don't** use Birbank or Kapital Bank logos or brand colours."
   ]
  }
 }

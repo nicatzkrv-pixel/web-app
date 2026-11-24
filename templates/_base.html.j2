@@ -5,20 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <meta name="description" content="{{ t('tagline') }}">
-<meta name="theme-color" content="#0f3b3d">
+<meta name="theme-color" content="#081633">
+<meta name="color-scheme" content="light">
 <title>{% block title %}{{ t('site_name') }}{% endblock %}</title>
+<link rel="preload" href="{{ base }}assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ base }}assets/fonts/atkinson-hyperlegible-400-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{ base }}assets/fonts/barlow-semi-condensed-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ base }}assets/radar.css">
 <link rel="icon" href="{{ base }}assets/favicon.svg" type="image/svg+xml">
 <script>document.documentElement.classList.replace('no-js','js')</script>
 </head>
 <body class="page-{{ page }}">
 <a class="skip" href="#main">{{ t('skip') }}</a>
-<header class="mast">
-  <div class="mast__inner">
+<header class="topbar" data-topbar>
+  <div class="topbar__inner">
     <a class="mark" href="{{ base }}index.html" aria-label="{{ t('site_name') }}, {{ t('nav_today') }}">
-      <svg class="mark__glyph" viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="5"/><path d="M8 16h16M8 16a8 8 0 0 1 16 0" /><circle cx="16" cy="16" r="2.4"/></svg>
+      <svg class="mark__glyph" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="16" cy="16" r="14.5" class="mark__ring"/>
+        <circle cx="16" cy="16" r="9" class="mark__ring mark__ring--in"/>
+        <path d="M16 16 L16 1.5 A14.5 14.5 0 0 1 28.6 8.8 Z" class="mark__sweep"/>
+        <circle cx="22.5" cy="10" r="2.3" class="mark__blip"/>
+      </svg>
       <span class="mark__name">{{ t('site_name') }}</span>
       <span class="mark__for">{{ t('for_bank') }}</span>
     </a>
@@ -27,12 +33,18 @@
       <a class="navlink{% if page == 'archive' %} is-here{% endif %}" href="{{ base }}archive/index.html"{% if page == 'archive' %} aria-current="page"{% endif %}>{{ t('nav_archive') }}</a>
     </nav>
   </div>
-  {% block board %}{% endblock %}
 </header>
 <main id="main" class="main">
+{% block hero %}{% endblock %}
+<div class="content">
 {% block main %}{% endblock %}
+</div>
 </main>
 <footer class="foot">
+  <svg class="foot__rings" viewBox="0 0 400 400" aria-hidden="true">
+    <circle cx="200" cy="200" r="60"/><circle cx="200" cy="200" r="120"/><circle cx="200" cy="200" r="180"/>
+    <path d="M200 200 L200 20"/>
+  </svg>
   <div class="foot__inner">
     <section class="foot__how" aria-labelledby="how">
       <h2 id="how">{{ t('how_scored') }}</h2>
@@ -45,6 +57,9 @@
     </ul>
   </div>
 </footer>
+<script>
+  (function(){var b=document.querySelector('[data-topbar]');if(!b)return;var f=function(){b.classList.toggle('is-stuck',window.scrollY>24)};f();window.addEventListener('scroll',f,{passive:true});})();
+</script>
 {% block scripts %}{% endblock %}
 </body>
 </html>

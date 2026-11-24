@@ -7,21 +7,22 @@ related_targets: []
 
 # Surface: daily bulletin (templates/bulletin.html.j2)
 
-Scope: the daily bulletin page, its archive day pages and the archive index. Visitor mode: Read (with light filtering).
+Scope: the daily bulletin page, its archive day pages and the archive index. Visitor mode: Read, with an expressive frame the user asked for ("gorgeous, cool, animated").
 Audience and job: Birbank payments management and team, a 2-minute morning scan on phone or laptop; find the idea worth raising today.
-Content: real daily items from data/*.json (headline, source, summary, Idea for Birbank, KPI, region, category, launch status, applicability, novelty, score maths).
-Constraints: English UI now, all strings in radar/i18n.py for a later Azerbaijani toggle; noindex; no Birbank logo or brand colours; works without JS for reading (filters need JS); 390px and 1280px.
+Content: real daily items from data/*.json (headline, source, summary, Idea for Birbank, KPI, region, country, category, launch status, applicability, novelty, score maths).
+Constraints: English UI now, strings in radar/i18n.py; noindex; no Birbank logo or brand colours; readable without JS (filters and the globe need JS); 390px and 1280px; reduced motion respected.
+History: replaces the "morning departures" world, which the user rejected as too plain.
 
 ## Direction contract
 
-THESIS: The bulletin is this morning's departures board for ideas: every finding is a row with a status, a destination region and a score, read top to bottom in two minutes. It refuses the news-card grid with thumbnails and the dark SaaS dashboard.
+THESIS: The bulletin is a live radar at dawn: today's finds appear as blips on a turning globe centred on Baku, so the reader sees where the news is before reading what it is. Refuses the static news list and the dark neon dashboard.
 
-OWN-WORLD: Board teal masthead and section header rows; charcoal split-flap tiles with light digits for scores and the date; a cool paper-white ground with near-black ink; signal amber only for local (Azerbaijan) markers; status colours like a board's: launched green, piloting blue, announced amber-brown. Signage condensed sans (Barlow family) for the board voice and numerals, tabular everywhere; Atkinson Hyperlegible as the reading face. Rows, not cards: hairline row separators inside a board panel.
+OWN-WORLD: A pre-dawn sky over the Caspian for the frame: deep ink-blue hero with a faint amber dawn glow at the horizon, a dotted globe with real coastlines, a thin pale-cyan radar sweep. Blip colours carry meaning: saffron for Azerbaijan, coral for nearby markets, ice blue for global. Below the hero, a bright cool-white reading ground with white cards, soft shadows and 14px radii. Bricolage Grotesque for display, Atkinson Hyperlegible for reading, Geist Mono for scores and counts.
 
-STORY: The reader sees today's date and how many items and local items there are, reads the top picks' ideas first, checks Local radar, then filters or searches all items if there is time; opens the source for detail; steps back a day through the archive.
+STORY: The reader sees today's count and where the finds are on the globe, hovers a blip to read its idea, then reads the top picks, checks Local radar, filters All items if there is time, and steps back a day through the archive.
 
-FIRST VIEWPORT: Full-width teal masthead: wordmark "Fintech Radar" with "for Birbank", the date in split-flap tiles, counts (items today, local), previous-day and archive links. Directly below, the Top picks board: header row (Score, Idea, Region, Status), then the first pick row at full size: large score tile at left, the Idea for Birbank as the largest text on the page after the wordmark, headline and source beneath, region and category chips, status at right. On 390px the masthead compresses to two lines and the first pick row stacks: tile and status on one line, idea, then headline.
+FIRST VIEWPORT: Desktop: ink-blue hero filling the screen. Left: the h1 "25 finds on today's radar", a line with the date and what was scanned, three region counters that double as the globe's legend, and a primary "Read the top picks" button. Right: the globe, about 560px, Baku marked with a pulsing ring, blips per item, the sweep circling. A headline ticker runs along the hero's bottom edge. Mobile: the globe on top at about 300px, then the h1, counters and button.
 
-FORM: departures board (timetable tradition), candidate 5 of 7 on my ordered list, seed:0530eae4ac7748b8. Signature interaction: the score tiles flip once on load (top picks only, staggered, reduced-motion respected); the "showing N of M" counter flips when filters change. Motion grammar: one flip, exponential ease-out, nothing else moves.
+FORM: live radar globe (my top-ranked grounded candidate, chosen by the user over the assigned carpet geometry), seed:d13d332e601202a2. Signature interaction: hovering or focusing a blip shows that item's idea and score; clicking it scrolls to the item and highlights it, and hovering an item makes its blip pulse. Motion grammar: one orchestrated entrance (headline words rise, globe settles, blips pop in order, counters and score rings roll up), then only the slow globe turn, the sweep and the ticker, all pausable; hover answers on every card, button and link.
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
