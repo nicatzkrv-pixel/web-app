@@ -86,6 +86,19 @@ def slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
+def asset_version() -> str:
+    """Short hash of the static files, appended to asset URLs so browsers never mix
+    a new page with an old cached stylesheet or script."""
+    import hashlib
+
+    h = hashlib.sha1()
+    for path in sorted(STATIC_DIR.rglob("*")):
+        if path.is_file():
+            h.update(path.name.encode())
+            h.update(path.read_bytes())
+    return h.hexdigest()[:10]
+
+
 def _env() -> Environment:
     env = Environment(
         loader=FileSystemLoader(str(config.TEMPLATES_DIR)),
@@ -95,7 +108,7 @@ def _env() -> Environment:
     )
     env.globals.update(t=t, score_tiles=score_tiles, tojson=lambda v: json.dumps(v, ensure_ascii=False).replace("</", "<\\/"), fmt_published=fmt_published, slug=slug,
                        fmt_date_short=fmt_date_short, categories=config.CATEGORIES, regions=config.REGIONS,
-                       repo_url=REPO_URL, min_score=config.MIN_SCORE)
+                       repo_url=REPO_URL, min_score=config.MIN_SCORE, v=asset_version())
     return env
 
 
@@ -168,6 +181,9 @@ def build_site(data_dir: Path, site_dir: Path) -> Path:
     (site_dir / "archive").mkdir(parents=True)
     (site_dir / "data").mkdir()
     shutil.copytree(STATIC_DIR, site_dir / "assets")
+    globe = site_dir / "assets" / "radar-globe.js"
+    if globe.exists():
+        globe.write_text(globe.read_text(encoding="utf-8").replace('"./radar-geo.js"', f'"./radar-geo.js?v={asset_version()}"'), encoding="utf-8")
 
     edition_tpl = env.get_template("bulletin.html.j2")
     days = [e["date"] for e in editions]
