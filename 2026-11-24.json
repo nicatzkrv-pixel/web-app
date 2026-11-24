@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "generated_at": "2026-11-24T15:19:03+00:00",
+ "generated_at": "2026-11-24T15:23:09+00:00",
  "scorer": "keyword",
  "sample": false,
  "scoring": {
@@ -11,11 +11,11 @@
  "stats": {
   "sources": 41,
   "sources_ok": 41,
-  "fetched": 2050,
-  "recent": 951,
-  "after_prefilter": 871,
-  "after_dedupe": 754,
-  "after_history": 754,
+  "fetched": 2042,
+  "recent": 942,
+  "after_prefilter": 867,
+  "after_dedupe": 755,
+  "after_history": 755,
   "candidates": 90,
   "fulltext": 3,
   "kept": 25
@@ -195,20 +195,50 @@
    "scored_by": "keyword"
   },
   {
-   "id": "e5a3ca92d433",
+   "id": "6e3fc96c3217",
    "title": "33 года – нам, выгода – вам: Ак Барс Банк запустил праздничные предложения",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPenFpbWxuSlBZb3JQQnZHQUJVWFh3X0oxY3N2N1JLdW85MTZxSVJOcGVjZTJpbmtaZkZlSTRUUThOVEpqYVZUcTRiQmZhYWE2dlgtc2xCNk92M0pRdncxak16YlpXY1JBNDRab3RKUmpUbDh4SWZxVF9kVGFVNXdCWnpfSC1qNDZoZFEwNEM3ZjFTQnd0LXJybUdoRW5EMS14OV9ickFpcVRjT1pVQktYU0JRMkNLUdIBvgFBVV95cUxQTThOVEVoQURseWNfRmNGWVdod3ZsWFhDaU5zdHVwZUJNX1pSRk9LbjR0UzIzTE9BTHl2WjZkeFFsN3h4TXdWLW5Ua2VOamlqSWZjTEJQaXRzNE5FanU1NC1iSlNtSklmU1VrYVBEWHhnZl9CMGkxeXN4OFVZU19oMi1SdnVjZm0tbElKcUV4Sk5CU0xOMTFhZXlSU09jcTVldDRtcW1JT1hvWHVzZjhTaDhsYkVIQm5YUVZMMXVn?oc=5",
-   "publisher": "KazanFirst",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLWQyYnhJczBhcTEtQ1h0YWNBdlZEdzA5Q0FJRlBoQ3FHQlNwWFZPd1hvVHliWUY5NWxxRlRGYThfSE8wVzVfcUg3Ykd6UUlwY3dkTGRNMFlzbGljQmVVNWdTWXFyY3o0TGZGQlg3S3lEUXJxUmg2UjBhbUUtUERmb0hGUUFrS09fODBKSG04aW8wSld2U2RwRk11WEljLTJKLWdUV1hjZmZfcTJfSFl3OVdOR1E?oc=5",
+   "publisher": "Әлки хәбәрләре",
    "source": "GN Kazakhstan (RU)",
    "source_type": "gnews",
    "lang": "ru",
-   "published": "2026-11-24T11:48:45+00:00",
-   "also_in": [],
+   "published": "2026-11-24T09:05:25+00:00",
+   "also_in": [
+    "Бавлы-информ"
+   ],
    "repeat_of": null,
    "category": "Payments",
    "region": "Nearby",
    "country": "Not stated",
    "summary": "33 года – нам, выгода – вам: Ак Барс Банк запустил праздничные предложения",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "c1b4512fb8cf",
+   "title": "Ozon Банк запустил проект для клиентов с пенсионными выплатами",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPeXpZNGNSTG9KdGxEZzBMOW5LT2Y0dXNBNTU1cmVHaDRLUm9RUW5LNnFJS3ZMOThubWwwdFVTLWtnVl9NUk9LTE44N3dWMjB0LUhLa0hMRE0yX3BSdk5OR3hjdzdMSVZkZW11cnFNbXI5ZmNJ0gF0QVVfeXFMUE95elk0Y1JMb0p0bERnMEw5bktPZjR1c0E1NTVyZUdoNEtSb1FRbks2cUlLdkw5OG5tbDB0VVMta2dWX01ST0tMTjg3d1YyMHQtSEtrSExETTJfcFJ2Tk5HeGN3N0xJVmRlbXVycU1tcjlmY0k?oc=5",
+   "publisher": "Газета",
+   "source": "GN Kazakhstan (RU)",
+   "source_type": "gnews",
+   "lang": "ru",
+   "published": "2026-11-23T12:26:37+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Ozon Банк запустил проект для клиентов с пенсионными выплатами",
    "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
    "kpi": "Non-cash transactions",
    "launch_status": "launched",
@@ -251,20 +281,20 @@
    "scored_by": "keyword"
   },
   {
-   "id": "40358739692d",
-   "title": "В Албании запустили мгновенные банковские переводы, на очереди — QR-платежи",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc2x0ajY2RDVCcUg5c0NqN0w5NXhNVjhkaUhXWWZzMXpLb3podTFWdllTdjVuS1ktS0lPMG5CZHNDM2xkQUstdUdTaUdkaEVsQkZrRHR3OGJNWGx5YnVCTGFtRzlEY0RJOHR4WHh1R0ZrZXhteE5BOHFKMjNSWU0zUDdEUlJqalEwcUhKVnRHOGMwV0N6Um5xZDZVQlJZZXV6dXkwUnplM2dSYjB3c0g4cQ?oc=5",
-   "publisher": "Новости Албании",
+   "id": "12617ef53571",
+   "title": "ПриватБанк запустил новую программу бонусов: кому доступна программа и как присоединиться",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSU5KZUNLN21yXy1rd2RoMUpzRFJwWEdVeVFiX3EySGVsSk5RYlVfSFA5bzhlUl9QNWxSQTl3cVczSWJzUGRwbjFsV0RObnloU2tuXzdoNk9hUGh1Y2Nva3ZEejV6R1p0aTBlRWZ0NDljcHB5OVBsblhvSlF2ZVlPTDdHX3JFWHBsVFViTGZoRVQ4bHJHempsQU42cHpLaHhHT292ZE1lYmc1UTVtTkRvaGdPbl9tV1dlMjJHd0hKbm9OTXNqU05hbmxOMGZrVk5DQUHSAdIBQVVfeXFMUElOSmVDSzdtcl8ta3dkaDFKc0RScFhHVXlRYl9xMkhlbEpOUWJVX0hQOW84ZVJfUDVsUkE5d3FXM0lic1BkcG4xbFdETm55aFNrbl83aDZPYVBodWNjb2t2RHo1ekdadGkwZUVmdDQ5Y3BweTlQbG5Yb0pRdmVZT0w3R19yRVhwbFRVYkxmaEVUOGxyR3pqbEFONnB6S2h4R09vdmRNZWJnNVE1bU5Eb2hnT25fbVdXZTIyR3dISm5vTk1zalNOYW5sTjBma1ZOQ0FB?oc=5",
+   "publisher": "Politeka",
    "source": "GN Kazakhstan (RU)",
    "source_type": "gnews",
    "lang": "ru",
-   "published": "2026-11-24T09:12:41+00:00",
+   "published": "2026-11-24T10:00:00+00:00",
    "also_in": [],
    "repeat_of": null,
    "category": "Payments",
    "region": "Nearby",
    "country": "Not stated",
-   "summary": "В Албании запустили мгновенные банковские переводы, на очереди — QR-платежи",
+   "summary": "ПриватБанк запустил новую программу бонусов: кому доступна программа и как присоединиться",
    "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
    "kpi": "Non-cash transactions",
    "launch_status": "launched",
@@ -279,20 +309,20 @@
    "scored_by": "keyword"
   },
   {
-   "id": "415efbc04505",
-   "title": "ПриватБанк запустил новую программу бонусов: кому доступна программа и как присоединиться",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQ09xSU9aanlvbkJhODRIdlQ4djFrZkZYNkV1RmdzWWpjOHdFdGR6X2p0dTM3OEVkSjBzazJ3Q1RkMWZOOV9nc29raGhXeFM5cjRYaU5EeUl2Q3ZVc090U2t5X1l2T3ZnZDVtR0pZY1E2c3lkSGcyc1lnSzJseDF2djgyX1Zpem9nekZnYXBlbUl0ZUFjMnZidTQzTzJRX21SRUhib2Q4a0htQ3lXZEtHTWRyM2ZHMmprNlN3aXFJcV9BcjREWFc2Wlo1cljSAdIBQVVfeXFMUElOSmVDSzdtcl8ta3dkaDFKc0RScFhHVXlRYl9xMkhlbEpOUWJVX0hQOW84ZVJfUDVsUkE5d3FXM0lic1BkcG4xbFdETm55aFNrbl83aDZPYVBodWNjb2t2RHo1ekdadGkwZUVmdDQ5Y3BweTlQbG5Yb0pRdmVZT0w3R19yRVhwbFRVYkxmaEVUOGxyR3pqbEFONnB6S2h4R09vdmRNZWJnNVE1bU5Eb2hnT25fbVdXZTIyR3dISm5vTk1zalNOYW5sTjBma1ZOQ0FB?oc=5",
-   "publisher": "Politeka",
+   "id": "40358739692d",
+   "title": "В Албании запустили мгновенные банковские переводы, на очереди — QR-платежи",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc2x0ajY2RDVCcUg5c0NqN0w5NXhNVjhkaUhXWWZzMXpLb3podTFWdllTdjVuS1ktS0lPMG5CZHNDM2xkQUstdUdTaUdkaEVsQkZrRHR3OGJNWGx5YnVCTGFtRzlEY0RJOHR4WHh1R0ZrZXhteE5BOHFKMjNSWU0zUDdEUlJqalEwcUhKVnRHOGMwV0N6Um5xZDZVQlJZZXV6dXkwUnplM2dSYjB3c0g4cQ?oc=5",
+   "publisher": "Новости Албании",
    "source": "GN Kazakhstan (RU)",
    "source_type": "gnews",
    "lang": "ru",
-   "published": "2026-11-24T10:00:00+00:00",
+   "published": "2026-11-24T09:12:41+00:00",
    "also_in": [],
    "repeat_of": null,
    "category": "Payments",
    "region": "Nearby",
    "country": "Not stated",
-   "summary": "ПриватБанк запустил новую программу бонусов: кому доступна программа и как присоединиться",
+   "summary": "В Албании запустили мгновенные банковские переводы, на очереди — QR-платежи",
    "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
    "kpi": "Non-cash transactions",
    "launch_status": "launched",
@@ -697,34 +727,6 @@
    "keep": true,
    "drop_reason": "",
    "scored_by": "keyword"
-  },
-  {
-   "id": "dc1ae16fd845",
-   "title": "NBB Launches Tailored Banking Benefits for Bahrain’s Golden Residency Holders",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSGM2OEx0M1plcTZkM0JvdVhoMUd4dmdPUEhKOVlYaE56aGVicmJyMFFkUUk2U1hlTGt3dHM2SzR0UkpkZWEybG9EX1htQ2dIbWxSV181UUFBTnNwaWh4M21zLUp2cUljQloxSjVKVUdYWlc2bzVaT0k3aGowaDJlVGdZRW9BLUdscjZZ?oc=5",
-   "publisher": "Al-Bawaba",
-   "source": "GN Gulf banking",
-   "source_type": "gnews",
-   "lang": "en",
-   "published": "2026-11-23T03:50:24+00:00",
-   "also_in": [],
-   "repeat_of": null,
-   "category": "Payments",
-   "region": "Nearby",
-   "country": "Bahrain",
-   "summary": "NBB Launches Tailored Banking Benefits for Bahrain’s Golden Residency Holders",
-   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
-   "kpi": "Non-cash transactions",
-   "launch_status": "launched",
-   "applicability": 7,
-   "novelty": 6,
-   "base": 6.6,
-   "bonus": 1.0,
-   "penalty": 0.0,
-   "score": 7.6,
-   "keep": true,
-   "drop_reason": "",
-   "scored_by": "keyword"
   }
  ],
  "dropped": [
@@ -796,14 +798,6 @@
    "title": "Генсек Ассоциации банков Турции: При организации COP31 Турция воспользовалась опытом Азербайджана",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQVhTR1loNWo1NjFmOERob0dkODNkZ0U5dXdSZjF2QkJIVlV6MjVFS1dXYUU4Q2VZUU9WQWlXWnN6ZnhTUDEyTEdkZDloQVZNRmhoZmhwX2g3T2NMbVJoLXlrMTRhYUtmaWlCbTBlTGZ4MmhfakRvQVFlblBtU3dHVjZ5OHA3bEJJckVEM1JPMnV5QXlGUWphRGhMVjRfODZLOU1OMS1HbllyZnNrejZ1T2xHZ2Jmc3NJX1hwdHR0YWEtNkNoaks4?oc=5",
    "publisher": "Apa.az",
-   "score": 6.7,
-   "reason": "no concrete launch found by keyword rules",
-   "scored_by": "keyword"
-  },
-  {
-   "title": "В Азербайджане сумма мошеннических операций с картами за квартал выросла на 52,18%",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc0F6bFBoOHZNS05oWThWWlVBejAxUFh2a0Rjb1VyVmNPN3ZmbmUwd0lvb0pQSHRjSGdWZF9Yd1dpMUp3RHplaXphWFVrd0JCT2x3NnRJZlZqQ1pjaEZ0VmJPUHZmdlVmY3llU2MxYklnT3htOHBRQzRuRWszMm1fdWtCMHQ2SXRfbFEyWHdUSDlnWUNJZ2NhUHlET0VabjB4dDFoSFJuRmYtWk90T1UxRzYxVQ?oc=5",
-   "publisher": "Report.az",
    "score": 6.7,
    "reason": "no concrete launch found by keyword rules",
    "scored_by": "keyword"
@@ -945,6 +939,22 @@
    "scored_by": "keyword"
   },
   {
+   "title": "Разрабатывается новая госпрограмма в связи с безналичными платежами",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONWdDS2tGWjFMc1MwZ2VaSFhfNzVQOG9SMUMwU1cyZXJEMHhjNGJZU1VfcWYtVGFKaVRYd1lpRXZvZnZJd21GVUFLUDMxM0JlZng0T0syQmJwNG9xREt6UEs2SXRMazJ0WVBEcGtjdWVBcmhsUlFObGlVV25Uay1yNE5WMjQtRzBDRk9VeUNEdkVyWDhLOW02bGJYQk9JODBpN2dv?oc=5",
+   "publisher": "Baku.ws",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "NBB Launches Tailored Banking Benefits for Bahrain’s Golden Residency Holders",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSGM2OEx0M1plcTZkM0JvdVhoMUd4dmdPUEhKOVlYaE56aGVicmJyMFFkUUk2U1hlTGt3dHM2SzR0UkpkZWEybG9EX1htQ2dIbWxSV181UUFBTnNwaWh4M21zLUp2cUljQloxSjVKVUdYWlc2bzVaT0k3aGowaDJlVGdZRW9BLUdscjZZ?oc=5",
+   "publisher": "Al-Bawaba",
+   "score": 7.6,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
    "title": "Sindh Youth Card Launched: Who can apply, benefits, Interest-Free loans and registration process",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONXRya1JMeEtTdTdhOVRGUlhCdU5udjRRUjdGcTd5VERmd2lzUlNuZndvYjZEeUVpSXVrVWV4N0RJSDZPNERoei1ual82V0hoMGRuZXZMcldhTU1DREFid0VfTjk3dFRxQnhMOU5yV3BhOWRPNzliTVowWWtJLWVCS2R6V3ZKT2ZsOHROOHBGWl8tZnMtak1GSzNHTUdxT2NJaFFrcXh0NEZJWWZaLWpFamNCb081dXNFbmVUdWMyaVpoNmdUU09mYURvRmNUQdIBzgFBVV95cUxONXRya1JMeEtTdTdhOVRGUlhCdU5udjRRUjdGcTd5VERmd2lzUlNuZndvYjZEeUVpSXVrVWV4N0RJSDZPNERoei1ual82V0hoMGRuZXZMcldhTU1DREFid0VfTjk3dFRxQnhMOU5yV3BhOWRPNzliTVowWWtJLWVCS2R6V3ZKT2ZsOHROOHBGWl8tZnMtak1GSzNHTUdxT2NJaFFrcXh0NEZJWWZaLWpFamNCb081dXNFbmVUdWMyaVpoNmdUU09mYURvRmNUQQ?oc=5",
    "publisher": "Daily Ausaf",
@@ -953,8 +963,24 @@
    "scored_by": "keyword"
   },
   {
+   "title": "Vietcombank запускает приложение, помогающее предприятиям управлять доходами по всей цепочке платежей.",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYVUtc3JpcUhyNlFBNmFVQWk1ZEZES3BWcUJoUE5wV1JBQ0gtb2tVLVlTRGxTRFFsX3hoYmJMMzBFSF9hRHQwWGx6Rjl2VUZBRUdyM05Zdzl3NS1uVHQwcDBOQk81RWZEMnBhTkwtZlVSQ2ZYTWRzbmNtdnVIUzRDS3JyQ3ppdnVJbnBSanRuYXdqWVhfTUNCUTczOGxUcHJtQU8w?oc=5",
+   "publisher": "Vietnam.vn",
+   "score": 7.6,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
    "title": "Vietcombank запускает VCB Merchant Up: многофункциональное решение для приема платежей и управления бизнесом в одном приложении.",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYTMtSjZiUFM3RDZBSzRMSGJrenJnckt4WnR6RE9jZ0dGaENHUUpDS3haTFNMMUNvZjJObmVlWG5tR3MyQ0dZUXQxSmVYMmNXQVUxRDFfTm9sNFA2NUpBZk4yY0JIUEZqRXJUWk50MTFnSzV1X0E2dWZ2dmtRSlZXd1lRYVNKS1lXWDZ2SXoyb2dtVkFyZUdHb3lta0QyRU9XODRGdXdNVXFFNUpncjNSNmFKRXNNMkZCTHdERHg4X3FLNDQtRUdMblBBRlNCZXl6UlJjRTExUlcwc3lURnh6eg?oc=5",
+   "publisher": "Vietnam.vn",
+   "score": 7.6,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Vietcombank запускает приложение для управления платежами и доходами.",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOF9uZHA0OU83MTQ2Ym12WHRicDJVd0pHODJNQVpiTHdWMUh3dGtWRnpqWEpQTVkyWWZWUTBSRVZoVlpaNzdVQ0pxdTNEdVZUdF9tN2oxSUhsbEdBSkw5Y1UyZmhIa2c3M3FKczdNR294UTJ0WTVmcWFaOTRfTGVJYVBKYUVMREdIRnJXb1FR?oc=5",
    "publisher": "Vietnam.vn",
    "score": 7.6,
    "reason": "keyword mode: over the daily cap",
@@ -996,14 +1022,6 @@
    "title": "Etihad Launches U.S. Credit Cards With Elite Status—But Most Americans Should Skip Them",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORU9tSE92dzFmYXd1LVptZDA4eXY2ZmhNSlg5TlhlZ2lnZXZtWXZSQmhTRmVGaTh4eXlLN0tEWUJ6N2hidDJpQldmWHBOOVNkQ0xLNEVYTzdTSTVZMGZ6OHZUaDNSakVNTjgxdzhJd3Blc2dOVmR4THJHVHAxck1ua2g0MUFDdzJuZ1ZxRWNzaXRDTVpaU2FpX3UtTEQwZlhCZWYwMmJ3b0hGYlB3QnlkYTBSYUpZUQ?oc=5",
    "publisher": "View from the Wing",
-   "score": 7.0,
-   "reason": "keyword mode: over the daily cap",
-   "scored_by": "keyword"
-  },
-  {
-   "title": "Cross River Bank Launches $250K Bitcoin-Backed Lending Program",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWTU4REZsS0ZEdVJxdnE3OE1zSmt0UVVMaWFxZHFCUzRsVUdyN3otb2NacDhpS1ZmTlppekdVelI4V1VRNEJsQ0VVQXB0blYwQ1YyaVhFRlcwcE9Gc2ZCZ01BRHBxVXJIMmNRVTh1QlRhWU00aTVCNmxHODd4UkExdEZQMVlqa2lRSjg1VzFrN3dlYkluc2c?oc=5",
-   "publisher": "Menafn",
    "score": 7.0,
    "reason": "keyword mode: over the daily cap",
    "scored_by": "keyword"
@@ -1225,25 +1243,9 @@
    "scored_by": "keyword"
   },
   {
-   "title": "Visa Launches AI Agent Wallet That Lets US Users Earn OUSD for Paid Tasks",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdHZJRloxd2NOUzFaNHA2enVzOWlGVHJzR1FZelRackF0cGRqWnpvekEzUGpTR2s3MDJrQmpVN21ZTHFBV3k0eFB4bTFtY1Jta1NicjlzZEp5WVBKV1l4M2lWMlRETDVQTXlNQUUxdEZlOUoxY29rNm1HWHIyUnlFYXRFOTBCRG1pRGNLdGpkVHlQcUdPbHpMUk5tcnNkNXYt?oc=5",
-   "publisher": "CryptoPotato",
-   "score": 7.0,
-   "reason": "keyword mode: over the daily cap",
-   "scored_by": "keyword"
-  },
-  {
    "title": "Visa Crypto Labs launches AI agent wallet that pays in OUSD",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5YeHgyNnRfVVhFU1pVMFJjbktXdW5EdGVYeUM2Y1YxelNGREF3emZUZWE1MS1YRFVOcTJSbTZwc2tTdmVHbWkwYmNIQkp1cXQ3aGJrMFZsaw?oc=5",
    "publisher": "Cryptonews.net",
-   "score": 7.0,
-   "reason": "keyword mode: over the daily cap",
-   "scored_by": "keyword"
-  },
-  {
-   "title": "Cashfree launches wallet that lets AI agents make payments for users",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeDZFeHVTbGlYWjlXMldGbDhHb0tPcm1RRXZaRm0xcjNTeFU0MmxSZ05PS0ZHRmRRa0JreU1lSnJrYkwwQm1oV0cxUkx1Z01IRVNpR04tMlVFLUV4cEcyYnJMWldDSjR1RUFnX2s3S0dPdlV0ZG1QYTdDUFdFdXRvUi1RT29uZ1A2RDBmRWlxc2xNbklVQ2gyWVM4V2Y1R1dZWkhZTzc4TEVSSTQ3czFhN3N2VVNpM0QyWnNpQTlJWUllcWpWbExSN250MlbSAdIBQVVfeXFMUFRtMmt2R21jSTVYUUxoc19FeEplZ1VuUE5ZLWpvRXNjQzBCXzVDbjRLakxlVmtvTVFTeTRtRTlzeGdEdDFfUHE5bVNQc2FzcHBYTnZuT0RGb2lpQUdoczkyRy1mTkNUY2ZBQXk4UTctY3Zwc2kxbHcxNmlpN0c5SXN5c0FUbEVNRkxabDVLOGd6dzJ5akhtaEpnMTZsTU5Cd3ZUVGhMYVhDd2g1ejdScUJCeFB5cDFDdDRTRElpbDQ1d0gwRVMzMUpnV1RaT01JMnhB?oc=5",
-   "publisher": "Business Standard",
    "score": 7.0,
    "reason": "keyword mode: over the daily cap",
    "scored_by": "keyword"
@@ -1277,12 +1279,6 @@
    "url": "https://www.paymentsjournal.com/crowdstrike-acquires-zscaler-as-ai-cybersecurity-threats-mount/",
    "publisher": "PaymentsJournal",
    "reason": "pre-filter: m&a / ipo"
-  },
-  {
-   "title": "Latest opinions that Jason Dehni has shared on Finextra",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQNG16TTExaGt4dVVJT3RiV0N2VFFhMDVDUVNzd3U1RGVGWWFHUDNGeTZHUnZUM1ZCTlFMTUZyd2VTZ1ZQTzBQN1M1dkphalpnVXY1YWl6d3VkeGNxSC1qVWlaa1JsUQ?oc=5",
-   "publisher": "Finextra Research",
-   "reason": "pre-filter: opinion"
   },
   {
    "title": "Stablecoin FX platform Codex raises $30m",
@@ -1471,12 +1467,6 @@
    "reason": "pre-filter: people"
   },
   {
-   "title": "На X Международном банковском форуме в Баку подписаны два меморандума",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTJ3a1hxZXVjU3hEVVY2Q3drTllFcXU3QWlmckVoQm44bVdpMmtFTm52Sjk1QkRpUVUyZUVxVGZXVmVFdmhwRnFpaU9oNkk0WmZWTFBtWUExSXZjMWpaUzNidVd1UkUwM214ank1Y3NYNTVsSTE3ajJENDh6UW91QmJqNVhuZkpUZjZrM3pBaDFJQi1CczM5VmZWQVJicDkz?oc=5",
-   "publisher": "Report.az",
-   "reason": "pre-filter: event"
-  },
-  {
    "title": "Чистая прибыль Почтового банка Ирана выросла на 74%",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE92TUUwZ1lTVVotTHBTTVJybFQzRFFyLXFBa0tqWmN4Zk9tTjJNaXpfWlZmejRfYVlHYnpqeGRocndJWmdsU09GbnpvaTVhdw?oc=5",
    "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
@@ -1549,21 +1539,9 @@
    "reason": "pre-filter: event"
   },
   {
-   "title": "Halyk Bank Of Kazakhstan (LSE:HSBK) Could Be 9% Undervalued On Q3 Earnings",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQXZTOVBybm05VHo0Ylp6SFNRelo1WHN0V0J1OVYtVXpnN1MzN01sRk0xWGNqVUZPRm1naHoyTzlLNDkzQm9pWTU3YW4xdFMtSmNLUWsxR2FFY09HZHJXbkZtVDBxdkJDYkV1YXdUem1kcERydVFSMFlUTnB6dFF3TmQtbEJIbzJxRHlPQVQ5MGZRUlN4U3Y5eVNXUQ?oc=5",
-   "publisher": "Yahoo Finance",
-   "reason": "pre-filter: earnings"
-  },
-  {
    "title": "Halyk Bank of Kazakhstan Q3 2026 Earnings Call Is Live",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOamFja0Jia01yanJlN1YyZ1lodEdlYkxuY3RYSW1PemtQZ19wcGNJUy1fc1ROYXp1akNjOWRxejB2UEVuSldsLVA4RVVTT2dCVm9zUGNleU9FU3BvQU9jODQyb3JxRGFsd21KdTExUmNIM1pneTlXVExITDJEbFFmRlpTRzF3dWVKc1NXUFFmRGlMbnhJQnp3cDJpTmxtZjRsV1VlYjg3VDg2MV9jV3BVNUxyVVdxUUVjRnFNajQwNEM?oc=5",
    "publisher": "TradingView",
-   "reason": "pre-filter: earnings"
-  },
-  {
-   "title": "Will Earnings Results Change Halyk Bank Stock Narrative",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPV3Y0RE1lM2ZZUEZ3NzhsWkw3YkZOVEZGY2ZTb1IwekJ3UFAtbDVwN2FKUHZiUVZIVmliNTA3bkMxSzN0V1FidHVoZzFrdE90d2pINzlOcGZSY2syQnh0eDR1b1h4Wm5hbzJBODFVN1pWUUctbVNMUi1GaW9VRWNrYXNvbUhuQVRSVVBHNllHRnZvR0xsRGVJdGVPaXFHbEl2UmVrRVgwc21UYnJ3bVFIMzVlMk91U3BTSXFVcC0zOHlTQjNGbzZOZHBjd29zZV9VSUR2ZlhkWHQyUUnSAdsBQVVfeXFMT1d2NERNZTNmWVBGdzc4bFpMN2JGTlRGRmNmU29SMHpCd1BQLWw1cDdhSlB2YlFWSFZpYjUwN25DMUszdFdRYnR1aGcxa3RPdHdqSDc5TnBmUmNrMkJ4dHg0dW9YeFpuYW8yQTgxVTdaVlFHLW1TTFItRmlvVUVja2Fzb21IbkFUUlVQRzZZR0Z2b0dMbERlSXRlT2lxR2xJdlJla0VYMHNtVGJyd21RSDM1ZTJPdVNwU0lxVXAtMzh5U0IzRm82TmRwY3dvc2VfVUlEdmZYZFh0MlFJ?oc=5",
-   "publisher": "Simply Wall St",
    "reason": "pre-filter: earnings"
   },
   {
@@ -1645,16 +1623,16 @@
    "reason": "pre-filter: funding"
   },
   {
-   "title": "FAB joins UN Water Conference as partner, eyes Dh100b in blue finance",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ2JHX3ZkM3BKR2RZbFFNYkMwYnB1eWpXZEMxbWwyTW1lVzhxV09RMXFMM1luSWhfMGJLem1taUJJaGFqN2F6elZ3TmxwNjZ2SncxbElHV1M5aTdjMXE1dXMzZWdaOEhwTWpXUEhNcnFmbVBDanQydlEzWE5waWcyNTRsZWhZbEJTR0RVcU01VGltY1htZTREZzE2Mnl5MnFTaXNrWVgxNmZSWE80TVZV0gG_AUFVX3lxTE1hUVZ3ZkFTWjZlQXhVRGc3RXhnNUhpSkNuOGYwdWZiMUFobXFMcl80SlJBN2hySlQtVy1Ma2NScUhKVzBjSWQwc29jWXhoNXU0M3hjZmF3c3NBMmIwVVp0N0RvSDYweDdFY2dCSm9EUmpKc0F5WVdBVTJ3SVR0V2tqcGlVOXBIMXRPaGNfN0J1dURneWhJNXJoNWIzY215aVFZMUlCWnlsQndHQUpuTlNoMktIaHBDYWoxVzQ0OHdV?oc=5",
-   "publisher": "Gulf News",
-   "reason": "pre-filter: event"
-  },
-  {
    "title": "Wultra-Led Consortium Secures Landmark Tender for Czech European Digital Identity Wallet",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWmNZVnJ3YWwwbHE2eUpQVUJMQkhWTWhUTm5pVk9OTDRGeEZtSldqY3Q5cjdHellhZC1rNDJsWmZYbThlZjFJaEhJZHIzWE9TTDJ2ckFyQk1FYnNwcm8xWHpSZVcwb3B5X0tPZGRUSEFPQzRPM21QOEVmQ19aZW5ETWxpcVU1OFFiUVctX0ZFQ1ZYZXQxSjNRVDM4Q1FrY3VrU1BpNHpLRnQxTG8?oc=5",
    "publisher": "FF News",
    "reason": "pre-filter: funding"
+  },
+  {
+   "title": "FAB joins UN Water Conference as partner, eyes Dh100b in blue finance",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ2JHX3ZkM3BKR2RZbFFNYkMwYnB1eWpXZEMxbWwyTW1lVzhxV09RMXFMM1luSWhfMGJLem1taUJJaGFqN2F6elZ3TmxwNjZ2SncxbElHV1M5aTdjMXE1dXMzZWdaOEhwTWpXUEhNcnFmbVBDanQydlEzWE5waWcyNTRsZWhZbEJTR0RVcU01VGltY1htZTREZzE2Mnl5MnFTaXNrWVgxNmZSWE80TVZV0gG_AUFVX3lxTE1hUVZ3ZkFTWjZlQXhVRGc3RXhnNUhpSkNuOGYwdWZiMUFobXFMcl80SlJBN2hySlQtVy1Ma2NScUhKVzBjSWQwc29jWXhoNXU0M3hjZmF3c3NBMmIwVVp0N0RvSDYweDdFY2dCSm9EUmpKc0F5WVdBVTJ3SVR0V2tqcGlVOXBIMXRPaGNfN0J1dURneWhJNXJoNWIzY215aVFZMUlCWnlsQndHQUpuTlNoMktIaHBDYWoxVzQ0OHdV?oc=5",
+   "publisher": "Gulf News",
+   "reason": "pre-filter: event"
   },
   {
    "title": "Russian fintech A7 presented it’s cross-border payment platform at Megacampus Summit in Dubai",
@@ -1705,15 +1683,9 @@
    "reason": "pre-filter: m&a / ipo"
   },
   {
-   "title": "Visa Launches AI Agent Wallet for OUSD Earnings",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSElJMmRLWGxPaXZjb3I4TThUTUhGNzZIbzZqV1h3YjBFNmtOZ2x3YmFzU3JJNVlYdHF3TDgyanRRZURLTEx5d3dYYjNUSGlXajlBeUFJcXAtSDhNNTBIekR2ZFZtSlBUM2hYX3I1T1ZETE52Z0xXNGNfYWhrT1dyMFRhVWhKbGtDRFE1bjdnVnV5Q1VIaVFlRw?oc=5",
-   "publisher": "Bitcoin Foundation",
-   "reason": "pre-filter: earnings"
-  },
-  {
    "title": "Netcraft appoints ex-CIBC security chief Keith Gordon",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ3JFb1BsTzV4bF9vQXJGLVhZNVpqZWNSVG9jZDlmc2RnZERUTVJwaWx3enpEZFk1VkltNGIwdk5ZX3pRRk1pUUJZLWtDcFl0YmFhT2d4SjZUd0FlX2kxbGdwWXhWLTllTWR2Yk5kRjRLMXFUQWpvQng5Rm5jcGFJeHk4TTEwWWQ5bmtFX0tXMFk?oc=5",
-   "publisher": "SecurityBrief UK",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM09Uby1VVWZvclNoZXVMQzB1OWVzNXpUVDVjRGo3X2habk1OeW1QaEdCd0lILXRjUlpka29WM0o4OWxHYnhGWlc3VE9TTXI1T1k5RkdoYnRpR2NLdEh5VTI5SmQ5QllzV3VjN3RSczlXY1ZTQ2xaZHhYeWlZM1pQWURMUkZMcUg3VjQ0NWFSU0QtZw?oc=5",
+   "publisher": "SecurityBrief Australia",
    "reason": "pre-filter: people"
   },
   {
