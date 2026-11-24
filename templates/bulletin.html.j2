@@ -175,6 +175,6 @@
 {% endblock %}
 
 {% block scripts %}
-<script src="{{ base }}assets/radar.js" defer></script>
-{% if e %}<script type="module" src="{{ base }}assets/radar-globe.js"></script>{% endif %}
+<script src="{{ base }}assets/radar.js?v={{ v }}" defer></script>
+{% if e %}<script type="module" src="{{ base }}assets/radar-globe.js?v={{ v }}"></script>{% endif %}
 {% endblock %}
