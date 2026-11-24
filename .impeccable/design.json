@@ -1,0 +1,242 @@
+{
+ "schemaVersion": 2,
+ "generatedAt": "2026-11-24T14:06:47+00:00",
+ "title": "Design System: Fintech Radar",
+ "extensions": {
+  "colorMeta": {
+   "board": {
+    "role": "primary",
+    "displayName": "Board Teal",
+    "tonalRamp": [
+     "oklch(15% 0.04 195)",
+     "oklch(25% 0.04 195)",
+     "oklch(35% 0.04 195)",
+     "oklch(45% 0.04 195)",
+     "oklch(60% 0.04 195)",
+     "oklch(75% 0.04 195)",
+     "oklch(87% 0.04 195)",
+     "oklch(95% 0.04 195)"
+    ]
+   },
+   "amber": {
+    "role": "secondary",
+    "displayName": "Signal Amber (local only)",
+    "tonalRamp": [
+     "oklch(25% 0.12 80)",
+     "oklch(35% 0.12 80)",
+     "oklch(45% 0.12 80)",
+     "oklch(60% 0.12 80)",
+     "oklch(75% 0.12 80)",
+     "oklch(82% 0.12 80)",
+     "oklch(90% 0.12 80)",
+     "oklch(96% 0.12 80)"
+    ]
+   },
+   "ground": {
+    "role": "neutral",
+    "displayName": "Cool Paper",
+    "tonalRamp": [
+     "oklch(15% 0.01 170)",
+     "oklch(25% 0.01 170)",
+     "oklch(35% 0.01 170)",
+     "oklch(45% 0.01 170)",
+     "oklch(60% 0.01 170)",
+     "oklch(75% 0.01 170)",
+     "oklch(87% 0.01 170)",
+     "oklch(95% 0.01 170)"
+    ]
+   },
+   "tile": {
+    "role": "neutral",
+    "displayName": "Split-flap Tile"
+   },
+   "status-launched": {
+    "role": "state",
+    "displayName": "Launched"
+   },
+   "status-piloting": {
+    "role": "state",
+    "displayName": "Piloting"
+   },
+   "status-announced": {
+    "role": "state",
+    "displayName": "Announced"
+   }
+  },
+  "typographyMeta": {
+   "wordmark": {
+    "displayName": "Wordmark",
+    "purpose": "Masthead name only."
+   },
+   "section-title": {
+    "displayName": "Board header",
+    "purpose": "Section titles on teal header rows."
+   },
+   "idea-pick": {
+    "displayName": "Idea (top pick)",
+    "purpose": "The hero text of each top pick."
+   },
+   "idea-row": {
+    "displayName": "Idea (row)",
+    "purpose": "Idea line in Local radar and All items."
+   },
+   "body": {
+    "displayName": "Reading",
+    "purpose": "Headlines, summaries, notices."
+   },
+   "label": {
+    "displayName": "Board label",
+    "purpose": "Chips, metadata, filter labels."
+   },
+   "numeral": {
+    "displayName": "Board numeral",
+    "purpose": "Scores, counts, dates; tabular."
+   }
+  },
+  "shadows": [
+   {
+    "name": "tile",
+    "value": "0 1px 2px rgb(0 0 0 / .28)",
+    "purpose": "Score flaps mounted on the board."
+   },
+   {
+    "name": "tile-mast",
+    "value": "0 2px 4px rgb(0 0 0 / .35)",
+    "purpose": "Date flaps on the teal masthead."
+   }
+  ],
+  "motion": [
+   {
+    "name": "ease-out-expo",
+    "value": "cubic-bezier(.16, 1, .3, 1)",
+    "purpose": "All transitions and the flip."
+   },
+   {
+    "name": "flap",
+    "value": "0.7s rotateX(-75deg -> 0), stagger 110ms per row",
+    "purpose": "Top-pick score tiles, once on load."
+   },
+   {
+    "name": "counter-flap",
+    "value": "0.4s",
+    "purpose": "Result counter when filters change."
+   }
+  ],
+  "breakpoints": [
+   {
+    "name": "sm",
+    "value": "600px"
+   },
+   {
+    "name": "md",
+    "value": "720px"
+   },
+   {
+    "name": "rows",
+    "value": "880px"
+   }
+  ]
+ },
+ "components": [
+  {
+   "name": "Primary Button",
+   "kind": "button",
+   "refersTo": "button-primary",
+   "description": "Filled board-teal action, e.g. Clear filters in an empty state.",
+   "html": "<button class=\"ds-btn\">Clear filters</button>",
+   "css": ".ds-btn{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 1rem;border:1px solid #0f3b3d;border-radius:6px;background:#0f3b3d;color:#eef5f2;font:600 1rem/1 'Barlow Semi Condensed',sans-serif;cursor:pointer;transition:background-color .2s cubic-bezier(.16,1,.3,1)}.ds-btn:hover{background:#215d5e}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid #f0b21c;outline-offset:2px}"
+  },
+  {
+   "name": "Quiet Button",
+   "kind": "button",
+   "refersTo": "button-quiet",
+   "description": "Secondary action beside filters.",
+   "html": "<button class=\"ds-btn-quiet\">Clear filters</button>",
+   "css": ".ds-btn-quiet{min-height:2.75rem;padding:0 1rem;border:1px solid #b9c7c3;border-radius:6px;background:transparent;color:#0f3b3d;font:600 1rem/1 'Barlow Semi Condensed',sans-serif}.ds-btn-quiet:hover{background:#edf1ef}.ds-btn-quiet:focus-visible{outline:3px solid #f0b21c;outline-offset:2px}"
+  },
+  {
+   "name": "Search Field",
+   "kind": "input",
+   "description": "Search over headlines, ideas and countries.",
+   "html": "<input class=\"ds-input\" type=\"search\" placeholder=\"Search headlines, ideas, countries\">",
+   "css": ".ds-input{min-height:2.75rem;padding:.5rem .75rem;border:1px solid #b9c7c3;border-radius:6px;background:#fff;color:#132120;font:400 1rem 'Atkinson Hyperlegible',sans-serif}.ds-input:hover{border-color:#566665}.ds-input:focus-visible{outline:3px solid #f0b21c;outline-offset:2px}"
+  },
+  {
+   "name": "Region Chip",
+   "kind": "chip",
+   "refersTo": "chip-azerbaijan",
+   "description": "Amber for Azerbaijan, teal tint for nearby, outline for global.",
+   "html": "<span class=\"ds-chip ds-chip--az\">Azerbaijan</span> <span class=\"ds-chip ds-chip--near\">Kazakhstan</span> <span class=\"ds-chip\">Global</span>",
+   "css": ".ds-chip{display:inline-flex;align-items:center;min-height:1.6rem;padding:.1rem .55rem;border:1px solid #b9c7c3;border-radius:4px;font:600 .875rem/1.2 'Barlow Semi Condensed',sans-serif;color:#3f4f4e;background:#fff}.ds-chip--az{background:#f0b21c;border-color:#f0b21c;color:#1c2426}.ds-chip--near{background:#e0eeeb;border-color:#b6d4ce;color:#0d4d4d}"
+  },
+  {
+   "name": "Status Lamp",
+   "kind": "chip",
+   "description": "Launch status as lamp plus word.",
+   "html": "<span class=\"ds-status\"><span class=\"ds-lamp\"></span>Launched</span>",
+   "css": ".ds-status{display:inline-flex;align-items:center;gap:.45rem;font:600 1rem/1.2 'Barlow Semi Condensed',sans-serif;color:#18744a}.ds-lamp{width:.6rem;height:.6rem;border-radius:2px;background:currentColor;box-shadow:0 0 0 2px #fff,0 1px 3px rgb(0 0 0/.25)}"
+  },
+  {
+   "name": "Split-flap Score Tile",
+   "kind": "custom",
+   "refersTo": "score-tile",
+   "description": "Signature: one flap per character with a hinge line.",
+   "html": "<span class=\"ds-tile\"><span class=\"ds-flap\">9</span><span class=\"ds-dot\"></span><span class=\"ds-flap\">1</span></span>",
+   "css": ".ds-tile{display:inline-flex;gap:.08em;font:600 2.5rem/1 'Barlow Semi Condensed',sans-serif;font-variant-numeric:tabular-nums}.ds-flap{position:relative;display:inline-grid;place-items:center;min-width:.74em;padding:.14em .1em .12em;background:linear-gradient(#2a3335 0 50%,#1c2426 50% 100%);color:#f5f3ed;border-radius:.12em;box-shadow:0 1px 2px rgb(0 0 0/.28)}.ds-flap::after{content:'';position:absolute;left:0;right:0;top:50%;height:1px;background:rgb(0 0 0/.55)}.ds-dot{align-self:flex-end;width:.16em;height:.16em;margin:0 .03em .08em;background:#1c2426;border-radius:1px}"
+  },
+  {
+   "name": "Board Header",
+   "kind": "nav",
+   "refersTo": "board-head",
+   "description": "Section opener row with column labels.",
+   "html": "<div class=\"ds-head\"><h2>Top picks</h2></div>",
+   "css": ".ds-head{background:#0f3b3d;color:#eef5f2;padding:.8rem 1.25rem;border-radius:8px 8px 0 0}.ds-head h2{margin:0;font:600 1.375rem/1.2 'Barlow Semi Condensed',sans-serif}"
+  }
+ ],
+ "narrative": {
+  "northStar": "This morning's departures",
+  "overview": "Fintech Radar is read in about two minutes, at 8 a.m., on a phone or a laptop. The page borrows the one public document everyone already scans that fast: a departures board. Every finding is a row with a score, a destination (region) and a status (launched, piloting, announced). The board owns the frame (masthead, section header rows, score tiles, footer). The rows inside stay quiet and readable, because the content is the product: the \"Idea for Birbank\" line is the largest text in every row.\n\nThe world never takes over the reading column. There are no flip animations on body text, no LED dot fonts and no dark page. The page sits on a cool paper ground in daylight, with the teal board around it.",
+  "keyCharacteristics": [
+   "Deep teal board frame around a cool paper-white reading ground.",
+   "Split-flap tiles for scores and the date only: one flap per character, a hinge line across the middle.",
+   "Rows, not cards: hairline separators inside a board panel.",
+   "Status lamps in board colours: launched green, piloting blue, announced amber-brown.",
+   "Signal amber marks only one thing: Azerbaijan (local)."
+  ],
+  "rules": [
+   {
+    "name": "The One Signal Rule",
+    "body": "Amber means local. Never use it for decoration, emphasis or \"new\".",
+    "section": "colors"
+   },
+   {
+    "name": "The Status Lamp Rule",
+    "body": "Launch status is always the lamp-plus-word pair in its status colour, never colour alone.",
+    "section": "colors"
+   },
+   {
+    "name": "The Idea Leads Rule",
+    "body": "In every row, the idea for Birbank outranks the headline in size and weight.",
+    "section": "typography"
+   },
+   {
+    "name": "The No Caps Rule",
+    "body": "Labels and statuses are sentence case. The board voice comes from the condensed face, not capitals.",
+    "section": "typography"
+   }
+  ],
+  "dos": [
+   "**Do** keep the board world in the frame: masthead, section header rows, tiles, footer.",
+   "**Do** show the score maths for every item (fit, new, bonus, penalty, total).",
+   "**Do** use tabular Barlow numerals for every number.",
+   "**Do** keep all UI strings in `radar/i18n.py` so the Azerbaijani UI can be added."
+  ],
+  "donts": [
+   "**Don't** add flip animations anywhere but score tiles and the result counter.",
+   "**Don't** use amber for anything other than local (Azerbaijan).",
+   "**Don't** set ideas, headlines or summaries in the condensed board face.",
+   "**Don't** add thumbnails, card grids, eyebrow labels above headings, or side stripes on rows.",
+   "**Don't** use Birbank or Kapital Bank logos or brand colours; the product has its own identity."
+  ]
+ }
+}

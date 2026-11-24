@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SAMPLE DATA for tests, shaped like a Google News RSS search. Invented headlines, not real news. -->
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>"sample" - Google News</title>
+  <link>https://news.google.com/search?q=sample</link>
+  <description>Google News</description>
+  <item>
+    <title>Sample Azerbaijani bank launches QR payments for small merchants in Baku - Sample Report</title>
+    <link>https://news.google.com/rss/articles/SAMPLE_AZ_QR_1?oc=5</link>
+    <guid isPermaLink="false">SAMPLE_AZ_QR_1</guid>
+    <pubDate>Mon, 09 Mar 2026 18:00:00 GMT</pubDate>
+    <description>&lt;a href="https://news.google.com/rss/articles/SAMPLE_AZ_QR_1?oc=5"&gt;Sample Azerbaijani bank launches QR payments for small merchants in Baku&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color="#6f6f6f"&gt;Sample Report&lt;/font&gt;</description>
+    <source url="https://report.example.az">Sample Report</source>
+  </item>
+  <item>
+    <title>Sample Azerbaijani bank launches QR payments for small merchants - Sample Trend</title>
+    <link>https://news.google.com/rss/articles/SAMPLE_AZ_QR_2?oc=5</link>
+    <guid isPermaLink="false">SAMPLE_AZ_QR_2</guid>
+    <pubDate>Mon, 09 Mar 2026 19:00:00 GMT</pubDate>
+    <description>duplicate story</description>
+    <source url="https://trend.example.az">Sample Trend</source>
+  </item>
+  <item>
+    <title>Sample central bank of Azerbaijan publishes draft open banking rules for payment APIs - Sample APA</title>
+    <link>https://news.google.com/rss/articles/SAMPLE_AZ_CBA?oc=5</link>
+    <guid isPermaLink="false">SAMPLE_AZ_CBA</guid>
+    <pubDate>Mon, 09 Mar 2026 07:00:00 GMT</pubDate>
+    <description>cba</description>
+    <source url="https://apa.example.az">Sample APA</source>
+  </item>
+  <item>
+    <title>Sample bank net profit rose in 2025 results - Sample Report</title>
+    <link>https://news.google.com/rss/articles/SAMPLE_AZ_PROFIT?oc=5</link>
+    <guid isPermaLink="false">SAMPLE_AZ_PROFIT</guid>
+    <pubDate>Mon, 09 Mar 2026 06:00:00 GMT</pubDate>
+    <description>earnings</description>
+    <source url="https://report.example.az">Sample Report</source>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,43 @@
+# Offline fixture sources for tests and `python -m radar.main run --offline`.
+# SAMPLE DATA: the headlines in these feeds are invented for testing. They are not real news.
+fixture_now: "2026-03-10T02:00:00+00:00"
+
+gnews_defaults:
+  window: 2d
+
+sources:
+  - name: Sample Trade Press
+    type: rss
+    url: feeds/trade.xml
+    lang: en
+    region_hint: global
+  - name: Sample Payments Wire
+    type: rss
+    url: feeds/wire.xml
+    lang: en
+    region_hint: global
+  - name: GN Sample Azerbaijan
+    type: gnews
+    query: sample
+    url: feeds/gnews_az.xml
+    lang: en
+    country: AZ
+    region_hint: azerbaijan
+  - name: GN Sample Nearby
+    type: gnews
+    query: sample
+    url: feeds/gnews_nearby.xml
+    lang: ru
+    country: KZ
+    region_hint: nearby
+  - name: Broken Feed
+    type: rss
+    url: feeds/does-not-exist.xml
+    lang: en
+    region_hint: global
+  - name: Disabled Page
+    type: page
+    url: https://example.com/press
+    lang: az
+    region_hint: azerbaijan
+    enabled: false

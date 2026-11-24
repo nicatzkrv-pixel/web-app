@@ -1,0 +1,130 @@
+{% extends "_base.html.j2" %}
+{% import "_macros.html.j2" as m with context %}
+
+{% block title %}{% if e %}{{ t('site_name') }}, {{ e.date_long }}{% else %}{{ t('site_name') }}{% endif %}{% endblock %}
+
+{% block nav %}
+{% if e %}
+  {% if e.prev_day %}<a class="navlink navlink--step" href="{{ base }}archive/{{ e.prev_day }}.html" rel="prev"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg><span class="vh">{{ t('nav_prev') }}, </span>{{ fmt_date_short(e.prev_day) }}</a>{% endif %}
+  {% if e.next_day %}<a class="navlink navlink--step" href="{{ base }}archive/{{ e.next_day }}.html" rel="next"><span class="vh">{{ t('nav_next') }}, </span>{{ fmt_date_short(e.next_day) }}<svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></a>{% endif %}
+  {% if not e.is_latest %}<a class="navlink" href="{{ base }}index.html">{{ t('nav_today') }}</a>{% endif %}
+{% endif %}
+{% endblock %}
+
+{% block board %}
+{% if e %}
+<div class="mast__board">
+  <div class="dateboard">
+    <h1 class="dateboard__title"><span class="vh">{{ t('site_name') }}, </span>{{ e.date_long }}</h1>
+    <div class="dateboard__tiles" aria-hidden="true">
+      <span class="tile tile--xl">{% for ch in e.day_tiles %}<span class="tile__flap">{{ ch }}</span>{% endfor %}</span>
+      <span class="tile tile--xl">{% for ch in e.month_tiles %}<span class="tile__flap">{{ ch }}</span>{% endfor %}</span>
+      <span class="dateboard__weekday">{{ e.weekday }}</span>
+    </div>
+  </div>
+  <dl class="stats">
+    <div><dt>{{ t('stat_items') }}</dt><dd>{{ e.count }}</dd></div>
+    <div class="stats__local"><dt>{{ t('stat_local') }}</dt><dd>{{ e.local_total }}</dd></div>
+    {% if e.sources %}<div><dt>{{ t('stat_sources') }}</dt><dd>{{ e.sources }}</dd></div>{% endif %}
+    {% if e.updated %}<div><dt>{{ t('updated') }}</dt><dd>{{ e.updated }}<span class="stats__unit">{{ t('baku_time') }}</span></dd></div>{% endif %}
+  </dl>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block main %}
+{% if not e %}
+<section class="board">
+  <div class="empty empty--page">
+    <p class="empty__title">{{ t('no_editions') }}</p>
+    <p>{{ t('no_editions_hint') }}</p>
+  </div>
+</section>
+{% else %}
+
+{% if e.sample %}<p class="notice notice--sample" role="note">{{ t('sample_data') }}</p>{% endif %}
+{% if e.scoring_note == 'keyword' %}<p class="notice" role="note">{{ t('scored_keyword') }}</p>
+{% elif e.scoring_note == 'mixed' %}<p class="notice" role="note">{{ t('scored_mixed') }}</p>{% endif %}
+
+<section class="board board--picks" aria-labelledby="top-picks">
+  {{ m.board_head(t('top_picks'), 'top-picks') }}
+  {% if e.top %}
+  <div class="board__rows">
+    {% for item in e.top %}{{ m.item_row(item, 'pick', loop.index0, true) }}{% endfor %}
+  </div>
+  {% else %}
+  <div class="empty">
+    <p class="empty__title">{{ t('empty_day') }}</p>
+    <p>{{ t('empty_day_hint') }}{% if e.prev_day %} <a href="{{ base }}archive/{{ e.prev_day }}.html">{{ fmt_date_short(e.prev_day) }}</a>{% endif %}</p>
+  </div>
+  {% endif %}
+</section>
+
+<section class="board board--local" aria-labelledby="local-radar">
+  {{ m.board_head(t('local_radar'), 'local-radar', e.local_total, e.local|length > 0) }}
+  {% if e.local %}
+  <div class="board__rows">
+    {% for item in e.local %}{{ m.item_row(item, 'row') }}{% endfor %}
+  </div>
+  {% endif %}
+  {% if e.local_in_top %}
+  <p class="board__note">{{ e.local_in_top }} {{ t('local_in_top_one') if e.local_in_top == 1 else t('local_in_top') }}</p>
+  {% elif not e.local %}
+  <div class="empty empty--quiet">
+    <p class="empty__title">{{ t('empty_local') }}</p>
+    <p>{{ t('empty_local_hint') }}</p>
+  </div>
+  {% endif %}
+</section>
+
+{% if e.all_items %}
+<section class="board board--all" aria-labelledby="all-items">
+  {{ m.board_head(t('all_items'), 'all-items', e.count, false) }}
+  <form class="filters" role="search" aria-label="{{ t('all_items') }}" data-filters>
+    <label class="filters__field filters__field--search">
+      <span class="filters__label">{{ t('filter_search') }}</span>
+      <input type="search" name="q" placeholder="{{ t('filter_search_placeholder') }}" autocomplete="off">
+    </label>
+    <fieldset class="filters__field filters__seg">
+      <legend class="filters__label">{{ t('filter_region') }}</legend>
+      <div class="seg">
+        <label><input type="radio" name="region" value="" checked><span>{{ t('filter_all') }}</span></label>
+        {% for r in regions %}<label><input type="radio" name="region" value="{{ r }}"><span>{{ t('region_' ~ r) }}</span></label>{% endfor %}
+      </div>
+    </fieldset>
+    <label class="filters__field">
+      <span class="filters__label">{{ t('filter_category') }}</span>
+      <select name="category">
+        <option value="">{{ t('filter_any_category') }}</option>
+        {% for c in e.present_categories %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+      </select>
+    </label>
+    <label class="filters__field filters__field--narrow">
+      <span class="filters__label">{{ t('filter_min_score') }}</span>
+      <select name="min">
+        {% for v in [6, 7, 8, 9] %}<option value="{{ v }}">{{ v }}+</option>{% endfor %}
+      </select>
+    </label>
+    <p class="filters__count" aria-live="polite"><span>{{ t('showing') }}</span> <b data-count>{{ e.count }}</b> <span>{{ t('of') }} {{ e.count }}</span></p>
+    <button type="reset" class="btn btn--quiet" data-reset>{{ t('filter_reset') }}</button>
+  </form>
+  <div class="board__rows" data-list>
+    {% for item in e.all_items %}{{ m.item_row(item, 'row') }}{% endfor %}
+  </div>
+  <div class="empty" data-empty hidden>
+    <p class="empty__title">{{ t('empty_filters') }}</p>
+    <p>{{ t('empty_filters_hint') }}</p>
+    <button type="button" class="btn" data-reset>{{ t('filter_reset') }}</button>
+  </div>
+</section>
+{% endif %}
+
+{% if e.dropped %}
+<p class="dropped"><span>{{ t('filtered_out') }}: {{ e.dropped_total }}</span>
+  {% for label, n in e.dropped %}<span class="dropped__part">{{ label }} {{ n }}</span>{% endfor %}
+</p>
+{% endif %}
+{% endif %}
+{% endblock %}
+
+{% block scripts %}<script src="{{ base }}assets/radar.js" defer></script>{% endblock %}

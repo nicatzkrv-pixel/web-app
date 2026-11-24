@@ -1,0 +1,77 @@
+{# Split-flap score tile: one flap per character. #}
+{% macro tile(score, size='md', flip=false, idx=0) -%}
+<span class="tile tile--{{ size }}{% if flip %} tile--flip{% endif %}" style="--i:{{ idx }}" role="img" aria-label="{{ t('col_score') }} {{ '%.1f'|format(score) }}">
+  {%- for ch in score_tiles(score) -%}
+    {%- if ch == '.' -%}<span class="tile__dot" aria-hidden="true"></span>
+    {%- else -%}<span class="tile__flap" aria-hidden="true">{{ ch }}</span>{%- endif -%}
+  {%- endfor -%}
+</span>
+{%- endmacro %}
+
+{% macro status(s) -%}
+<span class="status status--{{ s }}"><span class="status__lamp" aria-hidden="true"></span>{{ t('status_' ~ s) }}</span>
+{%- endmacro %}
+
+{% macro region_chip(item) -%}
+<span class="chip chip--{{ item.region|lower }}">
+  {%- if item.region == 'Azerbaijan' %}{{ t('region_Azerbaijan') }}
+  {%- elif item.country and item.country not in ('Not stated', 'Multiple') %}{{ item.country }}
+  {%- else %}{{ t('region_' ~ item.region) }}{% endif -%}
+</span>
+{%- endmacro %}
+
+{% macro maths(item) -%}
+<details class="maths">
+  <summary>
+    <span class="sub"><abbr title="{{ t('applicability') }}">{{ t('applicability_short') }}</abbr> <b>{{ item.applicability }}</b></span>
+    <span class="sub"><abbr title="{{ t('novelty') }}">{{ t('novelty_short') }}</abbr> <b>{{ item.novelty }}</b></span>
+    <span class="maths__open">{{ t('score_maths') }}</span>
+  </summary>
+  <p class="maths__line">
+    0.6 × {{ item.applicability }} + 0.4 × {{ item.novelty }}
+    {%- if item.bonus %} + {{ item.bonus }} {{ t('local_bonus') if item.region == 'Azerbaijan' else t('nearby_bonus') }}{% endif %}
+    {%- if item.penalty %} − {{ item.penalty }} {{ t('repeat_penalty') }}{% endif %}
+    = <b>{{ '%.1f'|format(item.score) }}</b>
+  </p>
+</details>
+{%- endmacro %}
+
+{# One board row. variant: 'pick' (top picks), 'row' (local + all items) #}
+{% macro item_row(item, variant='row', idx=0, flip=false) -%}
+<article class="item item--{{ variant }}{% if item.region == 'Azerbaijan' %} is-local{% endif %}" id="{{ variant }}-{{ item.id }}"
+  data-item data-category="{{ item.category }}" data-region="{{ item.region }}" data-score="{{ '%.1f'|format(item.score) }}"
+  data-search="{{ (item.title ~ ' ' ~ item.idea ~ ' ' ~ item.summary ~ ' ' ~ item.country ~ ' ' ~ item.publisher ~ ' ' ~ item.category)|lower }}">
+  <div class="item__score">
+    {{ tile(item.score, 'lg' if variant == 'pick' else 'md', flip, idx) }}
+  </div>
+  <div class="item__body">
+    <p class="item__idea"><span class="vh">{{ t('idea_label') }}: </span>{{ item.idea }}</p>
+    <h3 class="item__title"><a href="{{ item.url }}" rel="noopener" target="_blank">{{ item.title }}</a></h3>
+    <p class="item__meta">
+      <span class="item__pub">{{ item.publisher }}</span>
+      {%- if item.published %}<time datetime="{{ item.published }}">{{ fmt_published(item.published) }}</time>{% endif %}
+      {%- if item.also_in %}<span class="item__also">{{ t('also_in') }} {{ item.also_in[:3]|join(', ') }}</span>{% endif %}
+      {%- if item.repeat_of %}<span class="item__repeat">{{ t('repeat_note') }} {{ fmt_date_short(item.repeat_of) }}</span>{% endif %}
+    </p>
+    {% if item.summary and item.summary != item.title %}<p class="item__summary">{{ item.summary }}</p>{% endif %}
+    <div class="item__tags">
+      <span class="chip chip--cat">{{ item.category }}</span>
+      <span class="chip chip--kpi">{{ t('moves') }} {{ item.kpi }}</span>
+      {{ maths(item) }}
+    </div>
+  </div>
+  <div class="item__where">{{ region_chip(item) }}</div>
+  <div class="item__status">{{ status(item.launch_status) }}</div>
+</article>
+{%- endmacro %}
+
+{% macro board_head(title, id, count=None, columns=true) -%}
+<div class="board__head">
+  <h2 class="board__title" id="{{ id }}">{{ title }}{% if count is not none %} <span class="board__count">{{ count }}</span>{% endif %}</h2>
+  {% if columns %}
+  <div class="board__cols" aria-hidden="true">
+    <span>{{ t('col_score') }}</span><span>{{ t('col_idea') }}</span><span>{{ t('col_region') }}</span><span>{{ t('col_status') }}</span>
+  </div>
+  {% endif %}
+</div>
+{%- endmacro %}
