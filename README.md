@@ -1,0 +1,1 @@
+# Fintech Radar daily data

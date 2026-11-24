@@ -1,0 +1,1768 @@
+{
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T14:52:00+00:00",
+ "scorer": "keyword",
+ "sample": false,
+ "scoring": {
+  "scorer": "keyword",
+  "fallback_batches": 0,
+  "errors": []
+ },
+ "stats": {
+  "sources": 41,
+  "sources_ok": 41,
+  "fetched": 2086,
+  "recent": 980,
+  "after_prefilter": 894,
+  "after_dedupe": 759,
+  "after_history": 759,
+  "candidates": 90,
+  "fulltext": 3,
+  "kept": 25
+ },
+ "items": [
+  {
+   "id": "77b359d3e0f5",
+   "title": "Kiwe Launches Its App and Payment Card for Customers Across Egypt",
+   "url": "https://fintechnews.ae/35071/payments/kiwe-egypt-social-money-app-launch/",
+   "publisher": "Fintech News Middle East",
+   "source": "Fintech News Middle East",
+   "source_type": "rss",
+   "lang": "en",
+   "published": "2026-11-23T04:45:02+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Cards",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Egyptian fintech startup Kiwe has launched its app and payment card nationwide. Customers can now download the app, open an account and order the card.",
+   "idea": "We could see whether this card feature can be added to Birbank cards in the app's card settings.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 8,
+   "novelty": 6,
+   "base": 7.2,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 8.2,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "e01009c5937d",
+   "title": "Safwa Islamic Bank and Mastercard Launch Fakher Credit Card",
+   "url": "https://fintechnews.ae/35108/payments/safwa-islamic-bank-mastercard-fakher-card/",
+   "publisher": "Fintech News Middle East",
+   "source": "Fintech News Middle East",
+   "source_type": "rss",
+   "lang": "en",
+   "published": "2026-11-24T07:43:22+00:00",
+   "also_in": [
+    "Al-Bawaba",
+    "Zawya"
+   ],
+   "repeat_of": null,
+   "category": "Cards",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Safwa Islamic Bank has launched the Fakher World Elite Mastercard credit card. It is meant for the bank’s wealthy clients and comes with a set of extra rewards.",
+   "idea": "We could see whether this card feature can be added to Birbank cards in the app's card settings.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 8,
+   "novelty": 6,
+   "base": 7.2,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 8.2,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "d9d381b5181c",
+   "title": "Azerbaijan rolls out ARAS system to strengthen banking supervision",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BUExJZ3g1M3Y2Y2hldmxEalNDUWJQX1cyWExxN201ZVFaT0xrYVBwaDRXODFXM2xBenN4aXBDZkdzY0ZNWG5rTUt1V2FaWlFBdlhGemtLQQ?oc=5",
+   "publisher": "Trend News Agency",
+   "source": "GN Azerbaijan fintech (EN)",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-24T05:59:13+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Azerbaijan",
+   "country": "Azerbaijan",
+   "summary": "Azerbaijan rolls out ARAS system to strengthen banking supervision",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 5,
+   "base": 6.2,
+   "bonus": 1.5,
+   "penalty": 0.0,
+   "score": 7.7,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "c86363544947",
+   "title": "Центробанк Азербайджана запускает новую систему оценки рисков банков",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sLTB1azg5N2lNX0xJS0tkLUFzOW5QV2h4VDZWUmN3ajNhWXJKc1Etc0luUE9XOHFUS3pjTGtTZzlpNnZORi00MXR5ak9jdmFrcVE?oc=5",
+   "publisher": "Day.Az",
+   "source": "GN Azerbaijan banks (RU)",
+   "source_type": "gnews",
+   "lang": "ru",
+   "published": "2026-11-24T05:48:37+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Azerbaijan",
+   "country": "Azerbaijan",
+   "summary": "Центробанк Азербайджана запускает новую систему оценки рисков банков",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 5,
+   "base": 6.2,
+   "bonus": 1.5,
+   "penalty": 0.0,
+   "score": 7.7,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "026afbe24761",
+   "title": "Mastercard представила ИИ-решения для банковского сектора Азербайджана",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1p1NzV4UlRBR3N3RFkxRzgxTHhIZ3o3X3ZFLVRIdmY3UmFPdGpOelo2MWFDeGZyWU4tZlJ3UDg5cXdoRHZRZkFJNjhmWm1PSklYOWxBZk40ZnppMzA1em1QNWs2NHRsclo0ckF3NTRYcHpyU2RTeWk1Z2UyRU5YRGNWM1ExVllTLUpQZGNmTlpQLThBQjQ5X2ItcHJVYnRh?oc=5",
+   "publisher": "Media.az",
+   "source": "GN Azerbaijan banks (RU)",
+   "source_type": "gnews",
+   "lang": "ru",
+   "published": "2026-11-24T06:42:00+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Cards",
+   "region": "Azerbaijan",
+   "country": "Azerbaijan",
+   "summary": "Mastercard представила ИИ-решения для банковского сектора Азербайджана",
+   "idea": "We could see whether this card feature can be added to Birbank cards in the app's card settings.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 5,
+   "base": 6.2,
+   "bonus": 1.5,
+   "penalty": 0.0,
+   "score": 7.7,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "ff01c483e6f8",
+   "title": "«Т-Банк Бизнес» запустил оформление банковских гарантий в мобильном приложении",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE83dVFhZGlHa1NqazVIdFdTQ2xqWlAycVhUV1FoRVhEVllJQ0FQS3FpWjhFTU1IMVBYektwMUV3Zl9UcE5a0gFKQVVfeXFMUHVhd0daT1E2TkpPTF9sYzdmdzBpSkxWd1dON0dvbngxVGtIemY5WGpEQ0RPeXI2ZDQ2emVGM0Fhd1daWFB1TGQ5U3c?oc=5",
+   "publisher": "BFM.ru",
+   "source": "GN Kazakhstan (RU)",
+   "source_type": "gnews",
+   "lang": "ru",
+   "published": "2026-11-24T12:54:47+00:00",
+   "also_in": [
+    "Клерк.ру"
+   ],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Russia",
+   "summary": "«Т-Банк Бизнес» запустил оформление банковских гарантий в мобильном приложении",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "a0b31175ca1e",
+   "title": "МТС запустила продажи виртуальных долларовых карт зарубежного банка",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeWNjTFpDdElPaS1iZEo4cDlmMnBZeXljcUM5NWMxU1JiNkNLQXVoYWVOWWlJczdhN1ZYOXg1ei1pUHVsSVB2ZXc5ZG9aVTVQN2RidF9oVHctc1k2bUx3ekV6Q2M3MEdJRlpzMVlFVVJ2S28zWmxjQlZMRHNub2FSZVNfejJIbXhaNG1wMEp6WQ?oc=5",
+   "publisher": "Techora.ru",
+   "source": "GN Kazakhstan (RU)",
+   "source_type": "gnews",
+   "lang": "ru",
+   "published": "2026-11-24T13:57:23+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "МТС запустила продажи виртуальных долларовых карт зарубежного банка",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "9e776cb390a0",
+   "title": "Ак Барс Банк запустил праздничные предложения",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRkVSRjNveFo0ZnZPQmEyMi1TQWU2YThfMlgwYTNkajNQbFdNOWpBbUhhNnN5cEdINEYwbGlaWlBvZmtWVW4zZFpTb0p5TWlILUpfMDdMemJwR1FOd1RYTUp1Z0lFa21odGNRMnBEcTFremZEQzRLcnQyeFdoRDZzU3FOSlI2MUZMdVE?oc=5",
+   "publisher": "Новости Лаишево",
+   "source": "GN Kazakhstan (RU)",
+   "source_type": "gnews",
+   "lang": "ru",
+   "published": "2026-11-24T09:53:12+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Ак Барс Банк запустил праздничные предложения",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "281a4e8b80f4",
+   "title": "Visa запустила кошелёк для ИИ-агентов: оплата за задачи в OUSD",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYjNSWnJZaHZpUkVnTWFoYU5XeHd6V0RmNDR0dGczd1gzbHcwei1tczZlV3ZTSnEzdmxGUThUSm5KTXVXcWw1VGtVeGRfdkc5VHhVMHM2OUJQSXpncC1PdlFWeGthamRPTDJlYko0a0lnaHc3YWJ1alc0SmJza2ZaVU41MVM2aFFYX1VYcWVjM1A?oc=5",
+   "publisher": "2Bitcoins.ru",
+   "source": "GN Kazakhstan (RU)",
+   "source_type": "gnews",
+   "lang": "ru",
+   "published": "2026-11-24T04:27:25+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Cards",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Visa запустила кошелёк для ИИ-агентов: оплата за задачи в OUSD",
+   "idea": "We could see whether this card feature can be added to Birbank cards in the app's card settings.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "c1b4512fb8cf",
+   "title": "Ozon Банк запустил проект для клиентов с пенсионными выплатами",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPeXpZNGNSTG9KdGxEZzBMOW5LT2Y0dXNBNTU1cmVHaDRLUm9RUW5LNnFJS3ZMOThubWwwdFVTLWtnVl9NUk9LTE44N3dWMjB0LUhLa0hMRE0yX3BSdk5OR3hjdzdMSVZkZW11cnFNbXI5ZmNJ0gF0QVVfeXFMUE95elk0Y1JMb0p0bERnMEw5bktPZjR1c0E1NTVyZUdoNEtSb1FRbks2cUlLdkw5OG5tbDB0VVMta2dWX01ST0tMTjg3d1YyMHQtSEtrSExETTJfcFJ2Tk5HeGN3N0xJVmRlbXVycU1tcjlmY0k?oc=5",
+   "publisher": "Газета",
+   "source": "GN Kazakhstan (RU)",
+   "source_type": "gnews",
+   "lang": "ru",
+   "published": "2026-11-23T12:26:37+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Ozon Банк запустил проект для клиентов с пенсионными выплатами",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "40358739692d",
+   "title": "В Албании запустили мгновенные банковские переводы, на очереди — QR-платежи",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc2x0ajY2RDVCcUg5c0NqN0w5NXhNVjhkaUhXWWZzMXpLb3podTFWdllTdjVuS1ktS0lPMG5CZHNDM2xkQUstdUdTaUdkaEVsQkZrRHR3OGJNWGx5YnVCTGFtRzlEY0RJOHR4WHh1R0ZrZXhteE5BOHFKMjNSWU0zUDdEUlJqalEwcUhKVnRHOGMwV0N6Um5xZDZVQlJZZXV6dXkwUnplM2dSYjB3c0g4cQ?oc=5",
+   "publisher": "Новости Албании",
+   "source": "GN Kazakhstan (RU)",
+   "source_type": "gnews",
+   "lang": "ru",
+   "published": "2026-11-24T09:12:41+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "В Албании запустили мгновенные банковские переводы, на очереди — QR-платежи",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "12617ef53571",
+   "title": "ПриватБанк запустил новую программу бонусов: кому доступна программа и как присоединиться",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSU5KZUNLN21yXy1rd2RoMUpzRFJwWEdVeVFiX3EySGVsSk5RYlVfSFA5bzhlUl9QNWxSQTl3cVczSWJzUGRwbjFsV0RObnloU2tuXzdoNk9hUGh1Y2Nva3ZEejV6R1p0aTBlRWZ0NDljcHB5OVBsblhvSlF2ZVlPTDdHX3JFWHBsVFViTGZoRVQ4bHJHempsQU42cHpLaHhHT292ZE1lYmc1UTVtTkRvaGdPbl9tV1dlMjJHd0hKbm9OTXNqU05hbmxOMGZrVk5DQUHSAdIBQVVfeXFMUElOSmVDSzdtcl8ta3dkaDFKc0RScFhHVXlRYl9xMkhlbEpOUWJVX0hQOW84ZVJfUDVsUkE5d3FXM0lic1BkcG4xbFdETm55aFNrbl83aDZPYVBodWNjb2t2RHo1ekdadGkwZUVmdDQ5Y3BweTlQbG5Yb0pRdmVZT0w3R19yRVhwbFRVYkxmaEVUOGxyR3pqbEFONnB6S2h4R09vdmRNZWJnNVE1bU5Eb2hnT25fbVdXZTIyR3dISm5vTk1zalNOYW5sTjBma1ZOQ0FB?oc=5",
+   "publisher": "Politeka",
+   "source": "GN Kazakhstan (RU)",
+   "source_type": "gnews",
+   "lang": "ru",
+   "published": "2026-11-24T10:00:00+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "ПриватБанк запустил новую программу бонусов: кому доступна программа и как присоединиться",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "328f8c9135b6",
+   "title": "Kosova'da hızlı banka transferleri başladı: Para birkaç saniye içinde ulaşıyor, şimdilik dört bankada",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObzRKZHZ3MW9HZ0hLOVBhMVJ3c3ZUOXgzRVRuSkZvZnJ1NUkxcF9UYnVJMXQ2clJ0bGJlWlU2OFo2SFpzLUo0T2NfY2VBX1J2SmdRZWFqcEY0QVJjMm9XNkFoeFN1ZVJacTRFT1ZEa1hvNGZYLTAzTnJxdUtDV21zMXo5WC1uNUREYURHZHJpRkZWYXoxVUstUk1IeFUzRmUyekVtLXBHVFBuejhrY2d3MGl4c3BWcV9Ga3Vlcg?oc=5",
+   "publisher": "KoSSev",
+   "source": "GN Türkiye payments (TR)",
+   "source_type": "gnews",
+   "lang": "tr",
+   "published": "2026-11-23T12:00:22+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Transfers and remittances",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Kosova'da hızlı banka transferleri başladı: Para birkaç saniye içinde ulaşıyor, şimdilik dört bankada",
+   "idea": "We could test this in Birbank transfers (C2C, by phone number or Western Union) and measure the effect on monthly transfer users.",
+   "kpi": "MTU",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "bb60d05480d6",
+   "title": "Kosova’da Anlık Para Transferi Dönemi Başladı",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOGktX2d5bWh1cVE4LTNYMGxMZm5URVhkSWNRVmxoUWMxd25rbWt4X1dEdURCcjRPNnRtaXlqMVlVRVBiZFBhanhia1E2TkVLUkNWRmhvTks1cV9QNE9ORjR4UkkyN29XRVBmSzcyWjN6elM2VlpZVjRfUjBLanlWVm9RcjJaMlZ1?oc=5",
+   "publisher": "Kosovahaber.com",
+   "source": "GN Türkiye payments (TR)",
+   "source_type": "gnews",
+   "lang": "tr",
+   "published": "2026-11-23T09:31:07+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Transfers and remittances",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Kosova’da Anlık Para Transferi Dönemi Başladı",
+   "idea": "We could test this in Birbank transfers (C2C, by phone number or Western Union) and measure the effect on monthly transfer users.",
+   "kpi": "MTU",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "cf7f9e004670",
+   "title": "Wise Platform adds BNI and expands APAC bank partnerships",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTm5ucVhHSlEtRHlqcWd4b3FPeGRCTWcyeng5NDBMOVBuUUFYWjY5ejRrSnZhdk5jNnU4M21Cbmw4ZzREb1NZektucE80eHk1Qy1mVVNjc0ZfcHl1UjZreGUxSFF2UXNWUHFtLU1TSXlBN3dqY2dHT1otZjVpZ0hEY1FWNmRNTzhzMDVneEJTTkJJLUJQYlU1Ti1UWUtlczNMdGVULVhjcHM?oc=5",
+   "publisher": "The Paypers",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-23T18:00:33+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Wise Platform adds BNI and expands APAC bank partnerships",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "cd20e958419f",
+   "title": "Meeza National Card Scheme launches Tap & Pay contactless payment service on Android devices",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUnM5Rng3NUFVaVhoVHRZQW80MEtab1lPQVZOOHFTTHIyR0c1a0ZsSVY1R3VnN3h3VjFadkFSN1pvOG9rQkF4VmFqbWJxZWJXc05OTWdPOGdoUnRackN2TE80UEx3dHRNY205bC0zbl9iUDFFNXp2RkpNYk14UkRYLTZobU94ZHNKV01iVXhyeHpldXFLSWpSamRIaHQ1VXlQWHVUeFpmdWtBNWtQbkI0ekNsY25JbGVqSXJtSVJiUnV4M1JadWRsUER5WG5hZDlFVXR4MmN6VHN4WDMxRWd5MVVOblZRdUU?oc=5",
+   "publisher": "Zawya",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-24T12:15:00+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Meeza National Card Scheme launches Tap & Pay contactless payment service on Android devices",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "b57e711e76bf",
+   "title": "Bahrain Development Bank Launches ‘BDB Plus’",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRkItZExST3VLc1FfRnNOZXJrS21sR1BFVDlGNUMweFhrUExKbHBucWdzMGY3U0Jib3NJdy1HVkFEQTBnazE5YXpSRE1VMUxzbks4ai1wcUNmRWNvaWNSOW5jZGhMWmxCeGF6c0VQUGhEVnRWU3dEMVprYjhzUkFXMHdraWFIem9mbGZv?oc=5",
+   "publisher": "News of Bahrain",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-24T07:16:30+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Bahrain",
+   "summary": "Bahrain Development Bank Launches ‘BDB Plus’",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "3bb2c8e837e0",
+   "title": "KFH-Bahrain Unveils Next-Gen Mobile Banking App to Revolutionize Digital Customer Experience",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMURkU3hnUnlsNEl0WF80MjZvdTBvZkEyVFoteXNTM0xLZ2FPUHVEV0xfZGZIMnFwN0xQaHZyVzJqNHRnQ0I1aTlwVWdQc1lqY2kyS3RITm5GbzdOY0lDdHJ4T21Kcm54ZXVnZGxrbWxmT1lnZkhNaHBhcGNHVXNfdTVRU2tWT0k?oc=5",
+   "publisher": "FF News",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-23T10:57:16+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Bahrain",
+   "summary": "KFH-Bahrain Unveils Next-Gen Mobile Banking App to Revolutionize Digital Customer Experience",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "b217c12d109d",
+   "title": "Kiwe Launches Integrated Fintech App and Payment Card in Egypt with Banque Misr and Visa",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeVJIajdXbXdPTWZQYndVQ3B3elAzU0p2VjlVYUVWa0E0VGRQWWtfWXozdHNyLS03YVY1X2JqSnM2Z3B2Ni14SXM1WWhNbFFfM2gxYmVXbW03Q0E3RGRNeU5JMWdaRWpnekgxSm1odGlobVQ0Yk9qMTlaMzRxTEg5cjBfSG0tM3QzZFlybFhmRnl5Mnl4aHMyaHc3LS1ReDNFVjNn?oc=5",
+   "publisher": "FF News",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-23T12:57:18+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Cards",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Kiwe Launches Integrated Fintech App and Payment Card in Egypt with Banque Misr and Visa",
+   "idea": "We could see whether this card feature can be added to Birbank cards in the app's card settings.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "c325f872f05d",
+   "title": "Ziina adds Split Bill as P2P transfers jump 330% on $2B platform",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUktRVDR6VkdjLVk2T0hyaklxdzI1SGlwTU9qUE5vR2FBSXd1N3BSTWFNVG5NcFg1TFppWUNyTHg3SVdVZzhrNG5POS1Cem0yQmVKOV9QSkFrU3BHbmhCMkt5YzVUMnAtN0ZlUkxlMXJNZlFNeXA2bGtXWXFyUzVweUxHaVZnRVJlc2R0M2QtX0swTW04V3I4SUFjamI?oc=5",
+   "publisher": "Dealroom",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-23T10:58:54+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Transfers and remittances",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Ziina adds Split Bill as P2P transfers jump 330% on $2B platform",
+   "idea": "We could test this in Birbank transfers (C2C, by phone number or Western Union) and measure the effect on monthly transfer users.",
+   "kpi": "MTU",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "0da7a96ec284",
+   "title": "Four Kosovo banks launch instant payment service",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSjlXTjRxOGd0dlBuRW9pSU5LU2h1cU1mdnlGYXVDMi1Ndy1OT0pfakwwU1cwbzViNFFLYmpkcE85MDlxQ2dwMUMtOTFmLXFRLUF0MWlvUHZVa1UyQlVkX2p5V0RFMV9hMjI2dEQ3ZmxHUDhuVlFQc214N1lld09fLXNqbG9mbDFK?oc=5",
+   "publisher": "SeeNews",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-24T10:02:05+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Four Kosovo banks launch instant payment service",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "59e74b66a196",
+   "title": "CBE launches payment card tokenisation services on Android devices",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOE9SdTFuci1nWE8wTG01ZjczdzlLWV9qS1hnTjBYcTVoVjF2VjlycDh1ZVR3ODluYTBQVkpkVElpVnhZVFVONVhpMkxIV0hWcUpsY2cxX2JHR3hjY2lwZHk1eFpOM1ZJRGk1bjlTb3Z3eFpWU3VINkRKbFRpdms2RlVqVXh6eEdpSDR1Ri1ZS1ZOY0dfRmw4ZDg0bWpsMzhYTDhaMFRRaUo?oc=5",
+   "publisher": "Daily News Egypt",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-23T16:00:19+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "CBE launches payment card tokenisation services on Android devices",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "ce21ddc50be2",
+   "title": "Celebrating 20 years in Egypt Crédit Agricole Egypt launches its new campaign The News You Pay for Today, Tomorrow Equals Gold",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOaW5BREw3bFhOeEhMVnRkNjBQQm9BNHAzWnBLbXFOZnV5aWZ1R091NmNGN05wbklVdHVLeC1mN3ZDdzUzNEg2dldDYkhRYURseWhCbEZZdGJQM0RmdzhhQXdYZlhOMzF6Ny1SbTNuZ0xRSWxST202UTlTc3IyRlNHME5kNW1pSWpmWFBNZ3BYMEF2M0o3N3Z5YmVKNnd2eFViRllGcW5aMml3dDdqa2hNYkFfak54ZS1Pa2piQ2dFY3ZLOVZpV0Z4aGdmVFl6M0NxMnBTTUlPVFBHRXZhd2hCSWFnVUxYTmY0Y3k4VXdER25XRUdaWGlVemxpT0o5czlMaUVOc3ZnMHV0V0hkeldKNmw3YVdFUQ?oc=5",
+   "publisher": "Zawya",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-24T13:20:00+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Celebrating 20 years in Egypt Crédit Agricole Egypt launches its new campaign The News You Pay for Today, Tomorrow Equals Gold",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "56e9c4cd9e61",
+   "title": "Israeli Occupation Forces Launch Widespread Arrest Campaign, Detain 23 Palestinians in West Bank",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRHBzUDNFZWFUV1loaGVQREhUbVllc1RxZ1puMFpIcFdZeDUxakVIaWc0eVM3OUxhc0IxX2F1djJwWVJFczZtaHdZXzViR2szTmFpcUhqX0FpN0ZreWdXM0FWdlNwT1VzdE80dTVWQnRlU0xVcFp1MF96NjRUZlpFRS11WlF1ZVg0STZrTFU0bkkyOHYzd182ekVyejdTM1pSRFkzSjNLQWx3WnNKLVNRaXNmMGppVTViNEl6ZGZ5Y1hXTXhpMF80Y0VqS29SNVFsa21GR0JmMVg2SDg?oc=5",
+   "publisher": "Qatar news agency",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-24T11:31:46+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Payments",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "Israeli Occupation Forces Launch Widespread Arrest Campaign, Detain 23 Palestinians in West Bank",
+   "idea": "We could check whether this payment flow fits Birbank's QR and merchant acceptance and pilot it with a few partner merchants.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  },
+  {
+   "id": "ac172f9ebb81",
+   "title": "CIMB Introduces Carbon Tracker for Credit, Debit Card Spending",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZThmbjdfN1dBLXNBWWJiQm1UdmtQV1lEUF9yZzh5d0c4MHh1T0FET2RKQy1Jc0RZWWtsMGNFM0dZTUtGMmlmYV9Sb1pIQjFONHFRN2tYOThOU2tRakIyWnBoZlA1ZVBaQmtmT0s1VmZTenVudkQwVk1Qakw5OTFPNDBnMl8?oc=5",
+   "publisher": "Fintech News Malaysia",
+   "source": "GN Gulf banking",
+   "source_type": "gnews",
+   "lang": "en",
+   "published": "2026-11-23T07:20:45+00:00",
+   "also_in": [],
+   "repeat_of": null,
+   "category": "Cards",
+   "region": "Nearby",
+   "country": "Not stated",
+   "summary": "CIMB Introduces Carbon Tracker for Credit, Debit Card Spending",
+   "idea": "We could see whether this card feature can be added to Birbank cards in the app's card settings.",
+   "kpi": "Non-cash transactions",
+   "launch_status": "launched",
+   "applicability": 7,
+   "novelty": 6,
+   "base": 6.6,
+   "bonus": 1.0,
+   "penalty": 0.0,
+   "score": 7.6,
+   "keep": true,
+   "drop_reason": "",
+   "scored_by": "keyword"
+  }
+ ],
+ "dropped": [
+  {
+   "title": "Four Central Asian States and Azerbaijan Move to Link QR Payment Systems",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUHh2S25DQ2N6aEFpVWl2Wk55bTJIdDVUbzBNdHozS0VJamU0T2h6M0V4Y3kxUnZUdlVpbEw2TmlsNDFaTTBQbHIwVG9DaTY0RHFTRjZGbEpQdW53WGF3Sl9saXBaWlZwaTFzN0ZkcTkwNDR6M1A5VEhkX1NvX3BTd2dGRl9tTkhGQTBzMGF6cEpkUFdjUGs4WQ?oc=5",
+   "publisher": "The Times Of Central Asia",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "All social payments in Azerbaijan to be completed on Nov. 25",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV0F1TGd2U20xbmo3SG4xU0tEYk9SSWtjZm5NbjdZQzdnbGdHOXhJMVlsWXFFVlRMQmtkYlo2LU9sdzRfZXNKRWVQX0RralBESnJFOGtZaVE3Nzk3SjRZRHVNN1ZucDVxMmpiSW9ySWRvOFFtdDljQm5EeWMzMG1ad1Z4UFlUYUJIX3JnbEE3dnV4R0p2UXN3eFpSRQ?oc=5",
+   "publisher": "Operativ Məlumat Mərkəzi",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Unibank Deputy Chairman: Instant cross-border payment systems to become serious competitor to SWIFT",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOE1fZFg0d0xCVWpOeTJ4dnZGN3ZMSHhhX1dSdzdsSDhtTTdHc2tkQkZ5RHlnbWw3NkdCRGhXcWEteDRhZDczczNiVFgzd3Zwb0E1aVdBQVRBLTlNeUd3U0VkWUlRN0VHWURKR2htV0J3UkQ0Tzl0NlVQeTV1MkpXVG4yQVlJeDZiYmdrdjg3c1g1bnVwQWZ4QU5ZSmR5ckxLMllsMXZSeTBLMW8yTDNvWGFuOHJfTDYyNHZHczFPMzFuS1BYQ1BsZGwzMA?oc=5",
+   "publisher": "Apa.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Azerbaijan Banks Association signs cooperation memorandums with Central Asian partners (PHOTO)",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1dV8yWDBVME14bEg0SWNpRDRrWlBENUNESjBJcHRuZGYyaDByRzJTLUhTeXdDSDlBNTFPUVkwTTZqb1ZYUlZ2ZVNtQXNvNV83Z1BZb19ibw?oc=5",
+   "publisher": "Trend News Agency",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Zangilan leads Azerbaijan districts in average pension payments",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1hpYVh0bWxFSzV5VFh2VVhxS3I4S0ZPRGxuTUQzMi1CemZTWVFsSlFRRW9mWUc3THRDSHF0WjczWURxTGw1QXVhSnZOREVmMjRVM2dyYzViVzVrWDhBY0N4MWxkREJTa3loV1hTNC1oUW1EdWUxU3p5am9HOVJmb2l0bmk1ZHNkSHNBR3d0dWZES2pNX21uTWVkeTlqZHpN?oc=5",
+   "publisher": "Operativ Məlumat Mərkəzi",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "CBA to strengthen oversight of AI-related risks in banks",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1d5WVdzWkZORlZRQUhGYU5mLWc3cG8zczVjS1lFQ2F1QVg5dHRzWU5CNlktVVltdU5BM01GNWo5cUNJMng5ZDNETEJQSkJvV0NRWEd5b1hCRkpsY3lhLXJvQ0xEMnFOcmxLZ1liZmFPdDV2TkFqVmUzYlVaaWY5S2YybUJkZE5YSmN1cTZEbUhhYnc?oc=5",
+   "publisher": "Apa.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Instant Payments Could Challenge SWIFT Dominance",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUHlLclRMXzFTckVHWU9weE0tdl9sRnFWYkt5TUUyOFBDVm43SWJjMTBQaVZzTlJFdVlWSXpQX1A5bG8tcXZpUzk4dUxhdC1kOFlidTJCTXBVTnY5WVdQQUw3SUktSkRvLUx5ZU9rNEh5Y0hVRE5KU2JQSDM2QlFFVzlUeTlLQWZLQ3RXMA?oc=5",
+   "publisher": "Wisevoter",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Card system in Azerbaijani schools – What students need to know",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWFEwQ3g2TU9NY3hYZVZhVU9JR2tjdkRkdjJVNWNSeUN2RF92dmJ2NElmcEdCeUctbU5pVThxMXB6dkVIcUQ2LWhRcXBReHNkM01CMFVpSnBpVkVmcVlUWW1QWGJ5Wm01SlU1VmtxU2Z1X0xMcXhFQnk2akZuVlQwaWxqdjd6bEh0NlJWWDhqSEs?oc=5",
+   "publisher": "GlobalInfo.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "PASHA Bank принял участие в дискуссиях об устойчивом финансировании и энергетическом сотрудничестве на COP31",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5keHE3RTBDUXpkR3RDbmRpaWxOQ3FBa0ZkUEJUYjc1SFhISEUzZngyVkYzbVNsWUVtbmEzUkZNUm9wM3RNYWVGbWdnUms5d1JfQXFr?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Банкам необходимо внедрять ИИ для противодействия новым киберугрозам - Mastercard",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aNnZGRVpXemYwX2QwT2NOZFZ0UDY1M1pUeVNSaWVrZjY3WUpubG5hTEJkamhwQ1V5YVN5bXQzWWVnV2tLOTNhc2cxM0JnOExRRUZkdm1n?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Генсек Ассоциации банков Турции: При организации COP31 Турция воспользовалась опытом Азербайджана",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQVhTR1loNWo1NjFmOERob0dkODNkZ0U5dXdSZjF2QkJIVlV6MjVFS1dXYUU4Q2VZUU9WQWlXWnN6ZnhTUDEyTEdkZDloQVZNRmhoZmhwX2g3T2NMbVJoLXlrMTRhYUtmaWlCbTBlTGZ4MmhfakRvQVFlblBtU3dHVjZ5OHA3bEJJckVEM1JPMnV5QXlGUWphRGhMVjRfODZLOU1OMS1HbllyZnNrejZ1T2xHZ2Jmc3NJX1hwdHR0YWEtNkNoaks4?oc=5",
+   "publisher": "Apa.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Всемирный банк оценил результаты проекта развития транспортной связанности на юге Азербайджана",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSbHZtdTB6Z1RNclAxNXlJeEowZ3EwNlFnRXBHR2VzaEZiT0pRX25CazlfOU15VTBiLWxkNVRHOS0xRDVNTk9mWkdGUXVPQV9WSHl5ZlRB?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Центробанк Азербайджана внедряет систему ARAS для риск-ориентированного надзора над банками",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CaVdFN0dSMUVtV2xOSWtMeGJDMHptcXFKbHBxd18yelRYMlF6VnJ1UmRWcFF3dDJSUzZaLVlhcUVUZTdFNmdJc3lmSm1NT2hoVk55TTZn?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "АБА подписала меморандумы с финтех-ассоциацией ЦА и Ассоциацией банков Таджикистана (ФОТО)",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13eDhYWkRUQ2EwSnZ3NkllX0phTnF0b3d3MVZnN210YkVfaW0yelNfYnV3dzFRNTc5aTl5OVBvNHN4R0Z1Rld2R2k1Rjg0S1NiMTc2TkxB?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Центробанк Азербайджана в 2027 году включит модельные риски в число основных надзорных приоритетов",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40eXlvSGFtYU5Tc0M5YWNzcHlNVFBtRnRsV250d0t5V0hva0NOdjh4eWFzU19OR3dGelZtaTh5RGtpTFFzSlZNMTRDUHhSTEJHblJTSFl3?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Reuters: Anthropic ввела жесткие ограничения для банков при выходе на биржу",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYVlVOWRSbzE4TTdPT2ZrZ3huUWpmNnpwd3B1OGdqejJzXzMzZDJmUzJjWHh6TldFMlZQOEVGOFdod3VsRUc4X1RRR05jb2EwUVZoaGl3Y3pKYnZRSkh6b3VpaElWRVRrOFY4UjJLbWlIVGljQThxdHJFcUhGSVNKczdDMUFUNENEaHFkQXVLZHN5MWM4YXhOQVhlRnUwNTg0UWpWcXVUQWdNNVlh?oc=5",
+   "publisher": "Report.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Закир Нуриев: ИИ расширяет возможности банков по оценке рисков",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTi1WMXFhRF9vZXNMb0NXRmdjZXpoTDJyaEtNT2x1V1F5RXlYamZTZGF6THBmZVlIZV9LQmpTUFNpanFmanl3dEtHMVVNLVdGdExsNEludFpJQmxpeEJFNXY2MUdyS3h2eHB6VHNHTm1lVWEzczBvRnA2VUZzd0hkODI4R3ZkWVVpb29faVpRaDJVM3ZuSjlxUkwteTUwZFNkRlZmbFdn?oc=5",
+   "publisher": "Report.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "В Азербайджане сумма мошеннических операций с картами за квартал выросла на 52,18%",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc0F6bFBoOHZNS05oWThWWlVBejAxUFh2a0Rjb1VyVmNPN3ZmbmUwd0lvb0pQSHRjSGdWZF9Yd1dpMUp3RHplaXphWFVrd0JCT2x3NnRJZlZqQ1pjaEZ0VmJPUHZmdlVmY3llU2MxYklnT3htOHBRQzRuRWszMm1fdWtCMHQ2SXRfbFEyWHdUSDlnWUNJZ2NhUHlET0VabjB4dDFoSFJuRmYtWk90T1UxRzYxVQ?oc=5",
+   "publisher": "Report.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Евросоюз готовит России санкционный удар по банкам, нефти и «теневому флоту»",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAzaVdDd2NzcUxFVDEwTHB3WVFEeTFRU2F1cmhXaVVWcnRqMHZsdlRNLWtWU1UwbFctWDRCNkUzd25MZnJBYldZ?oc=5",
+   "publisher": "Minval Politika",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Вюсал Гасымлы: ИИ и Big Data открывают новые горизонты для банковского сектора Азербайджана",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQazZWZFBCOW9hUzRYcnBkd1RiZnNVYmY4SzVudzFGZWNERnBFVnNfZ0lZX2NMRVdpb1NfWnhTN25aQ29xNnA0alVJZ1FvN2JDanRnS3Z2QlBFaWJUTUhzRF8xWUJSU2VOYTIxdzdkZnp1SUFfcFZYalp3R2VDc1FwbE8tSEE4VHdKSGZoSTdnbzlVNE5fMXpwRkNIZ2NCUHlESVlHZWIyVGRJd3BySElLMmdVdnV3V05UMEp6QWdkTnk?oc=5",
+   "publisher": "Report.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Центробанк Азербайджана зафиксировал резкий рост мошенничества с платежными картами",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWGdnclhhUm1pbzRoQWlNSUk1cG55V1ZXQWdLME9Pb0tvcS1reHp3NFdrazltMlZ1a1JaSVFBcTZVR28ycXh3QUpFRVF0RHBQMVptTm9iOVk1bFRGTGlhUVN4aE8xY0swWTQtZ1JPcjNfczZKYmt1ZHQzR09XdTlGNEtjaEU0VGNSQzM4RHluS1Q3ZDRfY3V2VzFyQmpLSGJYZmpxNEw1cG5PY1BWVmlnOGN3?oc=5",
+   "publisher": "Media.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Замгендиректора United Payment привел пример предотвращения кибератаки на бизнес с помощью ИИ",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVzFua2MzNjJ3UHgxeUR5U3lsa2lTcXBzdURFa3pBb05OQVhJQTRLWEFYeFB2SVEwWlY2WmFLWVI4N0xLUDdaVHJKTVlTY056ZlpzRVNrQmQ1d1pONVoycGo0aUs5ZnhCUTBaZnJmSHViYnpYSjBfMDY2UndVWldYa1hUVERHOGNmS3pTVG9nV2pUUWJmRlNSNXpuSmFNQk5aejNGbGxPVTMxLU1RQUx1UFdPakhHcjNvSGtpT2lR?oc=5",
+   "publisher": "Media.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "In-App QR и другие платежные инструменты: банки АР расширяют линейку продуктов для бизнеса",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTVJfbWlvdFhldWl3a2VFclZIZ1NzUzlCM19JcjE5OGZZT2txTXFodWstS0NHOG5WaVlURDdpV2tmOEhwVjFKX1hLSnhfXzR5VkFPb0VEZ04tcW9pU1VNRnF4NDBYV1RoQzBfUmdKcFVxeDJuQkxXTjBrQzRBOHlpMkM0aHFYUDNRQlVWYXJ3Y2Q5VG5fTHRtSVNzb3pqNm5ZcUlsSFFmbTU2YnhhcmlqNjQ4UkNYODN3NGlN?oc=5",
+   "publisher": "Media.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Ассоциация банков Азербайджана подписала меморандумы с коллегами из Таджикистана и Центральной Азии",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUm45aGNXMi1fSGtlcWNrSnlEMTVKdTgweUROdHNpbGlXNDFKQlRGTGNiS25sdm1Jc3ZpTWUtMWFiRnlJekNSZURTd3lHOWpMX1pvenh3VDQzazdER05QSk1EZ0JNSl9KZlZkeU03Y0NHN0xoSzJCdUtuTDRHVHhvMXdKcVRLZXBza3Z1QVlnbzUyT1Zma0UzSExQX1RDOFc3U1dJaWp0S3NFYWhCOG1GcGVLd1Axc0R1empNQTBYNlo4LUNz?oc=5",
+   "publisher": "Media.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Банки Азербайджана увеличили финансирование бизнеса - Цифры",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JVUdTeTk5WDhsUWZqVGMzT0I5M2lTdzNqV0RhNU8yWHIwM0tqaFpXWkVHTFhDVjJ1dkItNkgxSE1XbHpwODZVVXRtNlVoQWdGNGc?oc=5",
+   "publisher": "Day.Az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Центробанк Азербайджана изучает опыт России по внедрению цифрового рубля",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNzZYWkhaNmQwWUxld3l0UXZuM05xb1dDN0YwbGtWd2VKd2xReFR3V3hWR2J4M09BRXltYmlzemJhbGFzZ3dUbWJOclYxb3A5Y0k0UDZPeDJOTFpINjJtTGxrTDFsRGJwTkQ1RGZmcXVCcmxNeEtIX09PLTBHZkp2eEFBM3k1SXhVMUtmd1FRY21tUWZNVFI2WnNZOHdGcFE3UnZyMWhfeF9ZVzl1?oc=5",
+   "publisher": "Vesti.az",
+   "score": 6.7,
+   "reason": "no concrete launch found by keyword rules",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Etihad launches new credit cards with up to 60,000 bonus miles",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNUZZTWJYVGJiMXg5QVlIaUxsWTRoMWZMOS1FUmJlVVpIM1pDV2hPNG9GckEzbDR3WGpLd014S2x4UVZ2X3FFekhOY2wtMUhIMlN1QVd4WDJCZUlzMFZrMDg4SVJhaXFYX252S0RNWXljblNoMkZTNXNZZ0ZPYU9FYWMyYWJEeXoxRDVVdlhqT25EYjg1OGRCbUFXcExKbXZWVVdZLXhlQXFLVGR2ZFktTGpR?oc=5",
+   "publisher": "Travels Dubai",
+   "score": 7.6,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "NBB Launches Tailored Banking Benefits for Bahrain’s Golden Residency Holders",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSGM2OEx0M1plcTZkM0JvdVhoMUd4dmdPUEhKOVlYaE56aGVicmJyMFFkUUk2U1hlTGt3dHM2SzR0UkpkZWEybG9EX1htQ2dIbWxSV181UUFBTnNwaWh4M21zLUp2cUljQloxSjVKVUdYWlc2bzVaT0k3aGowaDJlVGdZRW9BLUdscjZZ?oc=5",
+   "publisher": "Al-Bawaba",
+   "score": 7.6,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Sindh Youth Card Launched: Who can apply, benefits, Interest-Free loans and registration process",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONXRya1JMeEtTdTdhOVRGUlhCdU5udjRRUjdGcTd5VERmd2lzUlNuZndvYjZEeUVpSXVrVWV4N0RJSDZPNERoei1ual82V0hoMGRuZXZMcldhTU1DREFid0VfTjk3dFRxQnhMOU5yV3BhOWRPNzliTVowWWtJLWVCS2R6V3ZKT2ZsOHROOHBGWl8tZnMtak1GSzNHTUdxT2NJaFFrcXh0NEZJWWZaLWpFamNCb081dXNFbmVUdWMyaVpoNmdUU09mYURvRmNUQdIBzgFBVV95cUxONXRya1JMeEtTdTdhOVRGUlhCdU5udjRRUjdGcTd5VERmd2lzUlNuZndvYjZEeUVpSXVrVWV4N0RJSDZPNERoei1ual82V0hoMGRuZXZMcldhTU1DREFid0VfTjk3dFRxQnhMOU5yV3BhOWRPNzliTVowWWtJLWVCS2R6V3ZKT2ZsOHROOHBGWl8tZnMtak1GSzNHTUdxT2NJaFFrcXh0NEZJWWZaLWpFamNCb081dXNFbmVUdWMyaVpoNmdUU09mYURvRmNUQQ?oc=5",
+   "publisher": "Daily Ausaf",
+   "score": 7.6,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Vietcombank запускает приложение, помогающее предприятиям управлять доходами по всей цепочке платежей.",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYVUtc3JpcUhyNlFBNmFVQWk1ZEZES3BWcUJoUE5wV1JBQ0gtb2tVLVlTRGxTRFFsX3hoYmJMMzBFSF9hRHQwWGx6Rjl2VUZBRUdyM05Zdzl3NS1uVHQwcDBOQk81RWZEMnBhTkwtZlVSQ2ZYTWRzbmNtdnVIUzRDS3JyQ3ppdnVJbnBSanRuYXdqWVhfTUNCUTczOGxUcHJtQU8w?oc=5",
+   "publisher": "Vietnam.vn",
+   "score": 7.6,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Vietcombank запускает VCB Merchant Up: многофункциональное решение для приема платежей и управления бизнесом в одном приложении.",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYTMtSjZiUFM3RDZBSzRMSGJrenJnckt4WnR6RE9jZ0dGaENHUUpDS3haTFNMMUNvZjJObmVlWG5tR3MyQ0dZUXQxSmVYMmNXQVUxRDFfTm9sNFA2NUpBZk4yY0JIUEZqRXJUWk50MTFnSzV1X0E2dWZ2dmtRSlZXd1lRYVNKS1lXWDZ2SXoyb2dtVkFyZUdHb3lta0QyRU9XODRGdXdNVXFFNUpncjNSNmFKRXNNMkZCTHdERHg4X3FLNDQtRUdMblBBRlNCZXl6UlJjRTExUlcwc3lURnh6eg?oc=5",
+   "publisher": "Vietnam.vn",
+   "score": 7.6,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Vietcombank запускает приложение для управления платежами и доходами.",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOF9uZHA0OU83MTQ2Ym12WHRicDJVd0pHODJNQVpiTHdWMUh3dGtWRnpqWEpQTVkyWWZWUTBSRVZoVlpaNzdVQ0pxdTNEdVZUdF9tN2oxSUhsbEdBSkw5Y1UyZmhIa2c3M3FKczdNR294UTJ0WTVmcWFaOTRfTGVJYVBKYUVMREdIRnJXb1FR?oc=5",
+   "publisher": "Vietnam.vn",
+   "score": 7.6,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Azerbaijan's Central Bank introduces risk-based banking supervision system",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGR2ZqMEUybnNKcnhSdjJDeEtNNHZ3VTJ6cnJIR3lVbFB1RmVBTXR6Y2VRTkxLR3RseUtnRDZ3em9hQWhocWRkWVB3cjhHX0hLRjlmMDRvcw?oc=5",
+   "publisher": "AzerNews",
+   "score": 7.1,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Expensify Unveils Insights, Bringing AI-Powered Analytics to Spend Management",
+   "url": "https://finovate.com/expensify-unveils-insights-bringing-ai-powered-analytics-to-spend-management/",
+   "publisher": "Finovate",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Oman Central Bank Launches First Islamic Treasury Bills Auction",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONzlZSC14T0UxS2dIaE9lT255RkdiWVVDM211cjhZMloyMUxKN0gzazhBbUJIS2tQVEZIamhDbEtZVFZoYjZHazg5RjBfM2V0UlN5N1VPNXVOU2tZZFNFQ0J1YUNuR2hwTXpfX1FCX0czWlRkaDFONERDNFRVYVFlOXB6UkRzMUVNX0hTUmZkX29EM1FTd1hTZXFnM09iZ2hZM2IydEJPTmtsTTdVR0hkXw?oc=5",
+   "publisher": "Qatar news agency",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Emirates Islamic and dubizzle Cars partner to bring added savings and convenience to UAE drivers",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRTRtNEVEQjZFTEpqQnlZOFJLX0lxQzZaMDRNdzZCM01jcUNCSGFMZ0ZqRDZFWVlXejJ4LWpFRWFLQVR3UTFLcmtNVlFkQ19TUEN6dWdwYkpScU9HTW00dHcyal9HQzR5NWk0emN4OThrQ1g4eTQwaFhJQ2lwTjZ0UWtJQWJTbzUtSS04eHgtM2doZmxvVVZnU3p4ZzFYUFJVOG0xOC1mQ0NLaUxLNGkwUW1wUmpIRDM2RC12TXdmdjBpT0htOHJ1WnZRVkZXc0JOTng4NU5Xb1lyelJjeTJ4RmN6dE1WUXNVTkJOdk83OA?oc=5",
+   "publisher": "Zawya",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Etihad Launches U.S. Credit Cards With Elite Status—But Most Americans Should Skip Them",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORU9tSE92dzFmYXd1LVptZDA4eXY2ZmhNSlg5TlhlZ2lnZXZtWXZSQmhTRmVGaTh4eXlLN0tEWUJ6N2hidDJpQldmWHBOOVNkQ0xLNEVYTzdTSTVZMGZ6OHZUaDNSakVNTjgxdzhJd3Blc2dOVmR4THJHVHAxck1ua2g0MUFDdzJuZ1ZxRWNzaXRDTVpaU2FpX3UtTEQwZlhCZWYwMmJ3b0hGYlB3QnlkYTBSYUpZUQ?oc=5",
+   "publisher": "View from the Wing",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "StraitsX and OCBC pilot cross-border stablecoin payments into business bank accounts",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS1VrRVpLT0xIa0E0TW1QRkxCeVBRaGpoekdMaGxDUVJpeDYxR0ZWYXJMM2pKLVAtdFBHZFVsdjZoc0NyWEhmeWdCUzNNRVdoVVkwLWJyZ05od0NNYnhVTTR3akVVVzFKMU1DUGxxUF8xeUJIcXFzRnI2RlE1Y3ZCb3E5ZTNOLVZpdmI2UzJxazdhZzZRVFViVTl3UTRaaHg3ZllzNEJaNE1fLVZJVldYMTk3RTQ2MXVCcWJxYzV1LW4ydndUbTBMcw?oc=5",
+   "publisher": "Finextra Research",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Deel launches card that lets contractors spend stablecoin balance",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORl9Wa1diN2diZHowek9jU3FhOXVJc3dCNXpHUm1QSUJaUUxiZjhjNTJwa3ZtUjRtaFlHVXJyb3JVcC1Ra3RMQldaNGtOUWxGb1M4NEc3Ulp0WUpud0JqbU16TmpUSnNDemdjZEJZS1h6d3YzcEZENGUwck4wbjFwZHBhS0tIN2RlR016b2hNMW1HLTNLSmVVT0xRTS03d3RuWERmZ0FOUWUwLXlPTlMw?oc=5",
+   "publisher": "Finextra Research",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Silverflow launches modular in-person payments tech",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOFpwQXdpM3p4c1dJcUhNSEloOWxrUWl5WkxyTzZlc1ByV3dvV2NkdXF0NTlwZFRMZm1CVXEyTDRwSVVTZ3ZwV3JrcndRaVMweXFWRXlWLWlLUmZpc3R2T2lsM24yRjg5TVN6TF9vV002WlFKdWJKNGFUWG9wa3RubFFxU0N3YUtQekloWFV5b3dJbldmUXZ5QVJHUUc?oc=5",
+   "publisher": "Finextra Research",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Invesco launches onchain fund for stablecoin reserve assets",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN0RNek1nOGdKcDN1Ul9ZY3pWN1pHRmZaT0NZMkRnVlZuS2QxTUlNNDVoQjRiSHByOFNfMUt0UFA0eEtCSXZPbzJ2VkZocUw3LXYxSWlnUGc3ZzFtZldTQWh2ckladmZXT09IRXZwVEs1WWpsS0E4a1JONVdvVUl4RkM2aHJ2TG5ZSGk1SmpyRldJdFRSY2RqTHU4MDhQdVRYSXF6c2prWC13MThSZEVfc3ZVdnlEdw?oc=5",
+   "publisher": "The Paypers",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Visa launches experimental AI agent wallet for paid tasks in the US",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaE45QjltakxpNlppN1k4dGtpMWlKU0Z0R0tNSlBYcmFUVVE4MEduQUc3dnhPM0hqQWJMZXNmT2VXNFB4ckZqSFRyY0M3Wm9RTFk5NEFoYlJ6TnlHNURIVzlNcnZXVHpsZDl6RWZYUlFCNnEwOFNTQm9ZaDY3dDN4eEtkSHBYZzFkdk9aaGxxTzJ6NFFWdTZZUkhHVkowUEN2dW9ORFBaclBiQmJUdmRUZTVWT2x4SWM?oc=5",
+   "publisher": "The Paypers",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Mosta adds vIBANs and stablecoin payments",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQck9Fa0xnZGtFdGlwNHVVcGpYeTU2RW5VTkxLWWFIZWlFR1dIcXcwbmVkeXdOUzQyNjhySzA0bUJmV2xmMTVjeXZsMkZBSklXV2IzdXZaVnAyZ0FlSmozVFhLRXctVDhpbGxuTTNwc1ViVmVZQWZ6dWpCTnlpdzdpQ2xoUWZRU2JkRzNpcTdXUXlicTI3NGo2cnoxSEt5ZjVEUmp3cXdXVHcxOWlrZVc3Nw?oc=5",
+   "publisher": "The Paypers",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Finmo partners with J.P. Morgan Payments on cross-border treasury",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaHh3Mzl4VHNoQVdKenFrSzM4X0tfNERIM0tQcXQ0SGpxT1oyVVY1NUdmZzJGbTRFTUw3Zm9DNzhOeml1RHZhX25hbERlYWlaX0lLd0hjak43WGN0RU13SHNqelFZenZ4bEhEM25pT3FxdXV2aWFsc2lxNG1GWmdsNmo2cXlTVV9Rd1k3b09ITklCZFlqbFRBYTJJQUxVd2o3MEE?oc=5",
+   "publisher": "The Paypers",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Razorpay adds Tabby BNPL for UAE shoppers",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbUNTaFdDZW02TFA5cE91cUgwN1dsLVNBTGRESld3QlN3N2Z3MnhHbVRIMWtrZk5rcU55cmVYUVdsVlFMRzAtSkFKZ0lyek5TaHE5Q0JhdGp4WFJwMG5YT2ZRWHI4UEt2SnVmRjVJaG9laV9VOTFteDJqYWRsSGItWmhEQUNvLXEzeFBDeV9nbTd6UFp3TElTNkFCS3htYnVnbUtr?oc=5",
+   "publisher": "The Paypers",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "PingPong launches Currentz for banks as volume passes USD 300 bln",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUZiRDRkYkhaOU1RX1k1ckFSS1E3S1FhNUxPVFJtTWJzQVRpRjJUQmNyQzZVbnRmdlhJR00tcDVLcmkxQ2lnc3FITjh2YldhVFFvVXFZUjZiZnVHdDJQTThrVUN6T2hycUZ6bF9rQzE4RWp5clVjTkk5dWRKZmNDYUNOSnNBZmI1S3MtYkJ5NXB0bTh3TmNoVmZoTENVUWFjbWlOWg?oc=5",
+   "publisher": "The Paypers",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Cashfree launches Cashfree Wallet for AI agent payments",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMmVmUzdncFZfVzRtVUFlRG03M0tFMV94RW1xUUdobTJlcTZEVWxic283MGFyZWVCbnN6QVhtR01fcV93Qm9kWk1BSV9LVng2V0hlblFuUmItMWY2c3l5UmxIZFlSXzVlYU5RLUdQRkNuclhGUEJockVJbWRDdnl4bXhId1Q2RU1OdGI2RGtQWlpCYldKRWdHYnp0M185emp6d2Y4?oc=5",
+   "publisher": "The Paypers",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Satispay launches Smart POS terminal with Adyen",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPblJEVVJWLWw4Mm9sOUVaTHFReUpTX3hnVWNCWGVsdURxTnRfNnQ4UnFibVJqUjJ3WGpCVmQ5SVNlbTEwSnhxVlJyNUtlNTNoazlvX2ZhMVJtT09fSWt5bzloeE1HVHZnTnA3V0dHNzlVaUUtcVFEXzZzd2tmMm92QmlkSTJ6QWZtT0ZLNzJvSG54dlRyaWtYUw?oc=5",
+   "publisher": "The Paypers",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Praxis Tech launches AI Rule Builder for payment routing rules",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaGJJU0xjSl9WSm9wVWFYbFhSVGJxZVctLTMzYmliMUdFUTZZMVdSV19pU01SN3Z5RU9USUJDMGRaOVJHTzEwQWU4N2tJeXRtcC1ib1VGQkozRGJrZzhjQlIxT0pMdmRlTS0tc2VhdFBQNmFmclQzVzdicDJfQU56ZTh4ZWNrSElRZ2M3azRfS2cxUG53NlRDNzhlcWJ3clRT?oc=5",
+   "publisher": "The Paypers",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Marex launches global payments platform",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5oLU9GaVcyRmRSVDdIelJGeF9QdGhrc3NaYi1talQycldiQnNmalNzRklsODZqcjVGRGxBZDdlVnZkOF9HQmVoWkxYWGc1OU1pNUpDclJiQWdmckhKaUlIa09aLU8tZGN6cUVXdUQ4NDdtWmRtMndha3llekQ?oc=5",
+   "publisher": "Marex",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "WorldRemit founder Ismail Ahmed launches Odola, a US fintech for the money that stays",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN3UxY0wxMDdsd1dtUXEza1NVdFRkamh6d3RCdmNlX0Q2em5iem9vOFRiS1VSVzg4QldZbDBvSE82ZDJyd1ZwLUZKSDFlcnFxeGxRbmNFcjRJR3Q4cko5WDZFWDYtWmpaMnc2S0kzSE14dFVHamtQbFFncjkwSnk1Zk9reXpod3RLSU5UcV81dkdZelpualhBRTF6M3loM096YzlJRUUtVVlfR3ljTzdxWkJyU0RMaVl3WHRFX3JxVVVBbzIyU2k1M0h3?oc=5",
+   "publisher": "Disruption Banking",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "South Korea Launches Won Stablecoin, Resumes Domestic Coin Issuance",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUZmQVlieTRsZktISUxLLXlDOUZVbkc0WjBlcDViRjNham83bGo4VERNbnpHMF9xUnYteDFVQng4UHNKUHBkR0ZzZm5vNWJmcjJoNTlvSnpDSXI2V0dTeThNZEE1ZDJEaWYyTTJXejZDaExZb1lvTWhBb0FCWUp6elZ5bVZOTVVQaWxGRFpn?oc=5",
+   "publisher": "조선일보",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Gyvar launches platform to simplify cross-border payments for businesses",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcWZtTjZyZVVvYUpKMjctT0ZiRUQ4ZWVpeHNBaUY2dFRpRmFqT3RrM1hYampCc2Z4RzhTdmZUc3RuWkpJNl9jeU1STmdQODRhZnZvazBDVWxSUlNpNUU2eGlJUEhYUjNabW5iWFBCMTJOdHFHSmJQNnZtZm5jWm5MLU9Cb2lPNGdraEs2R3Z6RG5uekJCLXJvZ2lZbXBybWJvVEplVFRadnhqQQ?oc=5",
+   "publisher": "TechCabal",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "NectraPay launches ORFI to connect businesses with banks and VASPs through one platform",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9idnBRWFhJM1FkclFxazQ3c0RxdUF2bVZfdi1TSzlyRkY5VG5YTkdjbm91bTI2R0ItS2hkLVROWkV6SWF4TVJyQ0N2ZXZBLVo2QUdic2k3Qml3QlhBV0hFWTRlcGZheGhMVVB0TnMxR3NUQkk?oc=5",
+   "publisher": "FinanceFeeds",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "A7 Launches Cross-Border Payment Platform",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWTdqakE3VC1mTXFGb21UOTdsdGkyTUNjVmtPdjRxQ0o2LW9fb2U0eDVodkhnWWlMU3VtOVRBV0Y0YVp4WFpyTmtaU1VhY2JkTGlwRTZvTmNiampQRDdrY3NFT0syd1NRUUI4dDFXUmJvZmFaZWRRSkZkeFJnQzJGNENvRFE?oc=5",
+   "publisher": "Wisevoter",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Visa Launches Scan to Pay With Alipay+ Across Asia",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYWNKMHFXUWJxWGtraFhkelBjem1XY3ZWbGNUYnJOb054TFZUSlBFckVFT05lSlhqNHh0eFdlOE5sZjBjTkJTeFhnWTRLTVphM0taUWUzTnkzNFloQm5sc0NjRmlmTUFsNUFrT0pwa2pFdk84NGlVd0lFWC1zODI0Sw?oc=5",
+   "publisher": "Wisevoter",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Egypt's Meeza launches contactless payments on Android phones - Tech - Business",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxdTBocFg2Vi1hTzNwZkR0N0RTZTlnQnlGU2dhNk9ZcV9fSlRhMl9wdThYSlNLd1Y2ZlJNZ0hMOWpSRFlsMjdKR1FoendlZ0hPeG1oRFRJcTc?oc=5",
+   "publisher": "Ahram Online",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Paytm partners ChargeZone to enable QR payments at 15,000 EV charging points",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQb0p5dFViQndRSlZJbTdfYXBlNDdWbC0zQTkzdW5QLVNOWEtIZnFqZjYzX3BTY0lWNXhydmZQQ3BVQTY1NDRyUERCTUpsT3RhektuTExHNlFlSHJyMlJpWFZMeDJYWDgwUU96aklST0Q1TmI1YWtKQjF1Z2s2cEFVamd5LU1PU2h6ci15Wms0Tk1weUdfYUY1RVBkQnBneFF0aTluZElvZUw3UlRxaU9HbnpIR19HaTExWEtETEVUNXNfY0tQRmdseWJZeDgyYVNURVBlV2k5czfSAd4BQVVfeXFMT2lRcDZCaHV0eWhEbVk1V2htaWxWaW90TnlhbDVDbUVrQUFfQTRvaGlvbXhWSXJDVVZfLVplaU9SQTcyTWs0Yl9zT0FNWTVHT19CdkVENWJpdF92cHozWDRxWVpaRmFNNUVtaFg5ZFQ5OW84QmlUV1VseHV5UEMzQ1lZTmhITWFHZXBfdjFWYVZ1X09RVXNTc2RHSWlzM1VrRV9EWmhJZUppeDVXRU9fVHluUXlPUmdWRXowR1E5T1pta21aUXVERXBKYTJOUTlGcnZHSG9DU0w2SUo3T1N3?oc=5",
+   "publisher": "ET Auto",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Vietcombank launches VCB Merchant Up",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WOHRwZU9tQTJHU3pJTFlDRHJvUVdpLWNpZ3NRN3NlTEhBbWtqQnZHS3R1U3RfcUxzM083aW5oOFlqdGNUZzNKUEdzSFhVclNReGk3dTllWjVLcDgwMGRGdHBhZGFoZVI4ZWFBRQ?oc=5",
+   "publisher": "Vietnam.vn",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Payop Debuts Pay by Bank and other Digital Transactions News briefs from 11/23/26",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa3pIRm9iXy1MUzJ6d1FrN05RRFBZaVZUb0xqa3RXMThBTElzWlNSNmdMQkdLaGk5SndRZEl5UnR2TFk3VVo4X0hFV0gtUHhGaXQ5WmNITGJGcGNQdHBpamNLbVVKZkNWdWtkakxnR0tPYnd6SUtmTUo2eG9ITXBXYnN0clJwbEFRR0QzUzdpTDFoYkU3TE9ub1dWNDZ6eHQyUFBtdFVGOUpyQUpHLWhLTUQtOG5sM2YxVHc?oc=5",
+   "publisher": "Digital Transactions",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Payop Introduces Pay by Bank as a Payment Option for Cyber Monday Gaming Purchases",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMlF4MkxrVTc4dTNRWU5GdGVUakg2NVhSbjY3OU5QdU9JeDVWSjBwc2RET0hodHRZZzBxVkVud3JaNHRXdXE4bXpqc3hiaE9VNEc4N1d2M19VWWNud1dvcjlsTnhYWHpFSzRGY3RzVTNjczBTNm41UFUtaWY0YlpORS04cHpiSlN6NHVwVDJ0Z2dyMUNGQ00xTmMtOWU3RWpqb01ibA?oc=5",
+   "publisher": "Digital Journal",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Visa launches a wallet that allows artificial intelligence agents to perform tasks powered by stablecoins",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSl9CM2dwbUduRWVrbnJudnpwRkptQUUxYUJwOWpaQzJxMUZpSEpNU05BYjZIWlVkVTBIYV9RT3dvOW1TZWRZUFNOVlVnRkRVRWx0T2huQlpaam04cjNWeml0RWNmRDllM2JKa1R2a0FMWFhzel91M0hDRTY4SmRVWnVOU1V0MGFKM0dDMjVVUDdtOWl0Zjk0UmdiVjB6aWFwVF8temZNbjk5czU3Z1BMUi14aVNoeVg4QTdGVThZMUVYTzl5NVNFNzlEVG9nZEZSZzJLaDAzYUNIdVBtWUQtb054Q2xLNkRlZHo4c0tiZjNZa2x3WDhiVzVB?oc=5",
+   "publisher": "المتداول العربي",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Samsung Wallet Adds USDC Transfers on Sui Across 82 Million Galaxy Devices",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wMEYtN2RUSFdVa2xTTGFHNjVKd0R4NlJIbEI3Z05aOExFT01qeHQ2cE9jdmRGdW1lZ0dkS2w5bmQ5MzNjdXYtd2NXd0xGS3hVX1lGS1BnaURpLUdjRVJ3?oc=5",
+   "publisher": "Altcoin Buzz",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Frasers Group and Visa Launch Frasers Plus Virtual Card",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBkMXlaNkl5U3d6U3VTRzRNUndYQ2pRYUNkV2J6bUVOc2JhZ0tmVC1CU1VlNGZGSHVKQ1Z0R1FSRVhMSTJGYjZOT3hFSEFKVHUxZlZmcEtSeHJ2cGxEcVFBV1huNTlfdi1rakdfaVlNLVE2cGlRRm5zcg?oc=5",
+   "publisher": "365 Retail",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "Visa Crypto Labs launches AI agent wallet that pays in OUSD",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5YeHgyNnRfVVhFU1pVMFJjbktXdW5EdGVYeUM2Y1YxelNGREF3emZUZWE1MS1YRFVOcTJSbTZwc2tTdmVHbWkwYmNIQkp1cXQ3aGJrMFZsaw?oc=5",
+   "publisher": "Cryptonews.net",
+   "score": 7.0,
+   "reason": "keyword mode: over the daily cap",
+   "scored_by": "keyword"
+  },
+  {
+   "title": "CheckAlt to Acquire Finexio, Expanding into End-to-End B2B Payments",
+   "url": "https://finovate.com/checkalt-to-acquire-finexio-expanding-into-end-to-end-b2b-payments/",
+   "publisher": "Finovate",
+   "reason": "pre-filter: m&a / ipo"
+  },
+  {
+   "title": "WIDTH Appoints Former DFSA Chief Bryan Stirewalt as Advisor",
+   "url": "https://fintechnews.ae/35117/fintech/width-advisor-bryan-stirewalt-dfsa-middle-east/",
+   "publisher": "Fintech News Middle East",
+   "reason": "pre-filter: people"
+  },
+  {
+   "title": "FAB Appoints Futoon Hamdan Almazrouei to Lead Domestic Banking",
+   "url": "https://fintechnews.ae/35104/fintech/fab-deputy-group-ceo-futoon-almazrouei/",
+   "publisher": "Fintech News Middle East",
+   "reason": "pre-filter: people"
+  },
+  {
+   "title": "Announcing the winners of Tearsheet’s 2026 SMB Finance Awards",
+   "url": "https://tearsheet.co/awards/announcing-the-winners-of-tearsheets-2026-smb-finance-awards/?utm_source=rss&utm_medium=rss&utm_campaign=announcing-the-winners-of-tearsheets-2026-smb-finance-awards",
+   "publisher": "Tearsheet",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "CrowdStrike Acquires Zscaler as AI Cybersecurity Threats Mount",
+   "url": "https://www.paymentsjournal.com/crowdstrike-acquires-zscaler-as-ai-cybersecurity-threats-mount/",
+   "publisher": "PaymentsJournal",
+   "reason": "pre-filter: m&a / ipo"
+  },
+  {
+   "title": "Latest opinions that Jason Dehni has shared on Finextra",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQNG16TTExaGt4dVVJT3RiV0N2VFFhMDVDUVNzd3U1RGVGWWFHUDNGeTZHUnZUM1ZCTlFMTUZyd2VTZ1ZQTzBQN1M1dkphalpnVXY1YWl6d3VkeGNxSC1qVWlaa1JsUQ?oc=5",
+   "publisher": "Finextra Research",
+   "reason": "pre-filter: opinion"
+  },
+  {
+   "title": "Stablecoin FX platform Codex raises $30m",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcUstREV1dzA4NTVPTVVHelpQSGx3azgtMzlkb3hscXdOU0RCVlRsVGxJaXdFSVpQQlJlRldONVh2ck1hUWdSMG1tN1pjSG1iT1VQUTJ6OG1HbE14SWdOeWJQcG5TNTlEcEV5Sl9sXzVXZ3BWLU80UFpJYng4cGxBNTFCUTB1NUd3N3c?oc=5",
+   "publisher": "Finextra Research",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Latest opinions that Tom Randklev has shared on Finextra",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IbDVqUFMyTXVSY0hLRzJZWUkxMnhTUG5oRHJLbmVrNWdDcjF2OF8zclVjQnRfUzJDOFI0Q1IyTkY1RTU5Yms4WWN6d0RBb0ZNZS1DVkRjamV6cklQSHRCWkFkQ0doZw?oc=5",
+   "publisher": "Finextra Research",
+   "reason": "pre-filter: opinion"
+  },
+  {
+   "title": "Ex-Monzo scam fighting team raises £1.8m for startup Acorda",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSGp0X2VTOEo4NUlSX2Z2WmE4SnZKenVpeW41bWVLUzZpMzF5YlgycmZ3djFadTFVcjFkVmRIbk16YzA0bVF3b0t3YXRkOW9neUVWWEIzLWZxdDRiYmZyd2cxMThXbTA4aHNPQ3I5UkZOeG5oOWktS2JuN1MwT2llVkNqMXlySnotTDNIbEJxZGV0RlJBYVY0Y2I4bm1nNDV0Vm9HNEpFTFczOFlDZlJKaFJqN0hpc0JYejBScVo1Qnp6YnlTVDUtYkRwMG1xNkRLTHh4bThEdUczM24zbFRSUg?oc=5",
+   "publisher": "Finextra Research",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Trustly raises $60m from shareholders for AI-powered growth plan",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONTRvQllLaFFOVzJFc3ZvRGRSd09BYkhDRGJmeldmSDQ5SmpJUnM5RmxhcjhVLUhwRGt1OGVVbGR6ZnBCRmtHVlhYQ0NYenJvUWE2by1naUViSktxTXMyRmUwelYtQ05tcXNHaUJtbkpHNkVDazhvUVFjdnZYNDRRanhmdEp3ZGo5ZVYyeDBQUWRRcnR1cDg2SkNUR1BLZmtrWjBaQjRhX2hnQQ?oc=5",
+   "publisher": "Finextra Research",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Pliant secures €200m in debt financing",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc1I4T3dWLUkxX1lWS2FZT0Z4eGRQQnVYTGZiamlvVmlvR1I4dW9GTW1NOVNqUTNteGZWblFTemlYbWkxVm9TVy1jUXVZcm5yRHBENmpyUmF2S3g1M3lmbG5rMU13WjlhMDhmeldobUVQcnVpb1kxS1VEd3RmVk9mbkVNUk9OYzVXemc?oc=5",
+   "publisher": "Finextra Research",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Enfuce appoints Vanessa Schotes COO",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOd1Nqbzk5WEljc1g2bktqUTktem84NG1WelRtcmtITTA3cTE3alFUTGR2Ni1yTUR5QnNHTEFxUkowVGxpVDBtTDgxNl94X2haZGtEd1JDeDFDcl9kM2J0Z1dMTnNRZVhDOU9nREh6NFFGcS1vLWN6YnY1UUUycWtEbThWRGczM2c?oc=5",
+   "publisher": "Finextra Research",
+   "reason": "pre-filter: people"
+  },
+  {
+   "title": "Global Kiwi Labs raises USD 4 mln seed for TheHUB platform",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSjNnV3ZPandEdk1aVFp3bndnZDJRWjRCSlprWk1aTWpPeHVnNzVQbTUxdDFUSzdYSWxXTGN1ZUlsc09vY3g5dFNYWEtGTUdsT2xCTlUtYld2d05kSFFUYWYycXhvOHppcS1JM0V1LTN2Wjh3dUtZd1dqTVBkOUc5eUxTbjV6RU9vUHk3Y3RzRjVnV3hwaUI2c2tFakZVRFRQZGVGVWJ3VHVWX3BJd2pzVFpYemtmZw?oc=5",
+   "publisher": "The Paypers",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Databricks eyes USD 225 billion valuation in new round",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQnMtc2ZXMWRLdnQ4Tjd2Qi1jRFJhVHU0WTRxT3U5b05idWRSbk5MU3hFSmZvQlBseXY4QkJ6WVRsZkhhUGd4Xzh4TXVtWWtwNFE0X05CRGJFMTRZSnpLUVNZZ1E2LXNBTzRINGpVS0hBTmxBVjNwSXZJV2trSXpBSGhGTzRTZlRnNm1uQVdSc2VTOE1rRWFqcGI2WVY0elcwWlB6QlFpWWtBbHhWdXZPa25YakZFeFE?oc=5",
+   "publisher": "The Paypers",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Trustly raises USD 60 million for AI payment products",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeE5tSmRkY2ppdUl6X2xQNTlZbkwwaWduVWw5U1VtbUlybU9oOFc4U2d6ZzhqOThGVWJTNWlIR1hJRnp6N2hiN2o5WGFhLWlqamQ1bW8xaE9wWTU1bTdQemlaUG8xYlRSODVWMlRpaEZoT0RjRmxUQXhqbEllekJ2M0dsemFhSmxYLXJIRTBqSWRuamNmcGt6TWZxRzJhWVV2Ynk5djFPblM?oc=5",
+   "publisher": "The Paypers",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "TPG and Corpay to acquire BILL Holdings",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQckxGRGs1b09yb1RhRzV4VFVoNmc5VDYzc2ZtQ2ZPaVFoNXM0alBLdUtPMjdmeldYRWFocEliLWtBcmtSRDJVbWdLdVNLZU1Uc0x0dzlURDNjM04tV2FDRHFWOTNyOUdJQ1JUSFpobXdqeE43TmxGQXVjZnEtdDBuTW9EeVhaMnJMbUprUl94Y2dwandvMVhVR05fUGJBaTU1QTNVTnV4VkE2cThwcWRNQ3RNU1piSXlHQ0U1U2N6c2ZRd1VN?oc=5",
+   "publisher": "The Paypers",
+   "reason": "pre-filter: m&a / ipo"
+  },
+  {
+   "title": "Tamara secures USD 400 million in financing from MUFG, Standard Chartered",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHFGdEZURmE1S1FNRWFsX28xN3J6ZlQ3N0hMWTdiS1oxZk5XV3RCblJ0azZ5LU43dG5NWW9md3Bocm8tdXE1QTBHbTFZU212Y2VaZHNSTmYwWGV2b3hJaEs1YndjbDVISXlwamIxMHMtTkp4NnRNb0xoNHlVUXFrWHA3cmc5ZVZTTDYwdk9JNlNQMGpzejJ0X2NRb2lVTGIyT3FlSmVDVmkyLWpy?oc=5",
+   "publisher": "The Paypers",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Pliant secures over EUR 200 million in debt financing",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObG9WTFRjZU02SVJWN1gxZ0FOOVFvTDF1ZXNsdHE0NHI1d1BCOHVGaVZmSEh4VHQ0S281TXI3Y2JsRUtBRGtLMVI4Z1hBT2tuV2xUYTNjVnJqZFFyNXh6WG0xTFcteWhvVU8yMlAwRlRDeVVBcjFaRUJFX0kwV0xlYk9odFVpUm5zYUNhWEdKMW5vME13ZjFzOThRSmZSRmJIMUNMVHZOLVpudkk?oc=5",
+   "publisher": "The Paypers",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "PayPo reportedly picks Citi and JPMorgan for Warsaw IPO",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTGV5bU9QOFZ2UmYxS3RIUllfV1JKbDRIVnZmcHBpR1FMYnc5TTQ4U3Y2a3lqY0k1Ni1WZGM5RVhFMVQxTVR2eVpWU0NmN21sQmFkOW1HLWJuaENTcEdBNGlXWHZGUWI0SmZ0N3FVZnRuWE5FVVNNNktsTTBSaHhyVFJLbFFJdEFCS1FhWXRuTWJvYlZzeUxj?oc=5",
+   "publisher": "The Paypers",
+   "reason": "pre-filter: m&a / ipo"
+  },
+  {
+   "title": "Pliant Secures €200 Million Debt Financing to Scale European B2B Payment Solutions",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPejBYUENXemVMTmlPNGQ1QTRKVm9XY2FzQzdLS1dfS2lBYjZQZzVaRzZtUE1ZTm5JWm96elBaZHZYTDg1TnFLeDhTNjdYcl91RGxIMGd5cldLazBJSXFTTjVHVmx2ZlByeHA1djYxT3otVnZOdFljZlFVcjlwSjdRMmJHbl9GLWlzOFFwbFBiTTg5MXVzNVdRUzRKb0pGOVA0bTUtOW5BUWwyWTJSZTNuenhsYw?oc=5",
+   "publisher": "FF News",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Ping An Digital Bank Secures HKD 500 Million Capital Boost from Lufax Holding",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUnlqM3NlVk51NXpBUWUzaUg1NUdsYWVzcmxpRGtCLUc5UjVrb0paWENDWHFMNk5GUzFKU09iOVdIVUR2VklqY3dOUzVOd1Y4eVhsU21penB3SHBpODl0QUJUdFFoWndEU1pCNzcxOG5oZjNITktfQ2hlZktiSXU0N2VNVmdiWmpfYXlEVk9PM0pjbEMtV2FEcHNSN0RfSWZJSG5ZNFhXZFlrdw?oc=5",
+   "publisher": "FF News",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Aden Financial Sweeps Hong Kong ICT Awards 2026 as Fintech Innovation Hits Practical Deployment",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWJsTi05SGNXOF9qYm1QaWs5WEVoN0IyLUJxM3MzaFEtVDZxVTU4R0s1bU5YSWVJMkg2OFIzVlNYanJxRzZaTG5JTHlJYkl4VVJkX2NJRG9sUGdiRVZIRnVOTlI1VFRyUlVnZlE3R2RtUjVxVFd4TlBUa3hBOHAzeVp2SnFfNGRRb0hCUTJUV0FkZHBF?oc=5",
+   "publisher": "FF News",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Mitek Systems Appoints Laura Apel as Chief Marketing Officer to Drive Global Growth",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQV9haWEzdUxMdDloeGFWN0hEOTdhSFBkVEZJZzRZTFdLQV9RVVYwSVh6RTNlQUVfdzVNVmZhd0IxcjZmekFWOV93Y081bzJZdGVkUmx1bV9hcFEydmpyNW5KQzhZUFRkRnJpWDFDdXZ3TVE3RGhRMl80elBHUVBzMk9ZTGJLUXBRbi1EWjBn?oc=5",
+   "publisher": "FF News",
+   "reason": "pre-filter: people"
+  },
+  {
+   "title": "Wultra-Led Consortium Secures Landmark Tender for Czech European Digital Identity Wallet",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWmNZVnJ3YWwwbHE2eUpQVUJMQkhWTWhUTm5pVk9OTDRGeEZtSldqY3Q5cjdHellhZC1rNDJsWmZYbThlZjFJaEhJZHIzWE9TTDJ2ckFyQk1FYnNwcm8xWHpSZVcwb3B5X0tPZGRUSEFPQzRPM21QOEVmQ19aZW5ETWxpcVU1OFFiUVctX0ZFQ1ZYZXQxSjNRVDM4Q1FrY3VrU1BpNHpLRnQxTG8?oc=5",
+   "publisher": "FF News",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "CheckAlt to acquire Finexio for B2B payments capabilities",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTEpJTGFXXzNYQjNPVEY2cmlwT1dEODNPVUlFQUJjUGFUYld6Q3VpU1dMZlJlbXh0VUN1Qnc3cGt2a1c4d2hRN1BJTGx2QmhxX0pvbXNDaHlsMnNSMWxlR2o4OUhwOFpCZDI1cS1WME5xTWNITnlzLWpicHJpNWdsVUY1NnMtdzBKc2dBMjBxR1ltTzBKVzJhUTU2bWtrbklvYUZXRjNLa1dnYWlWZFBKQw?oc=5",
+   "publisher": "FinTech Futures",
+   "reason": "pre-filter: m&a / ipo"
+  },
+  {
+   "title": "Demystify Podcast: Demystifying core banking modernisation with Liam Leahy of UST FinX",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPX3dNc3VpVHBLT0liaFZHbWVKVUJUZ0NuaEVSZ3Y0aXlLVWlkRGx0YjhJN0lzbHoyUDdweEtXVnR2dUJiNGRySzJzYlFlejBNNGdJM1hiX09tamMzY2pzSW5JM2VSODItVUZlb1ZTS3pHaEM1V1ZSS3Q0UVlvVmtFTnRBNlctaEhEZzlFd0hHY2R3Yjdnek1NblJlVnJ0d1pwTW1rcl9iQ1hvQWVmYmhJT2V0Q05idHRPeFhuTDZxSFczTHFzNHlUSUpwZXl3NXJmYXhXd1F0QQ?oc=5",
+   "publisher": "FinTech Futures",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "PayPal announces several new exec appointments, Xero's Claire Bramley joins as CFO",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUFdvU0xUZGNCOGtpdUZONWtsbVVmY2dyQWY1NlNYZjRBUDVzWEl2TjdoN3pZVVdESGJYRHo3eUpBOU1IcEtyOXdJejZ5NkJxdUtTUjR6Sk1hWEdaZ0NSTXhvZFB6bkJndkpBa18xbTJQUkRHeVMyVVJjY0g3VDM2RmlaNF9KWjhJWklOQnNBM2xtUm1TYTZPcklud0I?oc=5",
+   "publisher": "FinTech Futures",
+   "reason": "pre-filter: people"
+  },
+  {
+   "title": "Saudi BNPL giant Tamara secures $400m in asset-backed financing",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaXNRUndCOHV6bGQ2T09jMGdUR3dZNDBSS0ZaSkQtcmtnMk9rVWV2aXBrb0V5TDZxQ3FERF95SFRYOFY1amJTclkwOWJvZ2hMbUMwU0x3bVJhaXZ0bGZBMHBWX3BhRnFNaGdzTXVXQTJNQThXTkFiVGIyTXJJWk5sVDkyWTl0NGFiWjR3ZW9MVGJyT3lpN0xndmdEbjFHY3kzZE9YVERYUVlWdGZJOGo4TQ?oc=5",
+   "publisher": "FinTech Futures",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Baku hosts 10th International Banking Forum",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9GVWhNMXpwS2hhUW9YWG9tMHR5ajJ4b3Q1ZTJodFRNbE0wMmJQYjBvQjY4OG1XVzVyWHQwN3FsRHdkSHA1ZWFjcjVqTV80amdka05GTQ?oc=5",
+   "publisher": "AzerNews",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Baku hosts 10th International Banking Forum 2026",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNR2lwS3ROSUJ5OXZNckE2bjNybkdaVGhlWHVuYk8ycEJrSDg5dmtBQlNBM1B1TWhrdVU4eGxQd0FCckFRanl6TzJhTlV1d2FhR2NidWVWQXl5NnR3YVFBdnd0WW5Ca3lsSzdrRzRHTFA2MmR3SDZoYWtWS0VBZ1Q5UXJuN2RYWXVXUTBqdw?oc=5",
+   "publisher": "Azərtac",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Azerbaijan hosts 10th International Banking Forum - PHOTO",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLW5PZjhWcEI1MGhZbDRzbGEwTnZyNWRPMzlzTXQ2N0ZsNllKS0tRN0luall5a1ZLRXRlcXFOOTRfOTgtSC1fLUR2el9iamg1eEJQNThWaGdEMXNBelN0bk9vOThGOXp4eEdMQzM0S3NWbDdNa3ppbG41TDQ2V04tY0tqenFLUHc0YU16eTNrQm5VQQ?oc=5",
+   "publisher": "Apa.az",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Baku brings together financial sector leaders at 10th International Banking Forum (PHOTO)",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1qT1hzeVMwR0I1b01yNTNHclFSRGhydV9WQS1IUTdhY0RHd1ZjWG1ENjlnSVF1SnRLSGRJcWZfRWY5SjdNLVVSTzliVnNpWmNQX3JVcDMyTQ?oc=5",
+   "publisher": "Trend News Agency",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Several documents signed as part of 10th International Banking Forum 2026 in Baku",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUFRTN0ZhSjM5cjVkQ285RV9Dbk1SWFg4QUNodGFDdjRNY1VjLUNYVG14OFNhZDROOGhKZktHR0F0VWppWllEMFE2cWtfV3c3bXRfY3BsNWlxbFIxTzJIR0lwMmUzQjVNR1JOOTIyVk1XQ3NhR0xWeTgyQkNuRUtXamt1eTNTNWhpcXBHeldUWUlXUURUUGVwWmRIaDBhdEZqY2hLSVpnYWYza05zdEtfdFNxVXJ2MUdm?oc=5",
+   "publisher": "Azərtac",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "10th International Banking Forum opens in Baku",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LSzFCeDJjQTVtTnUxcmc2Y3BuQ2gwNTAzcFpIMWdabDU2bDFXd2dGbC1XNDhfOGg5a3RveDFWb0N1UXdFSVFjOGFUZTZiQ2JLRWtHYTlIeWJDNzh6SkJrR3VRRjQxdjhYMkpmdHhoa1A3VXcyS1E?oc=5",
+   "publisher": "Latest news from Azerbaijan",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "PASHA Bank принял участие в выставке «REGİONAL EXPO GƏNCƏ 2026»",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tQzFuWGFQNXplOGFkcEFSSVFuZ2cxVW12N1EtRnUtMzB6dGxyNkR0UDRUMEJXSW1xaFByei02SmFPOE5LcDU2aHNRUVQ4RFZxOU1WSUVn?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Азербайджан впервые представлен на Guangzhou Film Expo в Китае (ФОТО)",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzVmVrRS0zRVQtSE91aEd2ZGhXcnpCSmNjcF9tbWpfRjF1WnlCLTRFRE55OFN6cU41bTdKN2RwZzFubXlTa2EweTFYUDJXQTFpNFBRYmZhai0?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Депутат пожаловался на продвижение родственников лицами, назначенными на должности",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWkJpQTdlaDE2UGU5UXpOUUVEdlF1aFV3dzVQOFppS3pNdXRFdkZVUW5xbVdYQlZLMGJLcE5GRDI3cEVJZ0F2N2ktaGxoY0NtRGttM1c0TFc0bnNVbENLM1JBZEtKQTVScnRwdVFOTndsTktNd0hTUlVYemRVdUtlVkZZTGxZQkI2UjZYZnNUOTRuNDdvVHFLYlZDaWVCaDhNTFY4cTBKbkhSUy01Ylo5Ml9UNWdndw?oc=5",
+   "publisher": "Apa.az",
+   "reason": "pre-filter: people"
+  },
+  {
+   "title": "На X Международном банковском форуме в Баку подписаны два меморандума",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTJ3a1hxZXVjU3hEVVY2Q3drTllFcXU3QWlmckVoQm44bVdpMmtFTm52Sjk1QkRpUVUyZUVxVGZXVmVFdmhwRnFpaU9oNkk0WmZWTFBtWUExSXZjMWpaUzNidVd1UkUwM214ank1Y3NYNTVsSTE3ajJENDh6UW91QmJqNVhuZkpUZjZrM3pBaDFJQi1CczM5VmZWQVJicDkz?oc=5",
+   "publisher": "Report.az",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Чистая прибыль Почтового банка Ирана выросла на 74%",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE92TUUwZ1lTVVotTHBTTVJybFQzRFFyLXFBa0tqWmN4Zk9tTjJNaXpfWlZmejRfYVlHYnpqeGRocndJWmdsU09GbnpvaTVhdw?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "reason": "pre-filter: earnings"
+  },
+  {
+   "title": "В Баку проходит X Международный банковский форум (ФОТО)",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FdkROMEItRXhmcGNQeTh2aXdyNkJDNzVBX01IbF83QVo2QWFFYk5OM1B0R3E3cFJZODFqaHNMeHBhN0daZ1FwSEZvZzAyZjIzbG1Nem1n?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Компания «AzInTelecom» приняла участие во II Международной конференции по кибердипломатии (ФОТО)",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lQnFZQ3RGcjgtZm5DSEpickZ4UWtMakIzZVpSUWJjSG90VG5pcXN3d216S3FtNmFkRzczejV5SktGX1RIOFFFazllblBvQW9iaUIwM0FR?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "В Баку проходит Азербайджано-итальянский бизнес-форум (ФОТО)",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9POTJXd2NDaU1kVVE2ckhOdUJwV2d0V0wzZzBHTko2Q3R3bnUtYjlPLWp2NlZxSVlKdE5RaFp1UTk3SHZBYUd0ZGhPc1VPUjVWVWdlall3?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Азербайджан впервые представлен на Guangzhou Film Expo в Китае (ФОТО)",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzVmVrRS0zRVQtSE91aEd2ZGhXcnpCSmNjcF9tbWpfRjF1WnlCLTRFRE55OFN6cU41bTdKN2RwZzFubXlTa2EweTFYUDJXQTFpNFBRYmZhai0?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Курсы валют Центрального банка Азербайджана (24.11.2026)",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdlN5d2RpYU5yWEswN2NubHlWWEtBMHU0bVBvNFlxS25UdHk1YTlDNnd2RzJRMXBtdjhDNGFFN2xyWUlBbXFjaWxYaTFWVlRveGpZZjZOaExEaXRtVndJcVh3ZW9KdE9pcUpNeUtqSXExYldvU2xhX2NNMnFPMkJ0Nk1reGdBekFzcmRqcw?oc=5",
+   "publisher": "Report.az",
+   "reason": "pre-filter: market data"
+  },
+  {
+   "title": "Курсы валют Центрального банка Азербайджана (23.11.2026)",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQblVTLUFXby04b2tua054VWkwN2NLcEFVeDItY3NXVkNTalhnb0lYeU1hVVVQRGYxYWUxZW9BTFBvSkhRQTJYOS01NmNSYmNsRkcwamFZcEtsbWg4dExGUExqaFZ6eHd5Zmhyd0huV1JDRk1icnM4V2V3VnhnSWdOYkdlOU5BWTJudjg3Yg?oc=5",
+   "publisher": "Report.az",
+   "reason": "pre-filter: market data"
+  },
+  {
+   "title": "На X Международном банковском форуме в Баку подписаны два меморандума",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTJ3a1hxZXVjU3hEVVY2Q3drTllFcXU3QWlmckVoQm44bVdpMmtFTm52Sjk1QkRpUVUyZUVxVGZXVmVFdmhwRnFpaU9oNkk0WmZWTFBtWUExSXZjMWpaUzNidVd1UkUwM214ank1Y3NYNTVsSTE3ajJENDh6UW91QmJqNVhuZkpUZjZrM3pBaDFJQi1CczM5VmZWQVJicDkz?oc=5",
+   "publisher": "Report.az",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "В Баку проходит X Международный банковский форум",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU1pjTUJ5SU9TWkVjU1NFazc2aFZTa0p3RDZXOFJGbF9nSTJKdmtLSU1Ca0Z5amNJcnVnS3pRdTBwYlQyeXY3eGloQlZHbGVzWng0Qzg0cDhpTlJnaEhqTUFwLV9CeEllaHFkOGdFckhYb0hZeENBV1N0d1lOMG84LU40Tm8?oc=5",
+   "publisher": "Report.az",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "В Баку стартовал X Международный банковский форум",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaFBmQVhfMHc1UXlsenR0ZzRTV215dXp3VEl5el9BOUo2aTZIZVIyVTBwcXZFaENWSG5Hb2VsLVNuUFMzdWVRNWE4WFo0Y1U2VENtX19OZl9wQ2thdXNSUUtxUkdqOHBkbkoyWTYzRnI2eGJVTFo1Qkl2aXFPV3JwTy1OVHVsVHlUSGs00gFKQVVfeXFMT0tBN2VaV3pDd0F6ZUFSOERpSXJCNG9TTDFZMnVzOHNPbkRZeHI1NVpVelhTZUM2VG1PWXhNd3p6OFpkbExFcEg1RFE?oc=5",
+   "publisher": "Вестник Кавказа",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Курсы валют Центрального банка Азербайджана (24.11.2026)",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdlN5d2RpYU5yWEswN2NubHlWWEtBMHU0bVBvNFlxS25UdHk1YTlDNnd2RzJRMXBtdjhDNGFFN2xyWUlBbXFjaWxYaTFWVlRveGpZZjZOaExEaXRtVndJcVh3ZW9KdE9pcUpNeUtqSXExYldvU2xhX2NNMnFPMkJ0Nk1reGdBekFzcmRqcw?oc=5",
+   "publisher": "Report.az",
+   "reason": "pre-filter: market data"
+  },
+  {
+   "title": "PASHA Bank принял участие в выставке «REGİONAL EXPO GƏNCƏ 2026»",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tQzFuWGFQNXplOGFkcEFSSVFuZ2cxVW12N1EtRnUtMzB6dGxyNkR0UDRUMEJXSW1xaFByei02SmFPOE5LcDU2aHNRUVQ4RFZxOU1WSUVn?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Курсы валют Центрального банка Азербайджана (23.11.2026)",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQblVTLUFXby04b2tua054VWkwN2NLcEFVeDItY3NXVkNTalhnb0lYeU1hVVVQRGYxYWUxZW9BTFBvSkhRQTJYOS01NmNSYmNsRkcwamFZcEtsbWg4dExGUExqaFZ6eHd5Zmhyd0huV1JDRk1icnM4V2V3VnhnSWdOYkdlOU5BWTJudjg3Yg?oc=5",
+   "publisher": "Report.az",
+   "reason": "pre-filter: market data"
+  },
+  {
+   "title": "В Баку проходит X Международный банковский форум (ФОТО)",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FdkROMEItRXhmcGNQeTh2aXdyNkJDNzVBX01IbF83QVo2QWFFYk5OM1B0R3E3cFJZODFqaHNMeHBhN0daZ1FwSEZvZzAyZjIzbG1Nem1n?oc=5",
+   "publisher": "Trend - Новости Азербайджана. Турция, Иран, Центральна Азия",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Компания «AzInTelecom» приняла участие во II Международной конференции по кибердипломатии",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMlIxQ09fYmJQbFdFV3FMNXFFa2ZiLXE0VkNDbm9XWHpBakRsQWJ0ZjhrTjdCU19ydmVUa2dwTmpVR1lVNUJBeUVwNUZQbHBaR1hvdDVaNXpxT0d5Wk5FQnNUOWcxeHJUdlczcW5URUNwamRKT0h5TmV6bWM4ZGpLZ21CYXA2ckx0OGpTblpQUzRjekw0RVhwZWkzREo0NWx1ckFnWWtKRFJ4RmFMZVJ0eDZjSlM1Mkh1WjZVWg?oc=5",
+   "publisher": "FED.az",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "PASHA Bank participates in REGIONAL EXPO GANJA 2026 (PHOTO)",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1yR0x6d001SmotYnBJSkZLRVdRMXlHMkFJSTFSMHYxQVVZT1dKbWNnLV9nd2dRYzhsaFUwS05QNENHc2tDbTA4RFpRalJHZHhRNnREYWRGWQ?oc=5",
+   "publisher": "Trend News Agency",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "BDO Life earns 2-Golden Arrow award for corporate governance",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWFJzU3BCbzJ5ZXo0MkowT25iZFFPZUxDVGY3VzBXZThJQS1DNWpBbm8wcS02SDE3R3VPcW01a3haZnN3ZFVfaGlKWHhpaWJXYjdPc0V3RkVTWElkVHA1aTZWd2NwcTlwbWRjMDFTdjdOSWxURFBFZmJJb09MbHFNRFYtd0F4bi10S3BkSVhBMW52akFsRV8yUk9R?oc=5",
+   "publisher": "Daily Tribune",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "BDO Unibank stock: Board approves PHP 1.10 quarterly dividend",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNalZhWUZmSms2dlg3T3Y3UkFENEJUd0I4bG9kOWFxMDR6N3VVaHhsMUdmaUZVa0xRWk4xbFM5VlhOLXg1WHlZdUxIV1djMGZvZlEzeEpsRndJb08xTDJ4dDFER2g5OHczYjVSeTJxbl81VzI2aElFVDI2SmRINWV3SkZoTkxaZ2hKaGZrcnhnNXJMZGRBdkFpaEQzTkpuOTVabUktMmU3YjZnMUdWbF9ZM09QdlpJSUFtZEZZ?oc=5",
+   "publisher": "ad-hoc-news.de",
+   "reason": "pre-filter: earnings"
+  },
+  {
+   "title": "Azerbaijan hosts 10th International Banking Forum",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRzlIVGsxMDlzbXZJN1VDejZVNFExQTV0dmNhdDZTUXhKV2oySjhBdHM5TmtHY1k2azdsOHBLYWF5NGdPVlJJYUMyVmIwY0VnM2dMTDhXWHpzdE52NHRiZFR4eV9UWVF5MGY0dU5takNna08tVXEtV3ZuQUN3NXpPVFAwRWdCNGxwTUE?oc=5",
+   "publisher": "Apa.az",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "10th International Banking Forum opens in Baku",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LSzFCeDJjQTVtTnUxcmc2Y3BuQ2gwNTAzcFpIMWdabDU2bDFXd2dGbC1XNDhfOGg5a3RveDFWb0N1UXdFSVFjOGFUZTZiQ2JLRWtHYTlIeWJDNzh6SkJrR3VRRjQxdjhYMkpmdHhoa1A3VXcyS1E?oc=5",
+   "publisher": "Latest news from Azerbaijan",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Halyk Bank of Kazakhstan Q3 2026 Earnings Call Is Live",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOamFja0Jia01yanJlN1YyZ1lodEdlYkxuY3RYSW1PemtQZ19wcGNJUy1fc1ROYXp1akNjOWRxejB2UEVuSldsLVA4RVVTT2dCVm9zUGNleU9FU3BvQU9jODQyb3JxRGFsd21KdTExUmNIM1pneTlXVExITDJEbFFmRlpTRzF3dWVKc1NXUFFmRGlMbnhJQnp3cDJpTmxtZjRsV1VlYjg3VDg2MV9jV3BVNUxyVVdxUUVjRnFNajQwNEM?oc=5",
+   "publisher": "TradingView",
+   "reason": "pre-filter: earnings"
+  },
+  {
+   "title": "Halyk Bank of Kazakhstan: Profit fell 10.2% as reserve and retail-lending pressures offset asset growth",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNRHJMdmZ0NERQSkRyTUhOdldzOVctWlFnQm1wVm5SZjFnSmhPUEZlLUpCRXdfWjFrQ0FsLXgzTDA3a2stUkkzYm5yNzBIUjZWOWpTYnV6dWI3YWNxRWx3a1F3eG1YQVNvWF9Ldk1ibjhaNDVILTJkdzRoZDNxQ1VXWkZiTDd4WFNuOUg0NVAwR2RkOHcyYTNrc2F5dGg0NEUyckFvcG5fVkNCYUNxUTBUVVNpNkdzSGNHV2w3QXFpeFdXQ0VpREtSNi1uMW95Mk9iQk5ZUHhlTEwyUk1RNktwY2F4ZWtYT0pVRGhiN1VONXJUOGJiSmpTMjd0bEJjTXRYMEh4ZG1EbzZzMThVS0gza0dR?oc=5",
+   "publisher": "TradingView",
+   "reason": "pre-filter: earnings"
+  },
+  {
+   "title": "Halyk Bank of Kazakhstan: Q3 earnings rebounded as margin and fees recovered despite reserve and FX headwinds",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQaXhnU1JKbndfejk4dmJyMENYZVBRQ3UzaGdab255WFZvaVVWcHZIek5iWVRvM0hKbDNrQzZ4WjZiTWFweTVwRXJxcktNUklkY2dqanl3Vl9ONVhLd1ZpcXlYQmZvNUNkMWZQNFRidlZOdUoxVmJlTnM1bnlzUW52T0tjeEVMeHloTXlzNjJic25ab3I1dUZyUGtkNGhmcWRCYjA1bmk4VExORmQ3RUt1dnFDeGlSVm9tYWNBZEJ2a1ZiTFQtZXFHeGFBYTVKZXdSX0w1WTRVcE5wdGljNGJIRWlkUlU3RG5hd0xaUm1PSXlyUnJuV2I0R1JWOHNUc3pMMTZXVm9CUUo5MG9reGFDNVZUNXgzSDhIdFNhc2N6QXo?oc=5",
+   "publisher": "TradingView",
+   "reason": "pre-filter: earnings"
+  },
+  {
+   "title": "REG - JSC Halyk Bank JSC Halyk Bank-37QB - 9M and 3Q financial results",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMlE3aVZodDlwS21aOWt6a0tUQlNobXBsYkxDZVM0SFE2LXgwNkNDcGdycF9IaGpwNUZiVUd1dkNPQkFpamhLQm14b2tNNk5VUkVwanNmZVpTOHJMNUpsV1J1UGV1QjJoM2pvbFhseEllT0pZNmU3WjJPR2prTWJvVUU2R2NUdmpKUmI5SjdrV1Q4Sk5aaVRMMXZXOU4tcnJiUVVpdXBIRzE3TUdCZ2VjSUNlVmZtUEtsNU5mXzFVMmhFek9HbWdJSzNjM0hUWU9nRFlsUVd6WVlJUQ?oc=5",
+   "publisher": "TradingView",
+   "reason": "pre-filter: earnings"
+  },
+  {
+   "title": "Weekly Recap: Q2 profit growth and Freedom Bank TR, Bilim Group deals",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNazVyZGd3Mm5RNGtTc2FKMW82MkVpQ0ZhNGhweGUyTFBMU1oyV2pPdHVwNk9qTjVURVdZUjYyMnJNQ0FWUVpSc2RHQTZhcG1paFQzRFpaRmtNNnRmcWdVUWVSOTN4S1N3azdDN2dWUDlaWFRLNXQ4QnhxZ083LUZHa0hlVndGRDUxc1I2aGZwNjNrMDdBVUtfUk9rdm1YRElvTWlWUFZfNFcyM0Z4aG8yNmx2RE1kY0VMc3ItMnJkSmFkVVZoVWIwMQ?oc=5",
+   "publisher": "TradingView",
+   "reason": "pre-filter: earnings"
+  },
+  {
+   "title": "KDB Bank Uzbekistan appoints new deputy board chairman",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNjd6TlN0R0d6UmhaQzBUUEh4NjY4NXBEd3dhNXJLTmxSR2E3QTFOYzNwejdaNTlOUHFGN0hPbGRxSkRnc0UwZFIybFdhRFkwNGJJWFN4bU1kRDhFZ1ZlMnhQYUdyQzBLVXF3dWZXdnhPQ3JUNmtiYVNNV3ZQVnQ2NVdFSF9Sci1R?oc=5",
+   "publisher": "UzDaily",
+   "reason": "pre-filter: people"
+  },
+  {
+   "title": "Outgoing All Whites coach Darren Bazeley joins OFC conference line-up",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYWZGY01YZG5TMjAwRUNFZGh3ay1uTGgxYTV2SURPZUlUSC1wSlY3bzh3VHJUdDNsZXg4RVo0X25ZZjhsYTZpUzNrQ002OUs2ejZfUnFGSzZOOTlxTkFjY0QyQk5Gbk1ZWG1FMldLSWd6SGZyRnV6a2lZeTFRcGNrbFNQVTZrYVJJSk10OE92LWU1WDVpcHZ6MzhwWUJvZXBVRzRjbHZRQ25WUUlMemFaMm51SFpQWmNP?oc=5",
+   "publisher": "Friends of Football",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Grandmasters split over predictions for Sindarov title match",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbmtzS1BiVl85Ri1ZeExpaVRUSnJFVVluMzBRX19WWW90cnhmTHlpalFDc2lCSEhIRS01N05zb21Pc1VXaEtwbEIzcmhiU192dlFKaUtWRkF5WmFGaEtndl9JZWg3XzktSXBRV2lQRERTSXJFOW50YXhfQUVuTzJpT0tJdUdIOElkRFE2RHpEZWg?oc=5",
+   "publisher": "UzDaily",
+   "reason": "pre-filter: opinion"
+  },
+  {
+   "title": "World Bank, Uzbekistan review cooperation on real estate valuation",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wS0c4MnFFODdtMENrUnRXR2hka3ZQS25rZkx1V3Z1T2NFLXNwTGpudHZLY0hKLTRMM0lRdDdsY2xiekhMR0lGYVF4eF9VdnpYZk9HR25lc2trT1pEVTVz?oc=5",
+   "publisher": "Trend News Agency",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Банк развития бизнеса проводит в Ташкенте форум \"Горизонты развития бизнеса в Узбекистане\"",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM0l1dENKcjZ2WUdUZTh1YVBNOUlNUTBQYUxqclloaVFkcnd4ZHU3T2VFSHNIaGVSZHZET3lPaHdsUkVRbFdpNDFwTFVta2s2WmpWd2tWeUxpZmRVeWh6b2ljZTUzck1IQnlhTUhMUE9EVExNVnJieDhUT3dKYlRBZVNLZFRMbFctTFNveWlBMkRjUVA1MDZkeU13Y05NbjZNNWJ2UThTTTU1THhqTlpCNjRjVHFRRmlWNnpaU2ExSWVmbjg?oc=5",
+   "publisher": "Podrobno.uz",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "От Telegram-кошелька к мировым рынкам капитала: как Walt открывает инвесторам Узбекистана доступ к международным IPO",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeHNsMHkzdEpwdF9ld3AtbWJ4MUpGUjRKNE4zWVNwS1JfdW94QkF2N0dFMlA5ay1nUWVfcV9HM1REYVJFenA5NzVwUnVSYXRhTjRIaXNReGFUYU5QMUNOX2hySTVEQUNQb0xZVGhuTHRSUmZVQmNxcmYwVHh0clRDOW9rLWFzYzVBYUJ2X1RYVXJLZU5YSzJLZFp4WnRPTGNYUXRwZTd3cDJrUU5fTnVpYlgxZlNNbXlDWHdjbUlOMkE1NlMzLXJwcWw1WGktMkloVkJhZ1FkTkdubVE?oc=5",
+   "publisher": "UzDaily",
+   "reason": "pre-filter: m&a / ipo"
+  },
+  {
+   "title": "Объявлены курсы валют на 25 ноября",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZHZ3UnY1cGozaW9qb1lGRjl1YzREQjh6RTNUNlJoeFV5cTFZbVpWUW04RXhKc3RIWklONVVlX2dYbzBsYUc2VzROdXJOaE9vLXFkUVJoLTB6aFV4OTNiTEpkX29CemlQdjh3MUZjOWo5UTZ0QWVzRTQ2bnJ3bnZoLW8wdVpVMmpi?oc=5",
+   "publisher": "Zamin.uz",
+   "reason": "pre-filter: market data"
+  },
+  {
+   "title": "Опубликованы курсы валют на 24 ноября",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV0J1YWdjeGlvMVYyc1NmX1FZWHhXRmNnSVFWak5LZ25ESFFqVzd0aWpQM1BRZXUtZE54ZkRhSTRWLVRQV1JGR21fRjlQWGdiS1ByeUdZdDBsN0VCTHFBeEdYazNVLWs2SW1rS2hCOG9SYVJYaGM3Ri1BeHBjVjFGekVDRm5BM0doUmc?oc=5",
+   "publisher": "Zamin.uz",
+   "reason": "pre-filter: market data"
+  },
+  {
+   "title": "Emekli promosyonunda Kasım 2026 listesi: Banka banka güncel ödeme ve ek ödül fırsatları",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdlhBNjdPR29oZzkzMDUydnJ6RnhIcVFOMEswZmJLMWNELWpDR2lQNXpYWTlJTTF0OGZaektNUjU2WklmUzBXUW1XOGt3TkU2bUpJUXlVX01maGp6WDczN3htSFJTa0JNMXFfTGQwdkExcXpBUVZSZ2xCMmVxbWVmSXhnSUh5anZyeFFqNTduNjJxQWJaQU44b192NTJHbC1ZVWJ3NzR3dWtUVE9HU1hoZl9XR3FVcDdQaUl6X184SVhwYU4wNDJUR3NYUQ?oc=5",
+   "publisher": "12punto",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Tamara Lands $400M in Asset-Backed Financing From MUFG and Standard Chartered",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV1lCb0pnMWVXXzE4S0M1ZmVsbnAwX25aX3FHcHBTY29mNXF5bEhqcm4zbUlmZmp3d21zZE1CTWxRaktZWG1uYk5ZeGZZVHF3LVZpWndFaklRZ01mM3JNNU1qVFU0SjNRWEhBR2RCRS1IWWZ5a21WaDlQdWY5b1E3X3FXSHZkS2ZaSzRuN1lOWEtyZ1o2QWJYSnNvNmlqQ3FVN1VpNFNn?oc=5",
+   "publisher": "أراجيك - Arageek",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Connect Money raises USD 3.5 mn pre-Series A to expand into Saudi Arabia and Morocco.",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOblBjeUg2U2FSZHlOSWZiMUgzaFdOMHJLejJqenRmRDBQOURnVkZiVXZZaXFFMF93ODc4UFJ5MXhmeU9EWXM3V0hRWGZSSW1ZN1ZzcmJ0SDVnYzRXZDBkeDFqOE1HVS1VTEVTMDBKRE9VX1c4YnF3V25MVWRxNnZpd3RZWTBrU1NIX0hIR3pDcENrTlVtcmp5UnhJdlNIOEVxeFhnMlZEdHFqYzlQTE9nNGVheWgtbWF1TFZLUlZPRnBNXzNCcXc?oc=5",
+   "publisher": "EnterpriseAM",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "FAB joins UN Water Conference as partner, eyes Dh100b in blue finance",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ2JHX3ZkM3BKR2RZbFFNYkMwYnB1eWpXZEMxbWwyTW1lVzhxV09RMXFMM1luSWhfMGJLem1taUJJaGFqN2F6elZ3TmxwNjZ2SncxbElHV1M5aTdjMXE1dXMzZWdaOEhwTWpXUEhNcnFmbVBDanQydlEzWE5waWcyNTRsZWhZbEJTR0RVcU01VGltY1htZTREZzE2Mnl5MnFTaXNrWVgxNmZSWE80TVZV0gG_AUFVX3lxTE1hUVZ3ZkFTWjZlQXhVRGc3RXhnNUhpSkNuOGYwdWZiMUFobXFMcl80SlJBN2hySlQtVy1Ma2NScUhKVzBjSWQwc29jWXhoNXU0M3hjZmF3c3NBMmIwVVp0N0RvSDYweDdFY2dCSm9EUmpKc0F5WVdBVTJ3SVR0V2tqcGlVOXBIMXRPaGNfN0J1dURneWhJNXJoNWIzY215aVFZMUlCWnlsQndHQUpuTlNoMktIaHBDYWoxVzQ0OHdV?oc=5",
+   "publisher": "Gulf News",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "Wultra-Led Consortium Secures Landmark Tender for Czech European Digital Identity Wallet",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWmNZVnJ3YWwwbHE2eUpQVUJMQkhWTWhUTm5pVk9OTDRGeEZtSldqY3Q5cjdHellhZC1rNDJsWmZYbThlZjFJaEhJZHIzWE9TTDJ2ckFyQk1FYnNwcm8xWHpSZVcwb3B5X0tPZGRUSEFPQzRPM21QOEVmQ19aZW5ETWxpcVU1OFFiUVctX0ZFQ1ZYZXQxSjNRVDM4Q1FrY3VrU1BpNHpLRnQxTG8?oc=5",
+   "publisher": "FF News",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Russian fintech A7 presented it’s cross-border payment platform at Megacampus Summit in Dubai",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZEJDcTZHWUhQc21WTzhmQzdNR2hEVVFsSS1uSUlrWFBaYUxLaFprSHJCZkJZeEt2NlB6Yk1saVhJdF9tN0FBb3RiYVlrZi16elJsQ1QxZ2k4YUREVjJXOGhSdWJHbGxIREs2ODlsX2w4Q2tKVGlRclJTZ3hmUjBncnA1dk1YQzlCajFsWjJGcUVyWUpQUTA0VjNxNHZab0tDa1ZfMjk3Rm1kdzF3UnRfamhDWGRudTlwbVM0NVRDRDAzZWVmaURKdzlqM3M?oc=5",
+   "publisher": "Arabian Business",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "CIBC Launches Latest CDR as Anthropic Goes Public with Record Market Launch",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQXd2a2t4dzdRZmp6c2FfQnVDbFVLNkJVdTJLX3dyaHVTREs3ZlFKUUJ1OEpOUWhiZHR5Z214MHlTOU5jcFRZV1ZrYjk5MkV2UnBuWTJ1cGtCLW1RbjVESEF2SjJpd3dJWWdQbWxyUEhzSWJwdkk5QWM3RUc2bDM1M1A4SS1YZGdtMWlF?oc=5",
+   "publisher": "Fintech.ca |",
+   "reason": "pre-filter: m&a / ipo"
+  },
+  {
+   "title": "Sponsored | Digicel Samoa launches new mobile tower in Asau",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5nWmNwV202bzh1dU9Cc2VuUEZFR3cwVWJvclA3Unl0R2RBWUtzVUZ4ZmdkbjdncGdfdS1RV08wdlV3UEZxaGNNakd1cW9FN3Qwc2JZWFUxVUVQaXZYcG05R2NnVVo?oc=5",
+   "publisher": "Samoa Observer",
+   "reason": "pre-filter: event"
+  },
+  {
+   "title": "KDB Bank Uzbekistan appoints new deputy board chairman",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNjd6TlN0R0d6UmhaQzBUUEh4NjY4NXBEd3dhNXJLTmxSR2E3QTFOYzNwejdaNTlOUHFGN0hPbGRxSkRnc0UwZFIybFdhRFkwNGJJWFN4bU1kRDhFZ1ZlMnhQYUdyQzBLVXF3dWZXdnhPQ3JUNmtiYVNNV3ZQVnQ2NVdFSF9Sci1R?oc=5",
+   "publisher": "UzDaily",
+   "reason": "pre-filter: people"
+  },
+  {
+   "title": "World Bank and Uzbekistan discuss property valuation system",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdVZvejZ3NmI3YVZDNXl6WlcwUHIwSXZFWEdCZDJHcnAzWEhIdDd3eHFKd2czSFJ5NV85VzV0T1hHUnZVaEoxendqRFlBODNSMHVxWlJvdV9VdFBFanRfVmJnbEh1cmhablBDSFQzeTFOUG52eko4aU84VzhtdkNMWXhGSGUyX2dfRXpFTC1FRQ?oc=5",
+   "publisher": "UzDaily",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Saudi BNPL giant Tamara secures $400m in asset-backed financing",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaXNRUndCOHV6bGQ2T09jMGdUR3dZNDBSS0ZaSkQtcmtnMk9rVWV2aXBrb0V5TDZxQ3FERF95SFRYOFY1amJTclkwOWJvZ2hMbUMwU0x3bVJhaXZ0bGZBMHBWX3BhRnFNaGdzTXVXQTJNQThXTkFiVGIyTXJJWk5sVDkyWTl0NGFiWjR3ZW9MVGJyT3lpN0xndmdEbjFHY3kzZE9YVERYUVlWdGZJOGo4TQ?oc=5",
+   "publisher": "FinTech Futures",
+   "reason": "pre-filter: funding"
+  },
+  {
+   "title": "Visa Opens AI Agent Wallets to U.S. Cardholders, With Earnings Paid in OUSD",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhUlVfbVRxMmRPdjFaWkhUYk5GRlhEU1JXbGtuNGJGMXB6a3I4YklOLVRjcWxqZFlEaDROcFF2Y0MwS21KSGtadGs5c2FtdmgxZVB2MUJ6WTFkS29GMU1JQUkyUS1JVmI3czFfWEJLVkFSRG82b1E?oc=5",
+   "publisher": "BigGo Finance",
+   "reason": "pre-filter: earnings"
+  },
+  {
+   "title": "Walmart opens its Agent Gateway with Meta's Muse as the first AI agent able to buy for shoppers",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaXYzbDFpLXpNVVF5YXdxbEVKemJGTjktSnJMT3NjbE85cTR1bk84QXh3cWMzbF9weXdQRTFERVAwTWR0dm5oaGQyZUV5clJRSmtqVHd4ZmpQcE5naWh6X1FFdTBzbFlUemZzNFpyVjIzM2ZKbWdpZDhFU0dqcGFZMHY2V2pTSDlOQ3FlRVhobno2Nk5wbTBiZGlnTzUyQlVoNUVRSm1jVER5R3RVMm9RVUFFWmhqZw?oc=5",
+   "publisher": "MLQ.ai",
+   "reason": "pre-filter: m&a / ipo"
+  },
+  {
+   "title": "Netcraft appoints ex-CIBC security chief Keith Gordon",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM09Uby1VVWZvclNoZXVMQzB1OWVzNXpUVDVjRGo3X2habk1OeW1QaEdCd0lILXRjUlpka29WM0o4OWxHYnhGWlc3VE9TTXI1T1k5RkdoYnRpR2NLdEh5VTI5SmQ5QllzV3VjN3RSczlXY1ZTQ2xaZHhYeWlZM1pQWURMUkZMcUg3VjQ0NWFSU0QtZw?oc=5",
+   "publisher": "SecurityBrief Australia",
+   "reason": "pre-filter: people"
+  },
+  {
+   "title": "Ping An Digital Bank Secures HKD 500 Million Capital Boost from Lufax Holding",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUnlqM3NlVk51NXpBUWUzaUg1NUdsYWVzcmxpRGtCLUc5UjVrb0paWENDWHFMNk5GUzFKU09iOVdIVUR2VklqY3dOUzVOd1Y4eVhsU21penB3SHBpODl0QUJUdFFoWndEU1pCNzcxOG5oZjNITktfQ2hlZktiSXU0N2VNVmdiWmpfYXlEVk9PM0pjbEMtV2FEcHNSN0RfSWZJSG5ZNFhXZFlrdw?oc=5",
+   "publisher": "FF News",
+   "reason": "pre-filter: funding"
+  }
+ ]
+}
