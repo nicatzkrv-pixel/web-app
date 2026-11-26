@@ -127,6 +127,7 @@ def cmd_run(args) -> int:
     scorer = score.make_scorer(force_keywords=args.keywords_only)
     log.info("Scoring %d candidates with %s", len(candidates), "Claude" if scorer else "keyword fallback")
     scored, meta = score.score_items([c.to_dict() for c in candidates], scorer)
+    stats["already_have"] = score.check_existing(scored, scorer)
     kept = sorted((s for s in scored if s["keep"]), key=lambda s: (-s["score"], s["region"] != "Azerbaijan"))
     rejected = [{"title": s["title"], "url": s["url"], "publisher": s["publisher"], "score": s["score"],
                  "reason": s["drop_reason"], "scored_by": s["scored_by"]} for s in scored if not s["keep"]]

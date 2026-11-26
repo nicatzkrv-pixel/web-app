@@ -191,3 +191,36 @@ def test_context_lists_existing_features_and_prompt_uses_them():
         assert feature in prompt
     assert "already_have" in prompt
     assert "already_have" in score.verdict_schema()["properties"]["verdicts"]["items"]["required"]
+
+
+def test_second_pass_drops_covered_ideas():
+    def responder(kwargs):
+        content = kwargs["messages"][0]["content"]
+        if "<ideas>" in content:
+            ids = [i["id"] for i in json.loads(content.split("<ideas>\n", 1)[1].rsplit("\n</ideas>", 1)[0])]
+            checks = [{"id": ids[0], "covered": True, "feature": "Transfer to local bank accounts", "new_part": ""},
+                      {"id": ids[1], "covered": False, "feature": "", "new_part": "tourists with foreign cards"}]
+            text = json.dumps({"checks": checks})
+            return SimpleNamespace(content=[SimpleNamespace(type="text", text=text)], stop_reason="end_turn", usage=None)
+        return reply_with(lambda items: [verdict(i["id"]) for i in items])(kwargs)
+    client = FakeClient(responder)
+    scorer = score.ClaudeScorer(client=client, context="")
+    results, _ = score.score_items([make_item(1), make_item(2)], scorer)
+    assert score.check_existing(results, scorer) == 1
+    assert results[0]["keep"] is False and results[0]["drop_reason"] == "Birbank already has: Transfer to local bank accounts"
+    assert results[1]["keep"] is True
+    assert "When in doubt, covered = true" in client.messages.calls[-1]["system"][0]["text"]
+
+
+def test_second_pass_failure_keeps_items():
+    calls = {"n": 0}
+
+    def responder(kwargs):
+        calls["n"] += 1
+        if calls["n"] > 1:
+            raise RuntimeError("down")
+        return reply_with(lambda items: [verdict(i["id"]) for i in items])(kwargs)
+    scorer = score.ClaudeScorer(client=FakeClient(responder), context="")
+    results, _ = score.score_items([make_item(1)], scorer)
+    assert score.check_existing(results, scorer) == 0 and results[0]["keep"] is True
+    assert score.check_existing(results, None) == 0
