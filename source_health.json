@@ -35,6 +35,12 @@
    "ok": true,
    "count": 12,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 12,
+   "error": null
   }
  ],
  "PYMNTS": [
@@ -70,6 +76,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 10,
    "error": null
@@ -111,6 +123,12 @@
    "ok": true,
    "count": 10,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
   }
  ],
  "Payments Dive": [
@@ -146,6 +164,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 10,
    "error": null
@@ -187,6 +211,12 @@
    "ok": true,
    "count": 10,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
   }
  ],
  "Fintech News Middle East": [
@@ -222,6 +252,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://fintechnews.ae/feed/"
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": false,
    "count": 0,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://fintechnews.ae/feed/"
@@ -263,6 +299,12 @@
    "ok": true,
    "count": 10,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
   }
  ],
  "PaymentsJournal": [
@@ -298,6 +340,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 1000,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 1000,
    "error": null
@@ -339,6 +387,12 @@
    "ok": true,
    "count": 10,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
   }
  ],
  "Finextra": [
@@ -376,6 +430,12 @@
    "at": "2026-11-26T13:00:28.733070+00:00",
    "ok": true,
    "count": 100,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 85,
    "error": null
   }
  ],
@@ -415,6 +475,12 @@
    "ok": true,
    "count": 74,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 73,
+   "error": null
   }
  ],
  "FF News": [
@@ -450,6 +516,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 96,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 96,
    "error": null
@@ -491,6 +563,12 @@
    "ok": true,
    "count": 71,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 69,
+   "error": null
   }
  ],
  "GN Azerbaijan fintech (EN)": [
@@ -529,6 +607,12 @@
    "ok": true,
    "count": 31,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 25,
+   "error": null
   }
  ],
  "GN Azerbaijan local press (AZ)": [
@@ -564,6 +648,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 100,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 100,
    "error": null
@@ -605,6 +695,12 @@
    "ok": true,
    "count": 100,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 100,
+   "error": null
   }
  ],
  "GN Azerbaijan banks (RU)": [
@@ -643,6 +739,12 @@
    "ok": true,
    "count": 47,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 25,
+   "error": null
   }
  ],
  "GN Azerbaijan players": [
@@ -678,6 +780,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 23,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 23,
    "error": null
@@ -719,6 +827,12 @@
    "ok": true,
    "count": 1,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 1,
+   "error": null
   }
  ],
  "GN Kazakhstan (EN)": [
@@ -756,6 +870,12 @@
    "at": "2026-11-26T13:00:28.733070+00:00",
    "ok": true,
    "count": 12,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 11,
    "error": null
   }
  ],
@@ -795,6 +915,12 @@
    "ok": true,
    "count": 26,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 52,
+   "error": null
   }
  ],
  "GN Uzbekistan": [
@@ -830,6 +956,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 31,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 31,
    "error": null
@@ -871,6 +1003,12 @@
    "ok": true,
    "count": 28,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 41,
+   "error": null
   }
  ],
  "GN Georgia and Armenia": [
@@ -909,6 +1047,12 @@
    "ok": true,
    "count": 23,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 21,
+   "error": null
   }
  ],
  "GN Türkiye mobile banking (TR)": [
@@ -944,6 +1088,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 3,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 3,
    "error": null
@@ -985,6 +1135,12 @@
    "ok": true,
    "count": 18,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 18,
+   "error": null
   }
  ],
  "GN Gulf banking": [
@@ -1020,6 +1176,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 29,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 29,
    "error": null
@@ -1061,6 +1223,12 @@
    "ok": true,
    "count": 28,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 27,
+   "error": null
   }
  ],
  "GN P2P and transfers": [
@@ -1099,6 +1267,12 @@
    "ok": true,
    "count": 29,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 44,
+   "error": null
   }
  ],
  "GN QR and tap to pay": [
@@ -1134,6 +1308,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 12,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 12,
    "error": null
@@ -1175,6 +1355,12 @@
    "ok": true,
    "count": 17,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 17,
+   "error": null
   }
  ],
  "GN Instant payments": [
@@ -1213,6 +1399,12 @@
    "ok": true,
    "count": 12,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
   }
  ],
  "GN Wallets and super-apps": [
@@ -1248,6 +1440,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 5,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 5,
    "error": null
@@ -1289,6 +1487,12 @@
    "ok": true,
    "count": 15,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 15,
+   "error": null
   }
  ],
  "GN BNPL and lending": [
@@ -1324,6 +1528,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 6,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 6,
    "error": null
@@ -1365,6 +1575,12 @@
    "ok": true,
    "count": 6,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 6,
+   "error": null
   }
  ],
  "GN AI in banking": [
@@ -1402,6 +1618,12 @@
    "at": "2026-11-26T13:00:28.733070+00:00",
    "ok": true,
    "count": 27,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 34,
    "error": null
   }
  ],
@@ -1441,6 +1663,12 @@
    "ok": true,
    "count": 24,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 27,
+   "error": null
   }
  ],
  "GN Identity and onboarding": [
@@ -1476,6 +1704,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 6,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 6,
    "error": null
@@ -1517,6 +1751,12 @@
    "ok": true,
    "count": 26,
    "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
+   "ok": true,
+   "count": 47,
+   "error": null
   }
  ],
  "GN Bill pay and recurring": [
@@ -1552,6 +1792,12 @@
   },
   {
    "at": "2026-11-26T13:00:28.733070+00:00",
+   "ok": true,
+   "count": 2,
+   "error": null
+  },
+  {
+   "at": "2026-11-26T13:10:09.534587+00:00",
    "ok": true,
    "count": 2,
    "error": null
