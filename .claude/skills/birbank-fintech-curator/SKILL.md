@@ -27,6 +27,8 @@ Drop the item (keep = false) if it is mainly about:
 - opinion or analysis with no concrete product
 - market data (exchange rates, share prices) or generic bank news with no new feature
 
+Also drop it if Birbank **already has** the feature: check the list under "Features Birbank already has" in `context/birbank-context.md` and name the matching Birbank feature ("Birbank already has: Transfer by phone number"). Keep it only if it adds a clearly new capability on top, and make the idea name what is new.
+
 Keep it only if it describes something concrete that **launched, is piloting, or was specified**: a product feature, a user flow, a business model, or a regulatory or infrastructure change that enables new products.
 
 ## Step 3: Classify

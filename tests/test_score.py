@@ -173,3 +173,21 @@ def test_schema_enums_match_config():
     props = score.verdict_schema()["properties"]["verdicts"]["items"]["properties"]
     assert props["category"]["enum"] == config.CATEGORIES
     assert props["kpi"]["enum"] == config.KPIS
+
+
+def test_existing_birbank_feature_is_dropped_in_code():
+    """Even if the model keeps it with a high score, a feature Birbank already has never ships."""
+    scorer = score.ClaudeScorer(client=FakeClient(reply_with(lambda items: [
+        verdict(items[0]["id"], applicability=9, novelty=9, already_have="Transfer by phone number"),
+        verdict(items[1]["id"], already_have="")])), context="")
+    results, _ = score.score_items([make_item(1), make_item(2)], scorer)
+    assert results[0]["keep"] is False and results[0]["drop_reason"] == "Birbank already has: Transfer by phone number"
+    assert results[1]["keep"] is True
+
+
+def test_context_lists_existing_features_and_prompt_uses_them():
+    prompt = score.build_system_prompt()
+    for feature in ("transfer by phone number", "Apple Pay", "Böl-ödə", "Kasko", "hide balance"):
+        assert feature in prompt
+    assert "already_have" in prompt
+    assert "already_have" in score.verdict_schema()["properties"]["verdicts"]["items"]["required"]

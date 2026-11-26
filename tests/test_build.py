@@ -99,8 +99,10 @@ def test_helpers():
     assert score_tiles(9.1) == ["9", ".", "1"]
     assert score_tiles(10) == ["1", "0", ".", "0"]
     summary = dict(dropped_summary({"dropped": [{"reason": "pre-filter: funding"}, {"reason": "already shown on x"},
-                                                 {"reason": "score 5.2 below 6.0"}, {"reason": "funding round"}]}))
-    assert summary == {"funding": 1, "already shown": 1, "below the bar": 1, "not a concrete new feature": 1}
+                                                 {"reason": "score 5.2 below 6.0"}, {"reason": "funding round"},
+                                                 {"reason": "Birbank already has: Apple Pay"}]}))
+    assert summary == {"funding": 1, "already shown": 1, "below the bar": 1, "not a concrete new feature": 1,
+                       "Birbank already has it": 1}
 
 
 def test_fixture_sources_marked_sample():

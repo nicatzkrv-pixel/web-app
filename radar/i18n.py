@@ -80,6 +80,7 @@ STRINGS: dict[str, dict[str, str]] = {
         "reason_opinion": "opinion",
         "reason_market data": "market data",
         "reason_repeat": "already shown",
+        "reason_have": "Birbank already has it",
         "reason_below": "below the bar",
         "reason_judged": "not a concrete new feature",
         "how_scored": "How items are chosen",
