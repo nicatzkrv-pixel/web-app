@@ -17,7 +17,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import config, geo
+from . import config, geo, simulate
 from .i18n import t
 
 STATIC_DIR = config.TEMPLATES_DIR / "static"
@@ -99,6 +99,12 @@ def asset_version() -> str:
     return h.hexdigest()[:10]
 
 
+def sim_strings() -> dict:
+    from .i18n import STRINGS
+
+    return {k: v for k, v in STRINGS["en"].items() if k.startswith("sim_") or k.startswith("kpi_")}
+
+
 def _env() -> Environment:
     env = Environment(
         loader=FileSystemLoader(str(config.TEMPLATES_DIR)),
@@ -108,7 +114,8 @@ def _env() -> Environment:
     )
     env.globals.update(t=t, score_tiles=score_tiles, tojson=lambda v: json.dumps(v, ensure_ascii=False).replace("</", "<\\/"), fmt_published=fmt_published, slug=slug,
                        fmt_date_short=fmt_date_short, categories=config.CATEGORIES, regions=config.REGIONS,
-                       repo_url=REPO_URL, min_score=config.MIN_SCORE, v=asset_version())
+                       repo_url=REPO_URL, min_score=config.MIN_SCORE, v=asset_version(),
+                       baseline=simulate.load_baseline(), sim_strings=sim_strings())
     return env
 
 
@@ -139,6 +146,13 @@ def edition_view(doc: dict, prev_day: str | None, next_day: str | None, latest_d
             points.append({"id": item["id"], "lon": coords[0], "lat": coords[1], "region": item.get("region", "Global"),
                            "score": item.get("score", 0), "idea": item.get("idea", ""),
                            "place": item["place"], "anchor": item["anchor"]})
+    sims = {}
+    for item in items:
+        brief = item.get("sim") or simulate.default_brief(item)
+        item["sim"] = brief
+        sims[item["id"]] = {**brief, "title": item["title"], "idea": item.get("idea", ""), "url": item["url"],
+                            "publisher": item.get("publisher", ""), "category": item.get("category", ""),
+                            "region": item.get("region", ""), "place": item.get("place", ""), "kpi": item.get("kpi", "")}
     region_counts = Counter(i.get("region", "Global") for i in items)
     return {
         "date": doc["date"],
@@ -167,6 +181,7 @@ def edition_view(doc: dict, prev_day: str | None, next_day: str | None, latest_d
         "region_counts": {r: region_counts.get(r, 0) for r in config.REGIONS},
         "scanned": stats.get("fetched"),
         "ticker": items[:14],
+        "sims": sims,
     }
 
 
