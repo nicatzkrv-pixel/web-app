@@ -109,6 +109,14 @@ Sources that fail in more than half their runs over 7 days are flagged at the en
 
 To change the rules, edit `radar/score.py` and `radar/config.py`, and keep `.claude/skills/birbank-fintech-curator/SKILL.md` in sync.
 
+## Simulate for Birbank
+
+Every item has a **Simulate for Birbank** button that opens a 12-month impact report: estimates for each team KPI (MTU, non-cash transactions, net profit, ecosystem growth, NPS, uptime), low / base / high scenarios, editable assumptions, effort, time to launch, dependencies, risks and a first pilot step.
+
+- `radar/simulate.py` writes a brief per kept item: planning assumptions (adoption, activation, extra transactions, fees, acquisition, NPS, uptime) from Claude, or a cautious default per category when Claude is unavailable. The model never produces the figures.
+- The browser computes the figures from Birbank's baselines (`config/birbank-baseline.yaml`). **That file is public:** keep it empty or use public, rounded numbers. Each reader can type the real numbers under "Your numbers" in the report; they are stored only in that browser's localStorage.
+- Formulas (per scenario): adopters = active users × adoption; new MTU = adopters × activation; extra non-cash transactions = adopters × extra transactions; net profit a year = 12 × adopters × (extra transactions × (revenue − cost per transaction) + new fees); new customers a year = 12 × new customers a month × acquisition uplift.
+
 ## Claude Code setup
 
 Skills in `.claude/skills/` load automatically in Claude Code:

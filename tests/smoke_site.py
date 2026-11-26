@@ -124,6 +124,17 @@ def check_filters(page, run: Run):
     page.locator("[data-empty] [data-reset]").click()
     run.check(visible() == total, "search: clear from the empty state restores rows")
 
+    sim = page.locator("[data-item] [data-sim-open]").first
+    if sim.count():
+        sim.click()
+        page.wait_for_timeout(300)
+        dialog_open = page.locator("[data-sim-dialog]").evaluate("d => d.open")
+        rows = page.locator(".sim__table tbody tr").count()
+        run.check(dialog_open and rows == 6, "simulate: report opens with 6 KPI rows", f"open={dialog_open}, rows={rows}")
+        page.keyboard.press("Escape")
+        page.wait_for_timeout(200)
+        run.check(not page.locator("[data-sim-dialog]").evaluate("d => d.open"), "simulate: Escape closes the report")
+
     word = page.evaluate("() => document.querySelector('[data-list] [data-item] .item__title a').textContent.trim().split(/\\s+/).find(w => w.length > 4) || ''")
     if word:
         page.locator("[data-filters] input[name=q]").fill(word.lower())

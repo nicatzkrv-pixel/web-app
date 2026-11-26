@@ -63,6 +63,9 @@
       <span class="chip chip--cat">{{ item.category }}</span>
       <span class="chip chip--kpi">{{ t('moves') }} {{ item.kpi }}</span>
       {{ maths(item) }}
+      <button type="button" class="sim-btn" data-sim-open="{{ item.id }}" aria-haspopup="dialog">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 13.5h12M4 11V8M7 11V5M10 11V7M13 11V3"/></svg>{{ t('sim_button') }}
+      </button>
     </div>
   </div>
   <div class="item__where">{{ region_chip(item) }}</div>

@@ -73,7 +73,10 @@
   </div>
   {% endif %}
 </section>
-{% if e %}<script type="application/json" id="radar-points">{{ e.points|tojson }}</script>{% endif %}
+{% if e %}<script type="application/json" id="radar-points">{{ e.points|tojson }}</script>
+<script type="application/json" id="radar-sims">{{ e.sims|tojson }}</script>
+<script type="application/json" id="radar-baseline">{{ baseline|tojson }}</script>
+<script type="application/json" id="radar-sim-strings">{{ sim_strings|tojson }}</script>{% endif %}
 {% endblock %}
 
 {% block main %}
@@ -175,6 +178,12 @@
 {% endblock %}
 
 {% block scripts %}
+{% if e and e.all_items %}
+<dialog class="sim" data-sim-dialog aria-labelledby="sim-title">
+  <div class="sim__body" data-sim-body></div>
+</dialog>
+<script src="{{ base }}assets/radar-sim.js?v={{ v }}" defer></script>
+{% endif %}
 <script src="{{ base }}assets/radar.js?v={{ v }}" defer></script>
 {% if e %}<script type="module" src="{{ base }}assets/radar-globe.js?v={{ v }}"></script>{% endif %}
 {% endblock %}

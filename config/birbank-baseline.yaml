@@ -1,0 +1,42 @@
+# Birbank baselines for the "Simulate for Birbank" reports.
+#
+# THIS FILE IS PUBLIC (the repo and the site are public). Only put numbers here that are
+# already public (press releases, annual reports) or deliberately rounded ranges.
+# Leave a value as null to keep it private: each reader can enter it in the report's
+# "Your numbers" panel, where it is stored only in their own browser.
+#
+# Every value is per month unless the unit says otherwise. "k" = thousands.
+
+metrics:
+  app_mau:
+    label: Monthly active app users
+    unit: k users
+    value: null
+  mtu:
+    label: Monthly transacting users (at least 1 transfer or payment)
+    unit: k users
+    value: null
+  new_customers:
+    label: New customers per month
+    unit: k customers
+    value: null
+  non_cash_tx:
+    label: Non-cash transactions per month (all payments and transfers)
+    unit: k transactions
+    value: null
+  revenue_per_tx:
+    label: Average net revenue per payment or transfer
+    unit: AZN
+    value: null
+  cost_per_tx:
+    label: Average processing cost per transaction
+    unit: AZN
+    value: null
+  nps:
+    label: Current NPS
+    unit: points
+    value: null
+  uptime:
+    label: Payments availability (last 12 months)
+    unit: "%"
+    value: null

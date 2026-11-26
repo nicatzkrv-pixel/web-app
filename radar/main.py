@@ -14,7 +14,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import config, fetch, score, source_health
+from . import config, fetch, score, simulate, source_health
 from .build import build_site
 
 FIXTURE_SOURCES = config.ROOT / "tests" / "fixtures" / "sources.yaml"
@@ -136,6 +136,7 @@ def cmd_run(args) -> int:
         rejected += [{"title": s["title"], "url": s["url"], "publisher": s["publisher"], "score": s["score"],
                       "reason": "keyword mode: over the daily cap", "scored_by": "keyword"} for s in over]
     stats["kept"] = len(kept)
+    stats["simulations"] = simulate.add_briefs(kept, simulate.make_simulator(force_default=args.keywords_only))
 
     doc = {
         "date": date,
