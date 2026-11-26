@@ -22,8 +22,29 @@ Lines marked `TODO(team)` are placeholders. Until they are filled in, the scorer
 ## What a good find looks like
 Something Birbank could realistically bring to Azerbaijan or into the Birbank app within about a year: it works on local rails, fits CBA rules, and solves a problem Azerbaijani customers have. Local and nearby-market launches matter most, because they show what competitors or neighbours will copy next.
 
-## Current Birbank features and roadmap
-TODO(team): list the payments and transfer features Birbank already has (so the scorer can mark them as low novelty), and themes on the roadmap (high priority).
+## Features Birbank already has (do not recommend these)
+An item whose main feature is on this list is not a find: Birbank already offers it. Only keep such an item if it adds a clearly new capability on top (for example a new corridor, a new rail, a new segment or a new mechanism), and then the idea must name exactly what is new.
+
+**Transfers:** card-to-card transfer; transfer by phone number; transfer between own accounts; card number scan by camera; saved and recent recipients; transfer to m10; transfer to local bank accounts; international money transfers; request money from friends; AniPay transfers; QR code to receive transfers; turn receiving Birbank transfers to a card on or off.
+
+**Payments:** bill and service payments (23 categories, e.g. mobile, utilities, internet, government, education); check and pay traffic fines; Bir Pay QR payments; Click to Pay; Apple Pay; coupons and offers.
+
+**Card management:** order a card or a physical version; activate a card (store-bought, salary or student); add another bank's card; reissue, close, block or hide a card; rename a card; view card details and requisites; 3D Secure; change PIN, reset PIN attempts; spending and income limits; SMS banking; linked services and subscriptions.
+
+**Loans:** cash loan; "Böl-ödə" installment limit; apply for a credit limit on a card; loans and debts overview.
+
+**Savings and accounts:** goal-based savings account; digital deposit; open a current account.
+
+**Insurance:** life insurance; compulsory auto insurance; travel insurance; Kasko.
+
+**Mobile:** SIM card activation; add Nar or Bakcell numbers.
+
+**Documents and legal:** document delivery (account statement, letter to an embassy, loan closure certificate); contracts to sign at a branch; powers of attorney (given and received).
+
+**Other:** open banking (other banks' cards and accounts); trips (flight tickets and bookings); currency exchange; branch, ATM and terminal locator; online queue booking; chat support; notifications; hide balance.
+
+## Roadmap
+TODO(team): themes on the roadmap (high priority).
 
 ## Local competitors
 Known local players to watch: ABB, PASHA Bank, Leobank, Yelo Bank, Unibank, Xalq Bank, AccessBank, m10 (wallet), and the Central Bank of Azerbaijan (CBA) as regulator and operator of the instant payment system.

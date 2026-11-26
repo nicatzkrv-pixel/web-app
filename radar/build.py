@@ -42,6 +42,8 @@ def load_editions(data_dir: Path) -> list[dict]:
 def _reason_key(reason: str) -> str:
     if reason.startswith("pre-filter: "):
         return reason.removeprefix("pre-filter: ")
+    if reason.startswith("Birbank already has"):
+        return "have"
     if reason.startswith("already shown"):
         return "repeat"
     if reason.startswith("score ") or "daily cap" in reason:

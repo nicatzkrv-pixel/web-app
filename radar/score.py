@@ -50,6 +50,7 @@ Fields:
 - applicability 1-10: could Birbank ship this in Azerbaijan within about a year, given local rails, regulation, customer habits and an existing mobile app? 10 = could start next sprint; 1 = impossible locally.
 - novelty 1-10: how new is this in Azerbaijan? 10 = nobody local offers it; 1 = already common in Azerbaijan. If unsure whether a local bank already offers it, use a middle value.
 - launch_status: launched | piloting | announced | specified | unclear. "Announced" or "plans to" is not "launched".
+- already_have: if the item's main feature is already in "Features Birbank already has" in the context below, the name of that Birbank feature (for example "Transfer by phone number"); otherwise an empty string. Fill it even if the item comes from another country. Leave it empty only when the item adds a clearly new capability on top of the existing feature, and then make the idea name exactly what is new.
 - drop_reason: a few words when keep is false, otherwise an empty string.
 
 Rules:
@@ -79,6 +80,7 @@ def verdict_schema() -> dict:
             "id": {"type": "string"},
             "keep": {"type": "boolean"},
             "drop_reason": {"type": "string"},
+            "already_have": {"type": "string"},
             "category": {"type": "string", "enum": config.CATEGORIES},
             "region": {"type": "string", "enum": config.REGIONS},
             "country": {"type": "string"},
@@ -89,7 +91,7 @@ def verdict_schema() -> dict:
             "novelty": {"type": "integer"},
             "launch_status": {"type": "string", "enum": config.LAUNCH_STATUSES},
         },
-        "required": ["id", "keep", "drop_reason", "category", "region", "country", "summary",
+        "required": ["id", "keep", "drop_reason", "already_have", "category", "region", "country", "summary",
                      "idea_for_birbank", "kpi", "applicability", "novelty", "launch_status"],
         "additionalProperties": False,
     }
@@ -235,9 +237,12 @@ def _finalise(item: dict, verdict: dict, scored_by: str) -> dict:
                                  item.get("penalty", 0.0))
     category = verdict.get("category") if verdict.get("category") in config.CATEGORIES else rules.guess_category(item["title"])
     kpi = verdict.get("kpi") if verdict.get("kpi") in config.KPIS else rules.CATEGORY_KPI[category]
-    keep = bool(verdict.get("keep")) and parts["score"] >= config.MIN_SCORE
+    already = (verdict.get("already_have") or "").strip()
+    keep = bool(verdict.get("keep")) and parts["score"] >= config.MIN_SCORE and not already
     drop_reason = verdict.get("drop_reason") or ""
-    if verdict.get("keep") and not keep:
+    if verdict.get("keep") and already:
+        drop_reason = f"Birbank already has: {already}"
+    elif verdict.get("keep") and not keep:
         drop_reason = f"score {parts['score']} below {config.MIN_SCORE}"
     return {
         "id": item["id"],
