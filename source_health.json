@@ -59,6 +59,12 @@
    "ok": true,
    "count": 12,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 12,
+   "error": null
   }
  ],
  "PYMNTS": [
@@ -118,6 +124,12 @@
   },
   {
    "at": "2026-11-26T13:56:05.595524+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
    "ok": true,
    "count": 10,
    "error": null
@@ -183,6 +195,12 @@
    "ok": true,
    "count": 10,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
   }
  ],
  "Payments Dive": [
@@ -242,6 +260,12 @@
   },
   {
    "at": "2026-11-26T13:56:05.595524+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
    "ok": true,
    "count": 10,
    "error": null
@@ -307,6 +331,12 @@
    "ok": true,
    "count": 10,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
   }
  ],
  "Fintech News Middle East": [
@@ -366,6 +396,12 @@
   },
   {
    "at": "2026-11-26T13:56:05.595524+00:00",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://fintechnews.ae/feed/"
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
    "ok": false,
    "count": 0,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://fintechnews.ae/feed/"
@@ -431,6 +467,12 @@
    "ok": true,
    "count": 10,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
   }
  ],
  "PaymentsJournal": [
@@ -490,6 +532,12 @@
   },
   {
    "at": "2026-11-26T13:56:05.595524+00:00",
+   "ok": true,
+   "count": 1000,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
    "ok": true,
    "count": 1000,
    "error": null
@@ -555,6 +603,12 @@
    "ok": true,
    "count": 10,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 9,
+   "error": null
   }
  ],
  "Finextra": [
@@ -617,6 +671,12 @@
    "ok": false,
    "count": 0,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site%3Afinextra.com+when:2d&hl=en&gl=US&ceid=US:en"
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 100,
+   "error": null
   }
  ],
  "The Paypers": [
@@ -678,6 +738,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 75,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 70,
    "error": null
   }
  ],
@@ -741,6 +807,12 @@
    "ok": true,
    "count": 96,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 99,
+   "error": null
   }
  ],
  "Fintech Futures": [
@@ -802,6 +874,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 90,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 70,
    "error": null
   }
  ],
@@ -865,6 +943,12 @@
    "ok": false,
    "count": 0,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Azerbaijan%20%28fintech%20OR%20%22digital%20banking%22%20OR%20payments%20OR%20%22mobile%20banking%22%20OR%2"
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 30,
+   "error": null
   }
  ],
  "GN Azerbaijan local press (AZ)": [
@@ -927,6 +1011,12 @@
    "ok": false,
    "count": 0,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%28site%3Areport.az%20OR%20site%3Atrend.az%20OR%20site%3Aapa.az%20OR%20site%3Abanker.az%20OR%20site%3Amarja"
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 100,
+   "error": null
   }
  ],
  "GN Azerbaijan local press (RU)": [
@@ -986,6 +1076,12 @@
   },
   {
    "at": "2026-11-26T13:56:05.595524+00:00",
+   "ok": true,
+   "count": 100,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
    "ok": true,
    "count": 100,
    "error": null
@@ -1051,6 +1147,12 @@
    "ok": true,
    "count": 27,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 58,
+   "error": null
   }
  ],
  "GN Azerbaijan players": [
@@ -1110,6 +1212,12 @@
   },
   {
    "at": "2026-11-26T13:56:05.595524+00:00",
+   "ok": true,
+   "count": 24,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
    "ok": true,
    "count": 24,
    "error": null
@@ -1175,6 +1283,12 @@
    "ok": true,
    "count": 1,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 0,
+   "error": null
   }
  ],
  "GN Kazakhstan (EN)": [
@@ -1236,6 +1350,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 12,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 7,
    "error": null
   }
  ],
@@ -1299,6 +1419,12 @@
    "ok": true,
    "count": 26,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 27,
+   "error": null
   }
  ],
  "GN Uzbekistan": [
@@ -1360,6 +1486,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 64,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 55,
    "error": null
   }
  ],
@@ -1423,6 +1555,12 @@
    "ok": true,
    "count": 28,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 25,
+   "error": null
   }
  ],
  "GN Georgia and Armenia": [
@@ -1484,6 +1622,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 23,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 12,
    "error": null
   }
  ],
@@ -1547,6 +1691,12 @@
    "ok": true,
    "count": 4,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 5,
+   "error": null
   }
  ],
  "GN Türkiye payments (TR)": [
@@ -1608,6 +1758,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 16,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 23,
    "error": null
   }
  ],
@@ -1671,6 +1827,12 @@
    "ok": true,
    "count": 50,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 28,
+   "error": null
   }
  ],
  "GN CIS banking (RU)": [
@@ -1732,6 +1894,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 52,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 28,
    "error": null
   }
  ],
@@ -1795,6 +1963,12 @@
    "ok": true,
    "count": 29,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 39,
+   "error": null
   }
  ],
  "GN QR and tap to pay": [
@@ -1856,6 +2030,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 12,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 13,
    "error": null
   }
  ],
@@ -1919,6 +2099,12 @@
    "ok": true,
    "count": 16,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 12,
+   "error": null
   }
  ],
  "GN Instant payments": [
@@ -1980,6 +2166,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 11,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 19,
    "error": null
   }
  ],
@@ -2043,6 +2235,12 @@
    "ok": false,
    "count": 0,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=(%22digital+wallet%22+OR+%22super+app%22+OR+%22mobile+wallet%22)+launches+feature+when:2d&hl=en-US&gl=US&ce"
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 3,
+   "error": null
   }
  ],
  "GN Cards": [
@@ -2104,6 +2302,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 14,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 11,
    "error": null
   }
  ],
@@ -2167,6 +2371,12 @@
    "ok": false,
    "count": 0,
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=(%22buy+now+pay+later%22+OR+BNPL+OR+%22instant+loan%22)+bank+launches+when:2d&hl=en-US&gl=US&ceid=US:en"
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 2,
+   "error": null
   }
  ],
  "GN Savings and wealth": [
@@ -2228,6 +2438,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 6,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 5,
    "error": null
   }
  ],
@@ -2291,6 +2507,12 @@
    "ok": true,
    "count": 34,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 29,
+   "error": null
   }
  ],
  "GN Fraud and security": [
@@ -2353,6 +2575,12 @@
    "ok": true,
    "count": 27,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 10,
+   "error": null
   }
  ],
  "GN Identity and onboarding": [
@@ -2412,6 +2640,12 @@
   },
   {
    "at": "2026-11-26T13:56:05.595524+00:00",
+   "ok": true,
+   "count": 4,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
    "ok": true,
    "count": 4,
    "error": null
@@ -2477,6 +2711,12 @@
    "ok": true,
    "count": 47,
    "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 26,
+   "error": null
   }
  ],
  "GN Bill pay and recurring": [
@@ -2538,6 +2778,12 @@
    "at": "2026-11-26T13:56:05.595524+00:00",
    "ok": true,
    "count": 2,
+   "error": null
+  },
+  {
+   "at": "2026-11-27T10:17:31.331865+00:00",
+   "ok": true,
+   "count": 1,
    "error": null
   }
  ]
